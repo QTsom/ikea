@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/pop.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="basket">
+        <h2>
+            장바구니 담기
+            <button class="pop_close">X</button>
+        </h2>
+        <p>
+            장바구니에 상품이 정상적으로 담겼습니다.
+        </p>
+        <a href="etc_shoppingBasket.html">장바구니 가기</a>
+    </div>
+    
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detail_stoense">
+        <div class="topArea float">
+            <div class="firstDiv float">
+                <ul>
+                    <li class="activated">
+                        <img src="images/stoense_be_1_m.jpg" alt="main">
+                    </li>
+                    <li>
+                        <img src="images/stoense_be_2_h.jpg" alt="detail 1">
+                    </li>
+                    <li>
+                        <img src="images/stoense_be_3.jpg" alt="detail 2">
+                    </li>
+                    <li>
+                        <img src="images/stoense_be_4.jpg" alt="detail 1">
+                    </li>
+                </ul>
+                <img src="images/stoense_be_1_m.jpg" alt="main">
+            </div>
+            <div class="secondDiv">
+                <h2>
+                    STOENSE 스토엔세 - 베이지
+                    <mark>￦ 159,000</mark>
+                    <small>대형러그</small>
+                </h2>
+                <form>
+                    <fieldset>
+                        <label for="modelName">모델명</label>
+                        <input type="text" id="modelName" value="STOENSE RUG (BEIGE)" disabled>
+                        <label for="size">규격</label>
+                        <input type="text" id="size" value="200x300" disabled>
+                        <span>색상</span>
+                        <a href="dr_stoense_be.html" class="active">beige</a>
+                        <a href="dr_stoense_gy.html">gray</a>
+                        <a href="dr_stoense_bk.html">black</a>
+                    </fieldset>
+                        <input type="submit" value="구매하기">
+                        <button data-popName="basket" class="material-icons callPopup">
+                            add_shopping_cart
+                        </button>
+                </form>
+                <p>
+                    <span class="material-icons">
+                        local_shipping
+                    </span>
+                    배송 여부는 결제 단계에서 확인하실 수 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="bottomArea">
+            <h3>
+                STOENSE RUG
+                <small>BEIGE</small>
+            </h3>
+            <figure>
+                <img src="images/stoense_be_1_m.jpg" alt="main img">
+                <figcaption>
+                    두터운 소프트 스펀 파일은 부드럽고 색상도 편안합니다. 얇고 가벼워서 방 전체와도 잘 조화를 이루죠. 바닥이 넓은가요? 러그를 여러 개 깔아보세요. 두꺼운 파일은 경계선을 가려줍니다.
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li><img src="images/stoense_be_2_h.jpg" alt="detail img 1"></li>
+                <li><img src="images/stoense_be_3.jpg" alt="detail img 2"></li>
+                <li><img src="images/stoense_be_4.jpg" alt="detail img 3"></li>
+                <li><img src="images/stoense_be_5.jpg" alt="detail img 4"></li>
+            </ul>
+            <p>
+                촘촘하고 도톰한 러그로 방음효과가 뛰어나며 부드럽고 푹신합니다. 합성 섬유로 제작된 러그로 튼튼하고 때가 타지 않으며 관리가 쉽습니다. 러그 여러 개를 이어놓아도 절단면의 이음새가 드러나지 않습니다. 은은하게 빛이 나서 표면 빛깔도 다양해보이죠. 모든 유형의 바닥재에 사용할 수 있으며 바닥 난방이 시공된 곳에서도 완벽하게 어울립니다. STOPP 미끄럼방지 매트를 사용하면 안전성이 좋아집니다. 카펫 밑에 전체적으로 깔아 사용하세요. STOPP 미끄럼 방지 매트 (67.5x200 cm) 총 4개가 필요합니다. 필요에 따라 자르거나 접어서 사용하세요. 러그의 본 모습을 완전히 찾을 때까지는 포장을 풀고 펼쳤을 때부터 최대 2일 정도 걸립니다. 기계로 짠 러그입니다.
+                <span>
+                    디자이너<br>
+                    Maja Ganszyniec
+                </span>
+            </p>
+            <figure>
+                <img src="images/stoense_be_sub_1.jpg" alt="sub img 1">
+                <img src="images/stoense_be_sub_2.jpg" alt="sub img 2">
+                <figcaption>
+                    <dl>
+                        <dt>지속가능성 & 환경</dt>
+                        <dd>IKEA 대형 러그는 발에 폭신한 감촉을 선사하는 특별한 아이템으로, 다이닝룸을 포함해 집안 어디에든 스타일을 더해줍니다. 부드럽고 따뜻한 느낌을 선사하는 것은 물론, 암체어와 소파 같은 가구를 옮기는 데도 유용하죠</dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li>
+                    <h4>소재&관리</h4>
+                    <p>
+                        표면: 폴리프로필렌 100%<br>
+                        뒷면: 비닐 고무<br>
+                        세탁하지 마세요.<br>
+                        표백하지 마세요.<br>
+                        건조기에 넣지 마세요.<br>
+                        다림질하지 마세요.<br>
+                        드라이클리닝하지 마세요.<br>
+                        진공청소기를 사용하고 주기적으로 방향을 바꿔주세요.<br>
+                        마른 얼룩은 발생 즉시 얼룩의 바깥 부분에서 안쪽 방향으로 긁어 없애야 합니다.<br>
+                        젖은 얼룩은 문지르지 말고 페이퍼타월로 물기를 흡수시킨 다음에 중성세제를 적신 천으로 닦아주세요.<br>
+                        필요시 전문 카페트 청소 서비스를 받으세요.<br>
+                        카페트 청소에는 표준 브러시를 사용하세요. 회전 브러시를 사용하면 안됩니다.                        
+                    </p>
+                </li>
+                <li>
+                    <h4>제품크기</h4>
+                    <p>
+                        길이: 300 cm <br>
+                        폭: 200 cm <br>
+                        두께: 18 mm <br>
+                        넓이: 6.00 m² <br>
+                        표면 밀도: 2560 g/m² <br>
+                        파일면 범위: 1490 g/m² <br>
+                        파일 두께: 15 mm
+                    </p>
+                </li>
+                <li>
+                    <h4>포장</h4>
+                    <p>
+                        단모러그<br>
+                        제품번호: 004.268.09<br>
+                        길이: 205 cm<br>
+                        무게: 15.80 kg<br>
+                        지름: 23 cm<br>
+                        패키지: 1
+                    </p>
+                </li>
+                <li>
+                    <h4>고시정보</h4>
+                    <p>
+                        색상: 제품명 또는 이미지 참조<br>
+                        구성품: 제품정보 또는 구성품 탭 참조<br>
+                        크기: 제품정보 탭 참조<br>
+                        중량: 제품정보 탭 참조<br>
+                        재질: 재질 및 환경 탭 참조<br>
+                        제조사: IKEA of Sweden AB<br>
+                        제조국: 터키<br>
+                        수입자: 이케아코리아 유한회사<br>
+                        배송&설치비용: 이케아 서비스 페이지 참조<br>
+                        품질보증: IKEA 품질 보증 기준을 따릅니다. 홈페이지에서 IKEA 품질 보증을 확인 하세요.<br>
+                        교환 환불 책임자와 전화 번호: 이케아코리아 유한회사/ 1670-4532<br>
+                        동일모델의 출시년월: 4/1/2019<br>
+                        취급시 주의 사항(세탁방법 및 사용 연령): 제품정보 탭 참조<br>
+                        제조년월/제조일자: 포장면 참조 (예:1246=2012년 46번째 주 생산제품)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

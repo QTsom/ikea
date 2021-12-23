@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/pop.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="basket">
+        <h2>
+            장바구니 담기
+            <button class="pop_close">X</button>
+        </h2>
+        <p>
+            장바구니에 상품이 정상적으로 담겼습니다.
+        </p>
+        <a href="etc_shoppingBasket.html">장바구니 가기</a>
+    </div>
+    
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detail_vitval">
+        <div class="topArea float">
+            <div class="firstDiv float">
+                <ul>
+                    <li class="activated">
+                        <img src="images/vitval_Wg_1_main.jpg" alt="main">
+                    </li>
+                    <li>
+                        <img src="images/vitval_Wg_2.jpg" alt="detail 1">
+                    </li>
+                    <li>
+                        <img src="images/vitval_Wg_3.jpg" alt="detail 2">
+                    </li>
+                    <li>
+                        <img src="images/vitval_Wg_sub_hover.jpg" alt="detail 3">
+                    </li>
+                </ul>
+                <img src="images/vitval_Wg_1_main.jpg" alt="main">
+            </div>
+            <div class="secondDiv">
+                <h2>
+                    VITVAL 비트발
+                    <mark>￦ 269,000</mark>
+                    <small>2층 침대</small>
+                </h2>
+                <form>
+                    <fieldset>
+                        <label for="modelName">모델명</label>
+                        <input type="text" id="modelName" value="VITVAL BED (WHITE&GRAY)" disabled>
+                        <label for="size">규격</label>
+                        <input type="text" id="size" value="200x90" disabled>
+                        <span>색상</span>
+                        <a href="db_vitval_wg.html" class="active">색 넣어야 함</a>
+                    </fieldset>
+                        <input type="submit" value="구매하기">
+                        <button data-popName="basket" class="material-icons callPopup">
+                            add_shopping_cart
+                        </button>
+                </form>
+                <p>
+                    <span class="material-icons">
+                        local_shipping
+                    </span>
+                    배송 여부는 결제 단계에서 확인하실 수 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="bottomArea">
+            <h3>
+                VITVAL BED
+                <small>WHITE&GRAY</small>
+            </h3>
+            <figure>
+                <img src="images/vitval_Wg_1_main.jpg" alt="main img">
+                <figcaption>
+                    일반 침대보다 훨씬 재미있는 2층 침대는 공간이 협소할 때 무척 실용적이기까지 한 옵션이죠. 친구들이 자고 갈 때를 대비해서 보조침대가 필요하다면 크고 푹신한 쿠션 몇 개만 놓아도 편안한 소파로 변신시킬 수 있답니다.
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li><img src="images/vitval_Wg_2.jpg" alt="detail img 1"></li>
+                <li><img src="images/vitval_Wg_3.jpg" alt="detail img 2"></li>
+            </ul>
+            <p>
+                패브릭이 여러 구간으로 나뉘어 있고 테두리 띠가 고무로 되어있어 조립이 편리합니다. 또한 높은 사이드패널을 등받이로 활용할 수 있어서 낮은 침대를 소파로 사용할 수도 있습니다. 침대를 더욱 편안하고 사적인 공간으로 만들고 싶다면 MÖJLIGHET/뫼일릭헤트 베개와 침대주머니로 구성해 보세요. 두 제품은 VITVAL/비트발 시리즈와 크기가 맞습니다. 구조가 가볍지만 견고하며, 부드러운 모양이 특징입니다. 사다리는 좌우 어디에나 설치할 수 있어요. 침대 베이스 포함. 로프트침대나 2층침대는 추락사고의 위험이 있으므로 만6세 미만의 어린이가 사용하기에는 적합하지 않습니다. 침대에 고리, 손잡이를 달거나 줄, 벨트를 걸지 마세요. 아이들이 걸려넘어질 수 있습니다. 만 6세 이상 사용가능 
+                <span>
+                    디자이너<br>
+                    IKEA of Sweden
+                </span>
+            </p>
+            <figure>
+                <img src="images/vitval_Wg_sub_hover.jpg" alt="sub img 1">
+                <img src="images/vitval_Wg_sub_3.jpg" alt="sub img 2">
+                <figcaption>
+                    <dl>
+                        <dt>지속가능성 & 환경</dt>
+                        <dd>
+                            IKEA는 세상에 바람직한 변화를 불러일으키고자 해요. 그래서 2030년까지 모든 제품에 재활용 또는 재생 가능한 소재를 사용하고 책임감 있는 방식의 출처에서 재료를 공급받으려고 합니다.
+                        </dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li>
+                    <h4>소재&관리</h4>
+                    <p>
+                        적층 갈빗살: 자작나무 무늬목, 너도밤나무 무늬목, 코팅용접착수지<br>
+                        리본/ 조성율: 폴리에스테르 100%<br>
+                        기본소재/ 슬랫 홀더: 스틸, 에폭시/폴리에스테르 파우더코팅<br>
+                        패브릭/ 패브릭: 폴리에스테르 100 %<br>
+                        텍스타일<br>
+                        세탁기, 최대 40°C, 표준 코스.<br>
+                        표백하지 마세요.<br>
+                        건조기에 넣지 마세요.<br>
+                        다림질, 최대 150°C.<br>
+                        드라이클리닝하지 마세요.<br>
+                        순한 세제에 적신 천으로 닦으세요.<br>
+                        깨끗한 천으로 물기를 닦아주세요.
+                    </p>
+                </li>
+                <li>
+                    <h4>제품크기</h4>
+                    <p>                    
+                        최대 하중/슬리핑 레벨: 100 kg<br>
+                        길이: 207 cm<br>
+                        폭: 97 cm<br>
+                        높이: 162 cm<br>
+                        가구 밑 여유공간: 23 cm<br>
+                        매트리스 길이: 200 cm<br>
+                        매트리스 폭: 90 cm<br>
+                        침대 간격: 91 cm<br>
+                        최대두께/매트리스: 13 cm
+                    </p>
+                </li>
+                <li>
+                    <h4>포장</h4>
+                    <p>
+                        이 제품은 여러 개의 패키지로 포장되어 있습니다.<br>
+                        1)<br>
+                        폭 : 38 cm<br>
+                        높이 : 6 cm<br>
+                        길이 : 165 cm<br>
+                        무게 : 21.57 kg<br>
+                        패키지 : 1<br>
+                        2)<br>
+                        폭 : 22 cm<br>
+                        높이 : 6 cm<br>
+                        길이 : 204 cm<br>
+                        무게 : 21.46 kg<br>
+                        패키지 : 1<br>
+                        3)<br>
+                        폭 : 27 cm<br>
+                        높이 : 12 cm<br>
+                        길이 : 101 cm<br>
+                        무게 : 13.67 kg<br>
+                        패키지 : 1
+                    </p>
+                </li>
+                <li>
+                    <h4>고시정보</h4>
+                    <p>
+                        색상: 제품명 또는 이미지 참조<br>
+                        구성품: 제품정보 또는 구성품 탭 참조<br>
+                        크기: 제품정보 탭 참조<br>
+                        중량: 제품정보 탭 참조<br>
+                        재질: 재질 및 환경 탭 참조<br>
+                        제조사: IKEA of Sweden AB<br>
+                        제조국: 중국<br>
+                        수입자: 이케아 코리아 유한회사<br>
+                        배송&설치비용: 이케아 서비스 페이지 참조<br>
+                        품질보증: IKEA 품질 보증 기준을 따릅니다. 홈페이지에서 IKEA 품질 보증을 확인 하세요.<br>
+                        교환 환불 책임자와 전화 번호: 이케아코리아 유한회사/ 1670-4532<br>
+                        동일모델의 출시년월: 8/1/2019<br>
+                        사용연령 또는 체중 범위: 만 6세 이상 사용 가능<br>
+                        취급시 주의 사항(세탁방법 및 사용 연령): 제품정보 탭 참조<br>
+                        제조년월 제조일자: 포장면 참조 (예:1246=20 째 주 생산제품)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+    
+</body>
+</html>

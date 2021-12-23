@@ -1,0 +1,721 @@
+header > div nav ul > li,
+ul.slider li a strong,
+section.newArea ul li > h3 small,
+section.newArea ul li > a span,
+section.summerArea ul li a,
+section.bestArea ul li > a span,
+section.bestArea ul li > mark,
+section[class*='Area'] h2,
+section.snsArea ul li a,
+section[class^='detail'] > div.bottomArea h3,
+#modelName,
+#size,
+section.loginContents form fieldset input::placeholder,
+section.companyContents figure figcaption h3,
+section.companyContents figure:first-of-type p:last-of-type mark{
+    font-family: 'Titillium Web';
+}
+header > div nav ul > li ol li,
+header > div form fieldset div input,
+section.newArea > ul li > h3,
+section.summerArea ul li a > strong,
+section.bestArea ul li > div,
+footer div,
+section.list_newAllvals ol li button,
+section[class^='list'] h2,
+section[class^='list'] ol li a,
+section[class^='list'] > ul li > div,
+section[class^='detail'] > div,
+div.Terms section,
+section.privacyTerms,
+section.customerContents a span,
+section.loginContents form fieldset,
+section.loginContents > div,
+.etcBtn,
+.loginContainer,
+.loginContainer input::placeholder,
+.loginContainer select,
+section.exchangeContents table,
+section.errorContents table,
+section.refundContents ul li > *,
+section.questionContents ul li > *,
+section.companyContents figure figcaption p,
+section.history,
+section.fullBasketContents,
+section.fullBasketContents input,
+section.emptyBasketContents,
+div[class$='pop']{
+    font-family: 'Noto Sans KR';
+}
+
+
+section[class$='Area'] h2,
+section[class^='list'] h2,
+section[class$='Contents'] h2,
+div.Terms h2,
+section.privacyTerms h2,
+section.emptyBasketContents h2{
+    color: #111; text-align: center;
+}
+section[class^='list'] h2,
+section[class$='Area'] h2{
+    font-weight: 400;
+}
+
+section[class$='Contents'] h2,
+div.Terms h2,
+section.privacyTerms h2,
+section.emptyBasketContents h2{
+    font-weight: 300;
+}
+
+.loginContainer{
+    margin: 0 auto; box-sizing: border-box; border: 1px solid #dadada;
+}
+.loginContainer label{
+    color: #222; font-weight: 400; 
+}
+section.signupContents > form fieldset ul li input,
+.loginContainer input:not(:last-of-type){
+    outline-style: none; border-style: solid; border-color: #ccc;
+    box-sizing: border-box;
+}
+.loginContainer input::placeholder{
+    color: #aaa; font-weight: 400;
+}
+
+.float::after{
+    content: ''; visibility: hidden; clear: both; display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.etcBtn{
+    display: block; font-size: 17px; color: #fff; font-weight: 300; 
+    background-color: #0058a3; border: none; border-radius: 3px; cursor: pointer;
+    text-align: center; letter-spacing: 0.7px; width: 100%;
+}
+
+/* ALL USING */
+
+@media screen and (max-width: 767px){
+        header > div,
+        ul.slider li a,
+        section.newArea,
+        section.bestArea,
+        footer > div,
+        section[class^='list'],
+        section[class^=detail],
+        div.Terms,
+        section.privacyTerms,
+        section[class$='Contents'],
+        section.history{
+            max-width: 720px; margin: 0 auto;
+        }
+        section[class$='Area']{
+            padding-top: 70px;
+        }
+        section[class$='Contents'],
+        div.Terms,
+        section.privacyTerms,
+        section.emptyBasketContents{
+            padding-top: 70px;
+        }
+        section[class$='Area'] h2,
+        section[class^='list'] h2,
+        section[class$='Contents'] h2,
+        div.Terms h2,
+        section.privacyTerms h2,
+        section.emptyBasketContents h2{
+            font-size: 26px;
+        }
+        section[class$='Area'] h2{
+            margin-bottom: 30px;
+        }
+        section[class^='list'] h2{
+            margin-bottom: 70px;
+        }
+        section[class$='Contents'] h2,
+        div.Terms h2,
+        section.privacyTerms h2,
+        section.emptyBasketContents h2{
+            margin-bottom: 70px;
+        }
+        .etcBtn{
+            line-height: 47px;
+        }
+        .loginContainer{
+            width: 90%; padding: 70px 7%;
+        }
+        .loginContainer label{
+            font-size: 15px; margin-bottom: 15px;
+        }
+        section.signupContents > form fieldset ul li input,
+        .loginContainer input:not(:last-of-type){
+            border-width: 0 0 1px; padding: 10px 3%;
+        }
+        .loginContainer input::placeholder{
+            font-size: 14px; 
+        }
+    
+    
+        header{
+            border-bottom: 1px solid #ececec; position: relative;
+        }
+        header > div{
+            line-height: 90px;
+        }
+        header > div h1{
+            max-width: 100px; padding-left: 3%;
+        }
+        header > div h1 a{
+            display: block;
+        }
+        header > div h1 a img{
+            width: 100%;
+        }
+        
+        header > div nav.active{
+            display: block;
+        }
+        header > div nav{
+            display: none; position: absolute; width: 50%; right: 0;
+            padding: 10px 20px; border-width: 0 1px 1px; background-color: #fff; 
+            border-style: solid; border-color: #ececec; z-index: 100;
+        }
+        header > div nav ul{
+            text-align: center;
+        }
+        header > div nav ul > li{
+            display: block; line-height: 35px;
+        }
+        header > div nav ul > li:not(:first-of-type){
+            margin-left: 0.8%;
+        }
+        header > div nav ul > li > a{
+            color: #222; font-size: 16px; font-weight: 600;
+            letter-spacing: 0.75px; line-height: 46px;
+        }
+        header > div nav ul > li > a:hover{
+            border-bottom: 1px solid #444;
+        }
+        header > div nav ul > li ol{
+            display: none;
+        }
+        header div > div{
+            top: 7px; right: 3%;
+            position: absolute;
+        }
+        header div > div a.material-icons{
+            padding: 4px; color: #222; font-size: 22px; cursor: pointer;
+        }
+        header div > div button.material-icons{
+            display: none;
+        }
+        header div > div span{
+            cursor: pointer;
+        }
+        header > div form fieldset{
+            display: none;
+        }
+        /* header fin */
+            
+        
+        footer{
+            background-color: #f5f5f5; padding: 40px 0;
+        }
+        footer div{
+            padding: 0 3%;
+        }
+        footer div ul{
+            margin-bottom: 20px; text-align: center;
+        }
+        footer div ul li{
+            display: block; line-height: 30px;
+        }
+        footer div ul li a{
+            font-size: 14px; font-weight: 500; color: #444;
+        }
+        footer div span{
+            display: block; text-align: center;
+        }
+        footer div span a:not(:first-of-type){
+            margin-left: 20px;
+        }
+        footer div span a{
+            background-repeat: no-repeat; display: inline-block;
+            text-indent: -9999px; width: 30px; height: 30px;
+        }
+        footer div span a:first-of-type{
+            background-image: url('../images/bul_facebook.png');
+        }
+        footer div span a:nth-of-type(2){
+            background-image: url('../images/bul_instagram.png')
+        }    
+        footer div span a:last-of-type{
+            background-image: url('../images/bul_youtube.png');
+        }
+        footer div address{
+            font-size: 12px; font-weight: 400; color: #666; font-style: normal;
+            line-height: 22px; margin-bottom: 20px; text-align:  center;
+        }
+        footer div address a{
+            color: #666; text-decoration: underline;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+        header > div,
+        ul.slider li a,
+        section.newArea,
+        section.bestArea,
+        footer > div,
+        section[class^='list'],
+        section[class^=detail],
+        div.Terms,
+        section.privacyTerms,
+        section[class$='Contents'],
+        section.history{
+            max-width: 1024px; margin: 0 auto;
+        }
+        section[class$='Area']{
+            padding-top: 150px;
+        }
+        section[class$='Contents'],
+        div.Terms,
+        section.privacyTerms,
+        section.emptyBasketContents{
+            padding-top: 100px;
+        }
+        section[class$='Area'] h2,
+        section[class^='list'] h2,
+        section[class$='Contents'] h2,
+        div.Terms h2,
+        section.privacyTerms h2,
+        section.emptyBasketContents h2{
+            font-size: 30px;
+        }
+        section[class$='Area'] h2{
+            margin-bottom: 40px;
+        }
+        section[class^='list'] h2{
+            margin-bottom: 70px;
+        }
+        section[class$='Contents'] h2,
+        div.Terms h2,
+        section.privacyTerms h2,
+        section.emptyBasketContents h2{
+            margin-bottom: 70px;
+        }
+        .etcBtn{
+            line-height: 47px;
+        }
+        .loginContainer{
+            width: 540px; padding: 70px 5%;
+        }
+        .loginContainer label{
+            font-size: 16px; margin-bottom: 15px;
+        }
+        section.signupContents > form fieldset ul li input,
+        .loginContainer input:not(:last-of-type){
+            border-width: 0 0 1px; padding: 10px 3%;
+        }
+        .loginContainer input::placeholder{
+            font-size: 14px; 
+        }
+    
+    
+        header{
+            border-bottom: 1px solid #ececec;
+        }
+        header > div{
+            position: relative; line-height: 90px;
+        }
+        header > div h1{
+            position: absolute; top: 9px; left: 0; max-width: 130px; z-index: 10;
+            padding-left: 3%;
+        }
+        header > div h1 a{
+            display: block;
+        }
+        header > div h1 a img{
+            width: 100%;
+        }
+        header > div nav{
+            position: relative; width: 100%;
+        }
+        header > div nav ul{
+            text-align: center;
+        }
+        header > div nav ul > li{
+            display: inline-block;
+            /* line-height: 30px; */
+        }
+        header > div nav ul > li:not(:first-of-type){
+            margin-left: 0.8%;
+        }
+        header > div nav ul > li > a{
+            color: #222; font-size: 16px; font-weight: 600;
+            letter-spacing: 0.75px;
+        }
+        header > div nav ul > li > a:hover{
+            border-bottom: 1px solid #444;
+        }
+        header > div nav ul > li ol{
+            display: none;
+        }
+        header div > div{
+            top: 8px; right: 3%;
+            position: absolute;
+        }
+        header div > div a.material-icons,
+        header div > div button.material-icons{
+            padding: 8px; background-color: #fff; color: #222; font-size: 22px;
+            border-radius: 21px; border: 1px solid #fff; cursor: pointer;
+            transition-duration: 0.7s; transition-property: border, box-shadow;
+        }
+        header div > div span.material-icons{
+            display: none;
+        }
+        header div > div a:hover,
+        header div > div button:hover{
+            border: 1px solid #ececec; box-shadow: 3px 5px 5px 0 #bbb;
+        }
+        
+        header > div form fieldset{
+            display: none; position: absolute; top: 90px; width: 100%; background-color: white;
+            border-radius: 0 0 20px 20px; z-index: 100; border-width: 0 1px 1px 1px; border-style: solid; border-color: #ececec;
+        }
+        
+        header > div form fieldset.active{
+            display: block;
+        }
+        header > div form fieldset div{
+            padding: 70px 25%;
+        }
+        header > div form fieldset div input{
+            padding: 10px 3.57%; width: 85%; outline: none; border: none; border-bottom: 1px solid #444;
+            font-size: 28px; color: #444;
+        }
+        header > div form fieldset div input::placeholder{
+            color: #ccc; font-weight: 300;
+        }
+        header > div form fieldset div button.material-icons{
+            background-color: transparent; border: none; cursor: pointer;
+            vertical-align: -15px; font-size: 31px; color: #444;
+        }
+        header > div form fieldset div button.btnClose{
+            position: absolute; top: 20px; right: 3.3%; background-color: transparent;
+            cursor: pointer; font-size: 27px; border: none; font-weight: 500;
+            color: #555;
+        }
+    
+        /* header fin */
+            
+        
+        footer{
+            background-color: #f5f5f5; padding: 40px 0;
+        }
+        footer div{
+            padding: 0 3%;
+        }
+        footer div ul{
+            margin-bottom: 20px;
+        }
+        footer div ul li{
+            display: inline-block;
+        }
+        footer div ul li:not(:first-child){
+            padding: 0 2%; border-left: 1px solid #444;
+        }
+        footer div ul li:first-child{
+            padding-right: 2%;
+        }
+        footer div ul li a{
+            font-size: 14px; font-weight: 500; color: #444;
+        }
+        footer div span{
+            display: block;
+        }
+        footer div span a:not(:first-of-type){
+            margin-left: 20px;
+        }
+        footer div span a{
+            background-repeat: no-repeat; display: inline-block;
+            text-indent: -9999px; width: 30px; height: 30px;
+        }
+        footer div span a:first-of-type{
+            background-image: url('../images/bul_facebook.png');
+        }
+        footer div span a:nth-of-type(2){
+            background-image: url('../images/bul_instagram.png')
+        }    
+        footer div span a:last-of-type{
+            background-image: url('../images/bul_youtube.png');
+        }
+        footer div address{
+            font-size: 14px; font-weight: 400; color: #666; font-style: normal;
+            line-height: 22px; margin-bottom: 20px;
+        }
+        footer div address a{
+            color: #666; text-decoration: underline;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    header > div,
+    ul.slider li a,
+    section.newArea,
+    section.bestArea,
+    footer > div,
+    section[class^='list'],
+    section[class^=detail],
+    div.Terms,
+    section.privacyTerms,
+    section[class$='Contents'],
+    section.history{
+        max-width: 1680px; margin: 0 auto;
+    }
+    section[class$='Area']{
+        padding-top: 150px;
+    }
+    section[class$='Contents'],
+    div.Terms,
+    section.privacyTerms,
+    section.emptyBasketContents{
+        padding-top: 100px;
+    }
+    section[class$='Area'] h2,
+    section[class^='list'] h2,
+    section[class$='Contents'] h2,
+    div.Terms h2,
+    section.privacyTerms h2,
+    section.emptyBasketContents h2{
+        font-size: 40px;
+    }
+    section[class$='Area'] h2{
+        margin-bottom: 40px;
+    }
+    section[class^='list'] h2{
+        margin-bottom: 70px;
+    }
+    section[class$='Contents'] h2,
+    div.Terms h2,
+    section.privacyTerms h2,
+    section.emptyBasketContents h2{
+        margin-bottom: 90px;
+    }
+    .etcBtn{
+        line-height: 47px;
+    }
+    .loginContainer{
+        width: 540px; padding: 70px 5%;
+    }
+    .loginContainer label{
+        font-size: 16px; margin-bottom: 15px;
+    }
+    section.signupContents > form fieldset ul li input,
+    .loginContainer input:not(:last-of-type){
+        border-width: 0 0 1px; padding: 10px 3%;
+    }
+    .loginContainer input::placeholder{
+        font-size: 14px; 
+    }
+
+
+    header{
+        border-bottom: 1px solid #ececec;
+    }
+    header > div{
+        position: relative; line-height: 90px;
+    }
+    header > div h1{
+        position: absolute; top: 9px; left: 0; max-width: 180px; z-index: 10;
+        padding-left: 3%;
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        position: relative; width: 100%;
+    }
+    header > div nav ul{
+        text-align: center;
+    }
+    header > div nav ul > li{
+        display: inline-block;
+        /* line-height: 30px; */
+    }
+    header > div nav ul > li:not(:first-of-type){
+        margin-left: 1.09%;
+    }
+    header > div nav ul > li > a{
+        color: #222; font-size: 18px; font-weight: 600;
+        letter-spacing: 0.75px; 
+    }
+    header > div nav ul > li > a:hover{
+        border-bottom: 1px solid #444;
+    }
+    header > div nav ul > li ol{
+        display: none; position: absolute; width: 100%; padding-top: 40px; z-index: 100;
+        animation-duration: 0.7s; animation-name: gnb; border-radius: 0 0 20px 20px;
+    }
+    @keyframes gnb{
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+    header > div nav ul > li:nth-of-type(2) ol{
+        background: url('../images/bed_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/bed_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 60px;
+    }
+    header > div nav ul > li:nth-of-type(3) ol{
+        background: url('../images/sofa_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/sofa_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 120px;
+    }
+    header > div nav ul > li:nth-of-type(4) ol{
+        background: url('../images/table_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/table_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 90px;
+    }
+    header > div nav ul > li:nth-of-type(5) ol{
+        background: url('../images/chair_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/chair_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 90px;
+    }
+    header > div nav ul > li:nth-of-type(6) ol{
+        background: url('../images/rug_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/rug_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 150px;
+    }
+    header > div nav ul > li:last-of-type ol{
+        background: url('../images/light_back_1.jpg') 48% 55px /19.70% no-repeat,
+        url('../images/light_back_2.jpg') 75% 55px /19.70% no-repeat white;
+        padding-bottom: 60px;
+    }
+    header > div nav ul > li ol li{
+        list-style: none; text-align: left; padding-left: 26.04%;
+    }
+    header > div nav ul > li ol li:first-of-type{
+        font-size: 24px; color: #444; font-weight: 500; line-height: 50px;
+    }
+    header > div nav ul > li ol li:not(:first-of-type){
+        line-height: 34px;
+    }
+    header > div nav ul > li ol li a{
+        font-size: 17px; font-weight: 300; color: #888;
+    }
+    header > div nav ul > li ol li a:hover{
+        color: #444; font-weight: 400;
+    }
+    header > div nav ul > li:hover ol{
+        display: block; left: 0;
+        border-width: 0 1px 1px 1px; border-style: solid; border-color: #ececec;
+    }
+    header div > div{
+        top: 8px; right: 3%;
+        position: absolute;
+    }
+    header div > div a.material-icons,
+    header div > div button.material-icons{
+        padding: 10px; background-color: #fff; color: #222; font-size: 24px;
+        border-radius: 25px; border: 1px solid #fff; cursor: pointer;
+        transition-duration: 0.7s; transition-property: border, box-shadow;
+    }
+    header div > div span.material-icons{
+        display: none;
+    }
+    header div > div a:hover,
+    header div > div button:hover{
+        border: 1px solid #ececec; box-shadow: 3px 5px 5px 0 #bbb;
+    }
+    
+    header > div form fieldset{
+        display: none; position: absolute; top: 90px; width: 100%; background-color: white;
+        border-radius: 0 0 20px 20px; z-index: 100; border-width: 0 1px 1px 1px; border-style: solid; border-color: #ececec;
+    }
+    
+    header > div form fieldset.active{
+        display: block;
+    }
+    header > div form fieldset div{
+        padding: 70px 25%;
+    }
+    header > div form fieldset div input{
+        padding: 10px 3.57%; width: 90%; outline: none; border: none; border-bottom: 1px solid #444;
+        font-size: 33px; color: #444;
+    }
+    header > div form fieldset div input::placeholder{
+        color: #ccc; font-weight: 300;
+    }
+    header > div form fieldset div button.material-icons{
+        background-color: transparent; border: none; cursor: pointer;
+        vertical-align: -15px; font-size: 35px; color: #444;
+    }
+    header > div form fieldset div button.btnClose{
+        position: absolute; top: 20px; right: 3.3%; background-color: transparent;
+        cursor: pointer; font-size: 27px; border: none; font-weight: 500;
+        color: #555;
+    }
+
+    /* header fin */
+        
+    
+    footer{
+        background-color: #f5f5f5; padding: 40px 0;
+    }
+    footer div{
+        position: relative; padding: 0 3%;
+    }
+    footer div ul{
+        margin-bottom: 20px; width: 40%;
+    }
+    footer div ul li{
+        display: inline-block;
+    }
+    footer div ul li:not(:first-child){
+        padding: 0 3%; border-left: 1px solid #444;
+    }
+    footer div ul li:first-child{
+        padding-right: 3%;
+    }
+    footer div ul li a{
+        font-size: 14px; font-weight: 500; color: #444;
+    }
+    footer div span{
+        position: absolute; top: 0; right: 3%; display: block; padding-left: 40%;
+    }
+    footer div span a:not(:first-of-type){
+        margin-left: 20px;
+    }
+    footer div span a{
+        background-repeat: no-repeat; display: inline-block;
+        text-indent: -9999px; width: 30px; height: 30px;
+    }
+    footer div span a:first-of-type{
+        background-image: url('../images/bul_facebook.png');
+    }
+    footer div span a:nth-of-type(2){
+        background-image: url('../images/bul_instagram.png')
+    }    
+    footer div span a:last-of-type{
+        background-image: url('../images/bul_youtube.png');
+    }
+    footer div address{
+        font-size: 14px; font-weight: 400; color: #666; font-style: normal;
+        line-height: 22px;
+    }
+    footer div address a{
+        color: #666; text-decoration: underline;
+    }
+}

@@ -1,0 +1,4716 @@
+
+section.bestArea ul li:first-of-type{
+    background-image: url('../images/lidhult_Bk_1_main.jpg');
+}
+section.bestArea ul li:nth-of-type(2){
+    background-image: url('../images/friheten_Be_1_main.jpg');
+}
+section.bestArea ul li:nth-of-type(3){
+    background-image: url('../images/vadheim_Gr_1_m.jpg');
+}
+section.bestArea ul li:nth-of-type(4){
+    background-image: url('../images/vangsta_Br_1_m.jpg');
+}
+section.bestArea ul li:nth-of-type(5){
+    background-image: url('../images/bergmund_Gr_1_m.jpg');
+}
+section.bestArea ul li:last-of-type{
+    background-image: url('../images/arstid_Wh_1_m.jpg');
+}
+
+section.list_newAllvals ul.first,
+section.list_newAllvals ul.second{
+    display: none;
+}
+section.list_newAllvals ul.first.active{
+    display: block;
+}
+section.list_newAllvals ul.second.active{
+    display: block;
+}
+
+section.list_newAllvals > ul.first li:first-of-type a{
+    background-image: url('../images/rackla_main.jpg');
+}
+section.list_newAllvals > ul.first li:first-of-type a:hover{
+    background-image: url('../images/rackla_sub.jpg');
+}
+section.list_newAllvals > ul.first li:nth-of-type(2) a{
+    background-image: url('../images/faltmal_main.jpg');
+    background-size: 55%;
+}
+section.list_newAllvals > ul.first li:nth-of-type(2) a:hover{
+    background-image: url('../images/faltmal_h.jpg');
+    background-size: 100%;
+}
+section.list_newAllvals > ul.first li:last-of-type a{
+    background-image: url('../images/fjallmott_main.jpg');
+}
+section.list_newAllvals > ul.first li:last-of-type a:hover{
+    background-image: url('../images/fjallmott_sub.jpg');
+}
+
+
+
+section.list_divanBed > ul li:first-of-type a{
+    background-image: url('../images/vadso_Gy_1_m.jpg');
+}
+section.list_divanBed > ul li:first-of-type a:hover{
+    background-image: url('../images/vadso_Gy_3.jpg');
+}
+section.list_divanBed > ul li:nth-of-type(2) a{
+    background-image: url('../images/vatnestrom_Be_1_m.jpg');
+}
+section.list_divanBed > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/vatnestrom_Be_2_h.jpg');
+}
+section.list_divanBed > ul li:last-of-type a{
+    background-image: url('../images/valevag_BL_1_m.jpg');
+}
+section.list_divanBed > ul li:last-of-type a:hover{
+    background-image: url('../images/valevag_BL_2_h.jpg');
+}
+
+section.list_kingBed > ul li:first-of-type a,
+section.list_newAllvals > ul.second li:nth-of-type(4) a{
+    background-image: url('../images/malm_wh_1_m.jpg');
+}
+section.list_kingBed > ul li:first-of-type a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(4) a:hover{
+    background-image: url('../images/malm_wh_2_h.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(2) a,
+section.list_newAllvals > ul.second li:nth-of-type(5) a{
+    background-image: url('../images/malm_Br_1_m.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(2) a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(5) a:hover{
+    background-image: url('../images/malm_Br_2_h.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(3) a,
+section.list_newAllvals > ul.second li:nth-of-type(6) a{
+    background-image: url('../images/malm_Bk_1_m.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(3) a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(6) a:hover{
+    background-image: url('../images/malm_Bk_2_h.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(4) a{
+    background-image: url('../images/slattum_Gy_1.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/slattum_Gy_sub_h.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(5) a{
+    background-image: url('../images/slattum_Bk_1_m.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/slattum_Bk_sub_h.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(6) a{
+    background-image: url('../images/idanas_Wh_1_m.jpg');
+}
+section.list_kingBed > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/idanas_Wh_sub_h.jpg');
+}
+section.list_kingBed > ul li:last-of-type a{
+    background-image: url('../images/idanas_Br_1_m.jpg');
+}
+section.list_kingBed > ul li:last-of-type a:hover{
+    background-image: url('../images/idanas_Br_sub_h.jpg');
+}
+
+section.list_cushionBed > ul li:first-of-type a{
+    background-image: url('../images/vadheim_Gr_1_m.jpg');
+}
+section.list_cushionBed > ul li:first-of-type a:hover{
+    background-image: url('../images/vadheim_Gr_sub_h.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(2) a{
+    background-image: url('../images/idanasCu_Pk_1_m.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/idanasCu_Pk_sub_h.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(3) a{
+    background-image: url('../images/idanasCu_DG_1_m.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/idanasCu_DG_sub_h.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(4) a{
+    background-image: url('../images/tufjord_BL_1_m.jpg');
+}
+section.list_cushionBed > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/tufjord_BL_sub_h.jpg');
+}
+section.list_cushionBed > ul li:last-of-type a{
+    background-image: url('../images/tufjord_Gr_1_m.jpg');
+}
+section.list_cushionBed > ul li:last-of-type a:hover{
+    background-image: url('../images/tufjord_Gr_sub_h.jpg');
+}
+
+section.list_secondBed > ul li:first-of-type a{
+    background-image: url('../images/vitval_Wg_1_main.jpg');
+}
+section.list_secondBed > ul li:first-of-type a:hover{
+    background-image: url('../images/vitval_Wg_sub_hover.jpg');
+}
+section.list_secondBed > ul li:last-of-type a{
+    background-image: url('../images/tuffing_Gy_1_main.jpg');
+}
+section.list_secondBed > ul li:last-of-type a:hover{
+    background-image: url('../images/tuffing_Gy_sub.jpg');
+}
+
+section.list_simpleBed > ul li:first-of-type a{
+    background-image: url('../images/ravaror_DB_1_main.jpg');
+}
+section.list_simpleBed > ul li:first-of-type a:hover{
+    background-image: url('../images/ravaror_DB_sub_h.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(2) a{
+    background-image: url('../images/flekke_Wh_1_main.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/flekke_Wh_sub_h.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(3) a{
+    background-image: url('../images/flekke_Bk_1_main.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/flekke_Bk_sub_h.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(4) a{
+    background-image: url('../images/hemnes_Wh_1_m.jpg');
+}
+section.list_simpleBed > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/hemnes_Wh_sub_h.jpg');
+}
+section.list_simpleBed > ul li:last-of-type a{
+    background-image: url('../images/hemnes_Gy_1_m.jpg');
+}
+section.list_simpleBed > ul li:last-of-type a:hover{
+    background-image: url('../images/hemnes_Gy_sub_h.jpg');
+}
+
+section.list_singleBed > ul li:first-of-type a{
+    background-image: url('../images/grimsbu_Wh_1_m.jpg');
+}
+section.list_singleBed > ul li:first-of-type a:hover{
+    background-image: url('../images/grimsbu_Wh_sub_h.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(2) a{
+    background-image: url('../images/grimsbu_Gy_1_m.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/grimsbu_Gy_sub_h.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(3) a{
+    background-image: url('../images/slattum_Single_Gy_1_m.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/slattum_Single_Gy_sub_h.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(4) a{
+    background-image: url('../images/slattum_Single_Bk_1_m.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/slattum_Single_Bk_sub_h.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(5) a{
+    background-image: url('../images/idanasSingle_Wh_1_m.jpg');
+}
+section.list_singleBed > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/idanasSingle_Wh_sub_h.jpg');
+}
+section.list_singleBed > ul li:last-of-type a{
+    background-image: url('../images/idanasSingle_Br_1_m.jpg');
+}
+section.list_singleBed > ul li:last-of-type a:hover{
+    background-image: url('../images/idanasSingle_Br_sub_h.jpg');
+}
+
+section.list_leatherSofa > ul li:first-of-type a{
+    background-image: url('../images/landskronaL_Be_1_main.jpg');
+}
+section.list_leatherSofa > ul li:first-of-type a:hover{
+    background-image: url('../images/landskronal_Be_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(2) a{
+    background-image: url('../images/landskronal_Bk_1_main.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/landskronaL_Bk_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(3) a{
+    background-image: url('../images/lidhult_Br_1_main.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/lidhult_Br_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(4) a{
+    background-image: url('../images/lidhult_DB_1_main.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/lidhult_DB_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(5) a{
+    background-image: url('../images/lidhult_Bk_1_main.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/lidhult_Bk_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(6) a{
+    background-image: url('../images/vimle_Br_1_main.jpg');
+}
+section.list_leatherSofa > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/vimle_Br_sub_hover.jpg');
+}
+section.list_leatherSofa > ul li:last-of-type a{
+    background-image: url('../images/vimle_Bk_1_main.jpg');
+}
+section.list_leatherSofa > ul li:last-of-type a:hover{
+    background-image: url('../images/vimle_Bk_sub_hover.jpg');
+}
+
+section.list_bedSofa > ul li:first-of-type a{
+    background-image: url('../images/friheten_Be_1_main.jpg');
+}
+section.list_bedSofa > ul li:first-of-type a:hover{
+    background-image: url('../images/friheten_Be_2_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(2) a{
+    background-image: url('../images/friheten_Gy_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/friheten_Gy_2_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(3) a{
+    background-image: url('../images/friheten_Bk_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/friheten_Bk_2_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(4) a{
+    background-image: url('../images/flottebo_Gy_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/flottebo_Gy_2_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(5) a{
+    background-image: url('../images/flottebo_Pu_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/flottebo_Pu_2_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(6) a{
+    background-image: url('../images/holmsund_Be_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/holmsund_Be_3_hover.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(7) a{
+    background-image: url('../images/holmsund_BL_1_main.jpg');
+}
+section.list_bedSofa > ul li:nth-of-type(7) a:hover{
+    background-image: url('../images/holmsund_BL_3_hover.jpg');
+}
+section.list_bedSofa > ul li:last-of-type a{
+    background-image: url('../images/holmsund_Gy_1_main.jpg');
+}
+section.list_bedSofa > ul li:last-of-type a:hover{
+    background-image: url('../images/holmsund_Gy_3_hover.jpg');
+}
+
+section.list_fabricSofa > ul li:first-of-type a,
+section.list_newAllvals > ul.second li:first-of-type a{
+    background-image: url('../images/gronlid_lg_1_main.jpg');
+}
+section.list_fabricSofa > ul li:first-of-type a:hover,
+section.list_newAllvals > ul.second li:first-of-type a:hover{
+    background-image: url('../images/gronlid_lg_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(2) a,
+section.list_newAllvals > ul.second li:nth-of-type(2) a{
+    background-image: url('../images/gronlid_Re_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(2) a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(2) a:hover{
+    background-image: url('../images/gronlid_Re_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(3) a,
+section.list_newAllvals > ul.second li:nth-of-type(3) a{
+    background-image: url('../images/gronlid_Bk_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(3) a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(3) a:hover{
+    background-image: url('../images/gronlid_Bk_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(4) a{
+    background-image: url('../images/soderhamn_Wh_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/soderhamn_Wh_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(5) a{
+    background-image: url('../images/soderhamn_OR_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/soderhamn_OR_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(6) a{
+    background-image: url('../images/soderhamn_Gr_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/soderhamn_Gr_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(7) a{
+    background-image: url('../images/kivik_Wh_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(7) a:hover{
+    background-image: url('../images/kivik_Wh_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(8) a{
+    background-image: url('../images/kivik_BL_1_main.jpg');
+}
+section.list_fabricSofa > ul li:nth-of-type(8) a:hover{
+    background-image: url('../images/kivik_BL_sub_hover.jpg');
+}
+section.list_fabricSofa > ul li:last-of-type a{
+    background-image: url('../images/kivik_Bk_1_main.jpg');
+}
+section.list_fabricSofa > ul li:last-of-type a:hover{
+    background-image: url('../images/kivik_BK_sub_hover.jpg');
+}
+
+section.list_footSofa > ul li:first-of-type a{
+    background-image: url('../images/landskrona_Gr_1_main.jpg');
+}
+section.list_footSofa > ul li:first-of-type a:hover{
+    background-image: url('../images/landskrona_Gr_sub_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(2) a{
+    background-image: url('../images/landskrona_Bk_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/landskrona_Bk_sub_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(3) a{
+    background-image: url('../images/strandmon_Ye_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/strandmon_Ye_4_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(4) a{
+    background-image: url('../images/strandmon_Gr_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/strandmon_Gr_4_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(5) a{
+    background-image: url('../images/strandmon_Gy_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/strandmon_Gy_4_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(6) a{
+    background-image: url('../images/ektorp_Be_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/ektorp_Be_sub_hover.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(7) a{
+    background-image: url('../images/ektorp_Gr_1_main.jpg');
+}
+section.list_footSofa > ul li:nth-of-type(7) a:hover{
+    background-image: url('../images/ektorp_Gr_sub_hover.jpg');
+}
+section.list_footSofa > ul li:last-of-type a{
+    background-image: url('../images/ektorp_Gy_1_main.jpg');
+}
+section.list_footSofa > ul li:last-of-type a:hover{
+    background-image: url('../images/ektorp_Gy_sub_hover.jpg');
+}
+
+
+section.list_tableTable > ul li:first-of-type a{
+    background-image: url('../images/vangsta_Wh_1_m.jpg');        
+}
+section.list_tableTable > ul li:first-of-type a:hover{
+    background-image: url('../images/vangsta_sub_h.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(2) a{
+    background-image: url('../images/vangsta_Br_1_m.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/vangsta_Br_sub.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(3) a{
+    background-image: url('../images/bjursta_Bk_1_m.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/bjursta_Bk_sub_h.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(4) a{
+    background-image: url('../images/omtanksam_Wh_1_m.jpg');        
+}
+section.list_tableTable > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/omtanksam_Wh_sub_h.jpg');        
+}
+section.list_tableTable > ul li:last-of-type a{
+    background-image: url('../images/omtanksam_Gy_1_m.jpg');        
+}
+section.list_tableTable > ul li:last-of-type a:hover{
+    background-image: url('../images/omtanksam_Gy_sub_h.jpg');        
+}
+
+section.list_deskTable > ul li:first-of-type a,
+section.list_newAllvals > ul.second li:nth-of-type(7) a{
+    background-image: url('../images/micke_Wh_1_m.jpg');
+}
+section.list_deskTable > ul li:first-of-type a:hover,
+section.list_newAllvals > ul.second li:nth-of-type(7) a:hover{
+    background-image: url('../images/micke_Wh_2_m.jpg');
+}
+section.list_deskTable > ul li:nth-of-type(2) a,
+section.list_newAllvals > ul.second li:last-of-type a{
+    background-image: url('../images/micke_Br_1_m.jpg');
+}
+section.list_deskTable > ul li:nth-of-type(2) a:hover,
+section.list_newAllvals > ul.second li:last-of-type a:hover{
+    background-image: url('../images/micke_Br_2_h.jpg');
+}
+section.list_deskTable > ul li:nth-of-type(3) a{
+    background-image: url('../images/alex_Wh_1_m.jpg');
+}
+section.list_deskTable > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/alex_Wh_2_h.jpg');
+}
+section.list_deskTable > ul li:last-of-type a{
+    background-image: url('../images/alex_Gy_1_m.jpg');
+}
+section.list_deskTable > ul li:last-of-type a:hover{
+    background-image: url('../images/alex_Gy_2_h.jpg');
+}
+
+section.list_cafeTable > ul li:first-of-type a{
+    background-image: url('../images/lack_Gy_1_m.jpg');
+}
+section.list_cafeTable > ul li:first-of-type a:hover{
+    background-image: url('../images/lack_Gy_sub_h.jpg');
+}
+section.list_cafeTable > ul li:nth-of-type(2) a{
+    background-image: url('../images/lack_Bk_1_m.jpg');
+}
+section.list_cafeTable > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/lack_Bk_4_h.jpg');
+}
+section.list_cafeTable > ul li:nth-of-type(3) a{
+    background-image: url('../images/vittsjo_Bk_1_m.jpg');
+}
+section.list_cafeTable > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/vittsjo_Bk_4_h.jpg');
+}
+
+section.list_sideTable > ul li:first-of-type a{
+    background-image: url('../images/nyboda_LG_1_m.jpg');
+}
+section.list_sideTable > ul li:first-of-type a:hover{
+    background-image: url('../images/nyboda_LG_3_h.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(2) a{
+    background-image: url('../images/nyboda_DG_1_m.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/nyboda_DG_3_h.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(3) a{
+    background-image: url('../images/lackside_Wh_1_m.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/lackside_Wh_sub_h.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(4) a{
+    background-image: url('../images/lackside_Tr_1_m.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/lackside_Tr_sub_h.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(5) a{
+    background-image: url('../images/lackside_Bk_1_m.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/lackside_Bk_sub_h.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(6) a{
+    background-image: url('../images/vikhammer_Wh_1_m.jpg');
+}
+section.list_sideTable > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/vikhammer_Wh_sub_h.jpg');
+}
+section.list_sideTable > ul li:last-of-type a{
+    background-image: url('../images/vikhammer_Bk_1_m.jpg');
+}
+section.list_sideTable > ul li:last-of-type a:hover{
+    background-image: url('../images/vikhammer_Bk_sub_h.jpg');
+}
+
+section.list_consoleTable > ul li:first-of-type a{
+    background-image: url('../images/listerby_Wh_1_m.jpg');
+}
+section.list_consoleTable > ul li:first-of-type a:hover{
+    background-image: url('../images/listerby_Wh_sub_h.jpg');
+}
+section.list_consoleTable > ul li:nth-of-type(2) a{
+    background-image: url('../images/listerby_Br_1_m.jpg');
+}
+section.list_consoleTable > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/listerby_Br_sub_h.jpg');
+}
+section.list_consoleTable > ul li:nth-of-type(3) a{
+    background-image: url('../images/liatorp_Wh_1_m.jpg');
+}
+section.list_consoleTable > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/liatorp_Wh_sub_h.jpg');
+}
+section.list_consoleTable > ul li:last-of-type a{
+    background-image: url('../images/knotten_Wh_1_m.jpg');
+}
+section.list_consoleTable > ul li:last-of-type a:hover{
+    background-image: url('../images/knotten_Wh_2_h.jpg');
+}
+
+
+section.list_decoRug > ul li:first-of-type a{
+    background-image: url('../images/stoensedeco_Wh_1_m.jpg');
+}
+section.list_decoRug > ul li:first-of-type a:hover{
+    background-image: url('../images/stoensedeco_Wh_3.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(2) a{
+    background-image: url('../images/stoensedeco_BL_1_m.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/stoensedeco_BL_3.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(3) a{
+    background-image: url('../images/stoensedeco_Gy_1_m.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/stoensedeco_Gy_3.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(4) a{
+    background-image: url('../images/auning_Be_1_m.jpg');
+}
+section.list_decoRug > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/auning_Be_3.jpg');
+}
+section.list_decoRug > ul li:last-of-type a{
+    background-image: url('../images/auning_Gy_1_m.jpg');
+}
+section.list_decoRug > ul li:last-of-type a:hover{
+    background-image: url('../images/auning_Gy_3.jpg');
+}
+
+section.list_bigRug > ul li:first-of-type a{
+    background-image: url('../images/stoense_be_1_m.jpg');
+}
+section.list_bigRug > ul li:first-of-type a:hover{
+    background-image: url('../images/stoense_be_2_h.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(2) a{
+    background-image: url('../images/stoense_Gy_1_m.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/stoense_Gy_2_h.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(3) a{
+    background-image: url('../images/stoense_Bk_1.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/stoense_Bk_3_h.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(4) a{
+    background-image: url('../images/sporup_Be_1_m.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/sporup_Be_3_h.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(5) a{
+    background-image: url('../images/sporup_Br_1_m.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/sporup_Br_3_h.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(6) a{
+    background-image: url('../images/tiphede_Wh_1_m.jpg');
+}
+section.list_bigRug > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/tiphede_Wh_3_h.jpg');
+}
+section.list_bigRug > ul li:last-of-type a{
+    background-image: url('../images/tiphede_Gy_1_m.jpg');
+}
+section.list_bigRug > ul li:last-of-type a:hover{
+    background-image: url('../images/tiphede_Gy_3_h.jpg');
+}
+
+section.list_handRug > ul li:first-of-type a{
+    background-image: url('../images/melholt_Br_1_m.jpg');
+}
+section.list_handRug > ul li:first-of-type a:hover{
+    background-image: url('../images/melholt_Br_3_h.jpg');
+}
+section.list_handRug > ul li:nth-of-type(2) a{
+    background-image: url('../images/bronden_Be_1_m.jpg');
+}
+section.list_handRug > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/bronden_Be_2.jpg');
+}
+section.list_handRug > ul li:nth-of-type(3) a{
+    background-image: url('../images/bronden_Mu_1_m.jpg');
+}
+section.list_handRug > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/bronden_Mu_3_h.jpg');
+}
+section.list_handRug > ul li:nth-of-type(4) a{
+    background-image: url('../images/tarbak_Be_1_m.jpg');
+}
+section.list_handRug > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/tarbak_Be_3_h.jpg');
+}
+section.list_handRug > ul li:last-of-type a{
+    background-image: url('../images/tarbak_Nb_1_m.jpg');
+}
+section.list_handRug > ul li:last-of-type a:hover{
+    background-image: url('../images/tarbak_Nb_3_h.jpg');
+}
+
+section.list_officechair > ul li:first-of-type a{
+    background-image: url('../images/langfjall_Be_1_m.jpg');
+}
+section.list_officechair > ul li:first-of-type a:hover{
+    background-image: url('../images/langfjall_Be_sub_h.jpg');
+}
+section.list_officechair > ul li:nth-of-type(2) a{
+    background-image: url('../images/langfjall_Pk_1_m.jpg');
+}
+section.list_officechair > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/langfjall_Pk_sub_h.jpg');
+}
+section.list_officechair > ul li:nth-of-type(3) a{
+    background-image: url('../images/langfjall_DG_1_m.jpg');
+}
+section.list_officechair > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/langfjall_DG_sub_h.jpg');
+}
+section.list_officechair > ul li:nth-of-type(4) a{
+    background-image: url('../images/malskar_Be_1_m.jpg');
+}
+section.list_officechair > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/malskar_Be_sub_h.jpg');
+}
+section.list_officechair > ul li:nth-of-type(5) a{
+    background-image: url('../images/malskar_Bk_1_m.jpg');
+}
+section.list_officechair > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/malskar_Bk_sub_h.jpg');
+}
+section.list_officechair > ul li:last-of-type a{
+    background-image: url('../images/jarvfjallet_Bk_1_m.jpg');
+}
+section.list_officechair > ul li:last-of-type a:hover{
+    background-image: url('../images/jarvfjallet_Bk_sub_h.jpg');
+}
+
+section.list_tablechair > ul li:first-of-type a{
+    background-image: url('../images/bergmund_Gr_1_m.jpg');
+}
+section.list_tablechair > ul li:first-of-type a:hover{
+    background-image: url('../images/bergmund_Gr_h.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(2) a{
+    background-image: url('../images/bergmund_LG_1_m.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/bergmund_LG_h.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(3) a{
+    background-image: url('../images/bergmund_Gy_1_m.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/bergmund_Gy_h.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(4) a{
+    background-image: url('../images/odger_Be_1_m.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/odger_Be_sub_h.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(5) a{
+    background-image: url('../images/odger_Gr_1_m.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/odger_Gr_sub_h.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(6) a{
+    background-image: url('../images/ypperlig_Gr_1_m.jpg');
+}
+section.list_tablechair > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/ypperlig_Gr_3_h.jpg');
+}
+section.list_tablechair > ul li:last-of-type a{
+    background-image: url('../images/ypperlig_LG_1_m.jpg');
+}
+section.list_tablechair > ul li:last-of-type a:hover{
+    background-image: url('../images/ypperlig_LG_3_h.jpg');
+}
+
+section.list_armchair > ul li:first-of-type a{
+    background-image: url('../images/vedbo_Gr_1_m.jpg');
+}
+section.list_armchair > ul li:first-of-type a:hover{
+    background-image: url('../images/vedbo_Gr_sub_h.jpg');
+}
+section.list_armchair > ul li:nth-of-type(2) a{
+    background-image: url('../images/vedbo_Bk_1_m.jpg');
+}
+section.list_armchair > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/vedbo_Bk_sub_h.jpg');
+}
+section.list_armchair > ul li:nth-of-type(3) a{
+    background-image: url('../images/ekolsund_Pk_1_m.jpg');
+}
+section.list_armchair > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/ekolsund_Pk_sub_h.jpg');
+}
+section.list_armchair > ul li:nth-of-type(4) a{
+    background-image: url('../images/ekolsund_DG_1_m.jpg');
+}
+section.list_armchair > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/ekolsund_DG_sub_h.jpg');
+}
+section.list_armchair > ul li:nth-of-type(5) a{
+    background-image: url('../images/tullsta_Be_1_m.jpg');
+}
+section.list_armchair > ul li:nth-of-type(5) a:hover{
+    background-image: url('../images/tullsta_Be_sub_h.jpg');
+}
+section.list_armchair > ul li:nth-of-type(6) a{
+    background-image: url('../images/tullsta_Gr_1_m.jpg');
+}
+section.list_armchair > ul li:nth-of-type(6) a:hover{
+    background-image: url('../images/tullsta_Gr_sub_h.jpg');
+}
+section.list_armchair > ul li:last-of-type a{
+    background-image: url('../images/tullsta_Gy_1_m.jpg');
+}
+section.list_armchair > ul li:last-of-type a:hover{
+    background-image: url('../images/tullsta_Gy_sub_h.jpg');
+}
+
+section.list_cafechair > ul li:first-of-type a{
+    background-image: url('../images/norraryd_Bk_1_m.jpg');
+}
+section.list_cafechair > ul li:first-of-type a:hover{
+    background-image: url('../images/norraryd_Bk_sub_h.jpg');
+}
+section.list_cafechair > ul li:nth-of-type(2) a{
+    background-image: url('../images/svenbertil_Wh_1_m.jpg');
+}
+section.list_cafechair > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/svenbertil_Wh_sub_h.jpg');
+}
+section.list_cafechair > ul li:nth-of-type(3) a{
+    background-image: url('../images/svenbertil_Bk_1_m.jpg');
+}
+section.list_cafechair > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/svenbertil_Bk_sub_h.jpg');
+}
+section.list_cafechair > ul li:last-of-type a{
+    background-image: url('../images/janinge_Gy_1_m.jpg');
+}
+section.list_cafechair > ul li:last-of-type a:hover{
+    background-image: url('../images/janinge_Gy_sub_h.jpg');
+}
+
+section.list_stoolchair > ul li:first-of-type a{
+    background-image: url('../images/oddvar_Tr_1_m.jpg');
+}
+section.list_stoolchair > ul li:first-of-type a:hover{
+    background-image: url('../images/oddvar_Tr_sub_h.jpg');
+}
+section.list_stoolchair > ul li:nth-of-type(2) a{
+    background-image: url('../images/ingolf_Wh_1_m.jpg');
+}
+section.list_stoolchair > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/ingolf_Wh_sub_h.jpg');
+}
+section.list_stoolchair > ul li:nth-of-type(3) a{
+    background-image: url('../images/ingolf_Br_1_m.jpg');
+}
+section.list_stoolchair > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/ingolf_Br_sub_h.jpg');
+}
+section.list_stoolchair > ul li:last-of-type a{
+    background-image: url('../images/ingolf_Bk_1_m.jpg');
+}
+section.list_stoolchair > ul li:last-of-type a:hover{
+    background-image: url('../images/ingolf_Bk_sub_h.jpg');
+}
+
+section.list_deskLight > ul li:first-of-type a{
+    background-image: url('../images/svallet_DG_1_m.jpg');
+}
+section.list_deskLight > ul li:first-of-type a:hover{
+    background-image: url('../images/svallet_DG_sub_h.jpg');
+}
+section.list_deskLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/tallbyn_Wh_1_m.jpg');
+}
+section.list_deskLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/tallbyn_Wh_sub_h.jpg');
+}
+
+section.list_floorLight > ul li:first-of-type a{
+    background-image: url('../images/lersta_Gy_1_m.jpg');
+}
+section.list_floorLight > ul li:first-of-type a:hover{
+    background-image: url('../images/lersta_Gy_sub_h.jpg');
+}
+section.list_floorLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/simrishamn_Wh_1_m.jpg');
+}
+section.list_floorLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/simrishamn_Wh_sub_h.jpg');
+}
+section.list_floorLight > ul li:last-of-type a{
+    background-image: url('../images/arstid_Wh_1_m.jpg');
+}
+section.list_floorLight > ul li:last-of-type a:hover{
+    background-image: url('../images/arstid_Wh_4_h.jpg');
+}
+
+section.list_workLight > ul li:first-of-type a{
+    background-image: url('../images/riggad_Wh_1_m.jpg');
+}
+section.list_workLight > ul li:first-of-type a:hover{
+    background-image: url('../images/riggad_Wh_sub_h.jpg');
+}
+section.list_workLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/skurup_Bk_1_m.jpg');
+}
+section.list_workLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/skurup_Bk_sub_h.jpg');
+}
+section.list_workLight > ul li:last-of-type a{
+    background-image: url('../images/harte_Wh_1_m.jpg');
+}
+section.list_workLight > ul li:last-of-type a:hover{
+    background-image: url('../images/harte_Wh_sub_h.jpg');
+}
+
+section.list_ceilingLight > ul li:first-of-type a{
+    background-image: url('../images/navlingeCeil_Wh_1_m.jpg');
+}
+section.list_ceilingLight > ul li:first-of-type a:hover{
+    background-image: url('../images/navlingeCeil_Wh_sub_h.jpg');
+}
+section.list_ceilingLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/solklint_Gy_1_m.jpg');
+}
+section.list_ceilingLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/solklint_Gy_sub_h.jpg');
+}
+section.list_ceilingLight > ul li:last-of-type a{
+    background-image: url('../images/hemma_Wh_1_m.jpg');
+}
+section.list_ceilingLight > ul li:last-of-type a:hover{
+    background-image: url('../images/hemma_Wh_sub_h.jpg');
+}
+
+section.list_wallLight > ul li:first-of-type a{
+    background-image: url('../images/frihult_Si_1_m.jpg');
+}
+section.list_wallLight > ul li:first-of-type a:hover{
+    background-image: url('../images/frihult_Si_sub_h.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/frihult_Gl_1_m.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/frihult_Gl_sub_h.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(3) a{
+    background-image: url('../images/frihult_Bk_1_m.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(3) a:hover{
+    background-image: url('../images/frihult_Bk_sub_h.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(4) a{
+    background-image: url('../images/nymane_Wh_1_m.jpg');
+}
+section.list_wallLight > ul li:nth-of-type(4) a:hover{
+    background-image: url('../images/nymane_Wh_sub_h.jpg');
+}
+section.list_wallLight > ul li:last-of-type a{
+    background-image: url('../images/arstid_Wh_1_m.jpg');
+}
+section.list_wallLight > ul li:last-of-type a:hover{
+    background-image: url('../images/arstid_Wh_4_h.jpg');
+}
+
+section.list_ledLight > ul li:first-of-type a{
+    background-image: url('../images/navlinge_Wh_1_m.jpg');
+}
+section.list_ledLight > ul li:first-of-type a:hover{
+    background-image: url('../images/navlinge_Wh_sub_h.jpg');
+}
+section.list_ledLight > ul li:nth-of-type(2) a{
+    background-image: url('../images/navlinge_Bk_1_m.jpg');
+}
+section.list_ledLight > ul li:nth-of-type(2) a:hover{
+    background-image: url('../images/navlinge_Bk_sub_h.jpg');
+}
+section.list_ledLight > ul li:last-of-type a{
+    background-image: url('../images/ledberg_Wh_1_m.jpg');
+}
+section.list_ledLight > ul li:last-of-type a:hover{
+    background-image: url('../images/ledberg_Wh_2_h.jpg');
+}
+
+section.detail_flekke div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/flekke_Wh_1_main.jpg');
+}
+section.detail_flekke div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/flekke_Bk_1_main.jpg');
+}
+
+section.detail_grimsbu div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/grimsbu_Wh_1_m.jpg');
+}
+section.detail_grimsbu div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/grimsbu_Gy_1_m.jpg');
+}
+
+section.detail_hemnes div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/hemnes_Wh_1_m.jpg');
+}
+section.detail_hemnes div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/hemnes_Gy_1_m.jpg');
+}
+
+section.detail_idanas div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/idanas_Wh_1_m.jpg');
+}
+section.detail_idanas div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/idanas_Br_1_m.jpg');
+}
+
+section.detail_idanasCu div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/idanasCu_Pk_1_m.jpg');
+}
+section.detail_idanasCu div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/idanasCu_DG_1_m.jpg');
+}
+
+section.detail_idanasSingle div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/idanasSingle_Wh_1_m.jpg');
+}
+section.detail_idanasSingle div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/idanasSingle_Br_1_m.jpg');
+}
+
+section.detail_malm div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/malm_wh_1_m.jpg');
+}
+section.detail_malm div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/malm_Br_1_m.jpg');
+}
+section.detail_malm div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/malm_Bk_1_m.jpg');
+}
+
+section.detail_ravaror div.secondDiv form fieldset > a{
+    background-image: url('../images/ravaror_DB_1_main.jpg');
+}
+
+section.detail_slattum div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/slattum_Gy_1.jpg');
+}
+section.detail_slattum div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/slattum_Bk_1_m.jpg');
+}
+
+section.detail_slattumSingle div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/slattum_Single_Gy_1_m.jpg');
+}
+section.detail_slattumSingle div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/slattum_Single_Bk_1_m.jpg');
+}
+
+section.detail_tuffing div.secondDiv form fieldset > a{
+    background-image: url('../images/tuffing_Gy_1_main.jpg');
+}
+
+section.detail_tufjord div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/tufjord_BL_1_m.jpg');
+}
+section.detail_tufjord div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/tufjord_Gr_1_m.jpg');
+}
+
+section.detail_vadheim div.secondDiv form fieldset > a{
+    background-image: url('../images/vadheim_Gr_1_m.jpg');
+}
+
+section.detail_vadso div.secondDiv form fieldset > a{
+    background-image: url('../images/vadso_Gy_1_m.jpg');
+}
+
+section.detail_valevag div.secondDiv form fieldset > a{
+    background-image: url('../images/valevag_BL_1_m.jpg');
+}
+
+section.detail_vatnestrom div.secondDiv form fieldset > a{
+    background-image: url('../images/vatnestrom_Be_1_m.jpg');
+}
+
+section.detail_vitval div.secondDiv form fieldset > a{
+    background-image: url('../images/vitval_Wg_1_main.jpg');
+}
+
+section.detail_bergmund div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/bergmund_Gr_1_m.jpg');
+}
+section.detail_bergmund div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/bergmund_LG_1_m.jpg');
+}
+section.detail_bergmund div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/bergmund_Gy_1_m.jpg');
+}
+
+section.detail_ekolsund div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/ekolsund_Pk_1_m.jpg');
+}
+section.detail_ekolsund div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/ekolsund_DG_1_m.jpg');
+}
+
+section.detail_ingolf div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/ingolf_Wh_1_m.jpg');
+}
+section.detail_ingolf div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/ingolf_Br_1_m.jpg');
+}
+section.detail_ingolf div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/ingolf_Bk_1_m.jpg');
+}
+
+section.detail_janinge div.secondDiv form fieldset > a{
+    background-image: url('../images/janinge_Gy_1_m.jpg');
+}
+
+section.detail_jarvfjallet div.secondDiv form fieldset > a{
+    background-image: url('../images/jarvfjallet_Bk_1_m.jpg');
+}
+
+section.detail_langfjall div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/langfjall_Be_1_m.jpg');
+}
+section.detail_langfjall div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/langfjall_Pk_1_m.jpg');
+}
+section.detail_langfjall div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/langfjall_DG_1_m.jpg');
+}
+
+
+section.detail_malskar div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/malskar_Be_1_m.jpg');
+}
+section.detail_malskar div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/malskar_Bk_1_m.jpg');
+}
+
+section.detail_norraryd div.secondDiv form fieldset > a{
+    background-image: url('../images/norraryd_Bk_1_m.jpg');
+}
+
+section.detail_oddvar div.secondDiv form fieldset > a{
+    background-image: url('../images/malskar_Be_1_m.jpg');
+}
+
+section.detail_odger div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/odger_Be_1_m.jpg');
+}
+section.detail_odger div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/odger_Gr_1_m.jpg`');
+}
+
+section.detail_svenbertil div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/svenbertil_Wh_1_m.jpg');
+}
+section.detail_svenbertil div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/svenbertil_Bk_1_m.jpg');
+}
+
+section.detail_tullsta div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/tullsta_Be_1_m.jpg');
+}
+section.detail_tullsta div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/tullsta_Be_1_m.jpg');
+}
+section.detail_tullsta div.secondDiv form fieldset > a:last-child{
+    background-image: url('../images/tullsta_Gy_1_m.jpg');
+}
+
+section.detail_vedbo div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/vedbo_Gr_1_m.jpg');
+}
+section.detail_vedbo div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/vedbo_Bk_1_m.jpg');
+}
+
+section.detail_ypperlig div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/ypperlig_Gr_1_m.jpg');
+}
+section.detail_ypperlig div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/ypperlig_LG_1_m.jpg');
+}
+
+section.detail_arstid div.secondDiv form fieldset > a{
+    background-image: url('../images/arstid_Wh_1_m.jpg');
+}
+section.detail_arstidWall div.secondDiv form fieldset > a{
+    background-image: url('../images/arstidWall_Wh_1_m.jpg');
+}
+
+section.detail_frihult div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/frihult_Si_1_m.jpg');
+}
+section.detail_frihult div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/frihult_Gl_1_m.jpg');
+}
+section.detail_frihult div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/frihult_Bk_1_m.jpg');
+}
+
+section.detail_harte div.secondDiv form fieldset > a{
+    background-image: url('../images/harte_Wh_1_m.jpg');
+}
+
+section.detail_hemma div.secondDiv form fieldset > a{
+    background-image: url('../images/hemma_Wh_1_m.jpg');
+}
+
+section.detail_ledberg div.secondDiv form fieldset > a{
+    background-image: url('../images/ledberg_Wh_1_m.jpg');
+}
+
+section.detail_lersta div.secondDiv form fieldset > a{
+    background-image: url('../images/lersta_Gy_1_m.jpg');
+}
+
+section.detail_navlinge div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/navlinge_Wh_1_m.jpg');
+}
+section.detail_navlinge div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/navlinge_Bk_1_m.jpg');
+}
+
+section.detail_navlingeCeil div.secondDiv form fieldset > a{
+    background-image: url('../images/navlingeCeil_Wh_1_m.jpg');
+}
+section.detail_nymane div.secondDiv form fieldset > a{
+    background-image: url('../images/nymane_Wh_1_m.jpg');
+}
+section.detail_riggad div.secondDiv form fieldset > a{
+    background-image: url('../images/riggad_Wh_1_m.jpg');
+}
+section.detail_simrishamn div.secondDiv form fieldset > a{
+    background-image: url('../images/simrishamn_Wh_1_m.jpg');
+}
+section.detail_skurup div.secondDiv form fieldset > a{
+    background-image: url('../images/skurup_Bk_1_m.jpg');
+}
+section.detail_solklint div.secondDiv form fieldset > a{
+    background-image: url('../images/solklint_Gy_1_m.jpg');
+}
+section.detail_svallet div.secondDiv form fieldset > a{
+    background-image: url('../images/svallet_DG_1_m.jpg');
+}
+section.detail_tallbyn div.secondDiv form fieldset > a{
+    background-image: url('../images/tallbyn_Wh_1_m.jpg');
+}
+section.detail_faltmal div.secondDiv form fieldset > a{
+    background-image: url('../images/faltmal_main.jpg');
+}
+section.detail_fjallmott div.secondDiv form fieldset > a{
+    background-image: url('../images/fjallmott_main.jpg');
+}
+section.detail_rackla div.secondDiv form fieldset > a{
+    background-image: url('../images/rackla_main.jpg');
+}
+
+section.detail_auning div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/auning_Be_1_m.jpg');
+}
+section.detail_auning div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/auning_Gy_1_m.jpg');
+}
+
+section.detail_bronden div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/bronden_Be_1_m.jpg');
+}
+section.detail_bronden div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/bronden_Mu_1_m.jpg');
+}
+
+section.detail_melholt div.secondDiv form fieldset > a{
+    background-image: url('../images/melholt_Br_1_m.jpg');
+}
+
+section.detail_sporup div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/sporup_Be_1_m.jpg');
+}
+section.detail_sporup div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/sporup_Br_1_m.jpg');
+}
+
+section.detail_stoense div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/stoense_be_1_m.jpg');
+}
+section.detail_stoense div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/stoense_Gy_1_m.jpg');
+}
+section.detail_stoense div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/stoense_Bk_1.jpg');
+}
+
+section.detail_stoenseDeco div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/stoensedeco_Wh_1_m.jpg');
+}
+section.detail_stoenseDeco div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/stoensedeco_BL_1_m.jpg');
+}
+section.detail_stoenseDeco div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/stoensedeco_Gy_1_m.jpg');
+}
+
+section.detail_tarbak div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/tarbak_Be_1_m.jpg');
+}
+section.detail_tarbak div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/tarbak_Nb_1_m.jpg');
+}
+
+section.detail_tiphede div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/tiphede_Wh_1_m.jpg');
+}
+section.detail_tiphede div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/tiphede_Gy_1_m.jpg');
+}
+
+section.detail_aktorp div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/ektorp_Be_1_main.jpg');
+}
+section.detail_aktorp div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/ektorp_Gr_1_main.jpg');
+}
+section.detail_aktorp div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/ektorp_Gy_1_main.jpg');
+}
+
+section.detail_flottebo div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/flottebo_Gy_1_main.jpg');
+}
+section.detail_flottebo div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/flottebo_Pu_1_main.jpg');
+}
+
+section.detail_friheten div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/friheten_Be_1_main.jpg');
+}
+section.detail_friheten div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/friheten_Gy_1_main.jpg');
+}
+section.detail_friheten div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/friheten_Bk_1_main.jpg');
+}
+
+section.detail_gronlid div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/gronlid_lg_1_main.jpg');
+}
+section.detail_gronlid div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/gronlid_Bk_1_main.jpg');
+}
+section.detail_gronlid div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/gronlid_Re_1_main.jpg');
+}
+
+section.detail_holmsund div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/holmsund_Be_1_main.jpg');
+}
+section.detail_holmsund div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/holmsund_BL_1_main.jpg');
+}
+section.detail_holmsund div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/holmsund_Gy_1_main.jpg');
+}
+
+section.detail_kivik div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/kivik_Wh_1_main.jpg');
+}
+section.detail_kivik div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/kivik_BL_1_main.jpg');
+}
+section.detail_kivik div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/kivik_Bk_1_main.jpg');
+}
+
+section.detail_lanskrona div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/landskrona_Gr_1_main.jpg');
+}
+section.detail_lanskrona div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/landskrona_Bk_1_main.jpg');
+}
+
+section.detail_landskronaL div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/landskronaL_Be_1_main.jpg');
+}
+section.detail_landskronaL div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/landskronal_Bk_1_main.jpg');
+}
+
+section.detail_lidhult div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/lidhult_Br_1_main.jpg');
+}
+section.detail_lidhult div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/lidhult_DB_1_main.jpg');
+}
+section.detail_lidhult div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/lidhult_Bk_1_main.jpg');
+}
+
+section.detail_soderhamn div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/soderhamn_Wh_1_main.jpg');
+}
+section.detail_soderhamn div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/soderhamn_OR_1_main.jpg');
+}
+section.detail_soderhamn div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/soderhamn_Gr_1_main.jpg');
+}
+
+section.detail_strandmon div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/strandmon_Ye_1_main.jpg');
+}
+section.detail_strandmon div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/strandmon_Gr_1_main.jpg');
+}
+section.detail_strandmon div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/strandmon_Gy_1_main.jpg');
+}
+
+section.detail_vimle div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/vimle_Br_1_main.jpg');
+}
+section.detail_vimle div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/vimle_Bk_1_main.jpg');
+}
+
+section.detail_alex div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/alex_Wh_1_m.jpg');
+}
+section.detail_alex div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/alex_Gy_1_m.jpg');
+}
+
+section.detail_bjursta div.secondDiv form fieldset > a{
+    background-image: url('../images/bjursta_Bk_1_m.jpg');
+}
+section.detail_knotten div.secondDiv form fieldset > a{
+    background-image: url('../images/knotten_Wh_1_m.jpg');
+}
+
+section.detail_lack div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/lack_Gy_1_m.jpg');
+}
+section.detail_lack div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/lack_Bk_1_m.jpg');
+}
+
+section.detail_lackside div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/lackside_Wh_1_m.jpg');
+}
+section.detail_lackside div.secondDiv form fieldset > a:nth-of-type(2){
+    background-image: url('../images/lackside_Tr_1_m.jpg');
+}
+section.detail_lackside div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/lackside_Bk_1_m.jpg');
+}
+
+section.detail_liatorp div.secondDiv form fieldset > a{
+    background-image: url('../images/liatorp_Wh_1_m.jpg');
+}
+
+section.detail_listerby div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/listerby_Wh_1_m.jpg');
+}
+section.detail_listerby div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/listerby_Br_1_m.jpg');
+}
+
+section.detail_micke div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/micke_Wh_1_m.jpg');
+}
+section.detail_micke div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/micke_Br_1_m.jpg');
+}
+
+section.detail_nyboda div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/nyboda_LG_1_m.jpg');
+}
+section.detail_nyboda div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/nyboda_DG_1_m.jpg');
+}
+
+section.detail_omtanksam div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/omtanksam_Wh_1_m.jpg');
+}
+section.detail_omtanksam div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/omtanksam_Gy_1_m.jpg');
+}
+
+section.detail_vangsta div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/vangsta_Wh_1_m.jpg');
+}
+section.detail_vangsta div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/vangsta_Br_1_m.jpg');
+}
+
+section.detail_vikhammer div.secondDiv form fieldset > a:first-of-type{
+    background-image: url('../images/vikhammer_Wh_1_m.jpg');
+}
+section.detail_vikhammer div.secondDiv form fieldset > a:last-of-type{
+    background-image: url('../images/vikhammer_Bk_1_m.jpg');
+}
+
+section.detail_vittsjo div.secondDiv form fieldset > a{
+    background-image: url('../images/vittsjo_Bk_1_m.jpg');
+}
+
+@media screen and (max-width: 767px){
+        .bx-wrapper{
+            display: none;
+        }
+        
+        /* slider fin */
+
+        section.newArea ul li{
+            display: block;
+        }
+        section.newArea ul li:first-of-type{
+            background: url('../images/gronlid_lg_sub_hover.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li:nth-of-type(2){
+            background: url('../images/malm_wh_sub.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li:last-of-type{
+            background: url('../images/micke_Br_sub.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li > a{
+            display: block; position: relative; width: 100%; height: 0;
+            padding-bottom: 100%;
+        }
+        section.newArea ul li > a:hover{
+            background-color: rgba(0, 0, 0, 0.5); animation-name: new; animation-duration: 0.8s;
+        }
+        @keyframes new{
+            from{
+                opacity: 20%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
+        section.newArea ul li > a span{
+            display: none; border: 1px solid #ececec; padding: 5% 12%;
+            color: #ececec; font-size: 16px; position: absolute; left: 29%; top: 45%;
+            font-weight: 400;
+        }
+        section.newArea ul li > a:hover span{
+            display: block;
+        }
+        section.newArea > ul li > h3{
+            font-size: 16px; font-weight: 400; color: #444; text-align: center;
+            line-height: 40px; background-color: white; padding-bottom: 30px;
+        }
+        section.newArea > ul li > h3 small{
+            display: block; font-size: 14px; font-weight: 300; color: #888; 
+            line-height: 22px;
+        }
+        /* newArea fin */
+
+        section.summerArea ul li{
+            display: block; transition-duration: 0.5s; transition-property: background; background-repeat: no-repeat;
+            background-position: center 15%; background-size: 150PX;
+        }
+        section.summerArea ul li:first-of-type{
+            background-image: url('../images/fjallmott_main_p.png');
+        }
+        section.summerArea ul li:first-of-type:hover{
+            background-image: url('../images/fjallmott_h_p.png');
+        }
+        section.summerArea ul li:nth-of-type(2){
+            background: url('../images/faltmal_main.jpg') center 20% / 120px no-repeat;
+        }
+        section.summerArea ul li:nth-of-type(2):hover{
+            background: url('../images/faltmal_2.jpg') center 20% / 120px no-repeat;
+        }
+        section.summerArea ul li:last-of-type{
+            background-image: url('../images/rackla_main_p.png');
+        }
+        section.summerArea ul li:last-of-type:hover{
+            background-image: url('../images/rackla_hover_p.png');
+        }
+        section.summerArea ul li:nth-of-type(2){
+            background-color: #fff;
+        }
+        section.summerArea ul li:nth-of-type(2):hover{
+            background-color: #fff;
+        }
+        section.summerArea ul li:not(:nth-of-type(2)){
+            background-color: #e6eae3;
+        }
+        section.summerArea ul li:not(:nth-of-type(2)):hover{
+            background-color: #e6eae3;
+        }
+        section.summerArea ul li a{
+            display: block;
+        }
+        section.summerArea ul li a{
+            padding: 200px 0 35px;
+        }
+        section.summerArea ul li a > *{
+            display: block; text-align: center;
+        }
+        section.summerArea ul li a > small{
+            font-size: 14px; font-weight: 600; color: #839672;
+            line-height: 28px; letter-spacing: 0.75px;
+        }
+        section.summerArea ul li a > strong,
+        section.summerArea ul li a > span{
+            font-size: 18px; font-weight: 300;
+            letter-spacing: 0; line-height: 28px;
+        }
+        section.summerArea ul li a > strong{
+            color: #333;
+        }
+        section.summerArea ul li a > span{
+            color: #839672; 
+        }
+        /* summerArea fin */
+
+        section.bestArea{
+            padding-bottom: 70px;
+        }
+        section.bestArea ul li{
+            display: block; position: relative;
+            box-sizing: border-box; transition: background-size 0.4s;
+            background-repeat: no-repeat; background-position: center 30%; background-size: 70%;
+        }
+        section.bestArea ul li:not(:last-of-type){
+            border-bottom: 1px solid #ececec;
+        }
+        section.bestArea ul li:hover{
+            background-size: 76%;
+        }
+        section.bestArea ul li > a{
+            display: block; position: relative; width: 100%; height: 0;
+            padding-bottom: 100%; transition: background-color 1s;
+        }
+        section.bestArea ul li > a:hover{
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        section.bestArea ul li > a span{
+            display: none; border: 1px solid #ececec; padding: 5% 12%;
+            color: #ececec; font-size: 16px; position: absolute; left: 29%; top: 45%;
+            font-weight: 400;
+        }
+        section.bestArea ul li > a:hover span{
+            display: block;
+        }
+        section.bestArea ul li > mark{
+            position: absolute; left: 5%; top: 5%; padding: 20px 11px;
+            background-color: #aaa; border-radius: 30px; color: #fff; line-height: 20px;
+            font-style: normal; font-size: 15px; font-weight: 400; letter-spacing: 1px;
+        }
+        section.bestArea ul li > div{
+            padding: 40px 0; text-align: center;
+        }
+        section.bestArea ul li > div h3{
+            font-size: 18px; font-weight: 400; line-height: 40px; color: #222;
+        }
+        section.bestArea ul li > div small{
+            font-size: 16px; font-weight: 400; line-height: 36px; color: #ff7676;
+        }
+        /* bestArea fin */
+    
+    
+        section.snsArea{
+            display: none;
+        }
+        /* mainPage fin */
+    
+        section[class^='list']{
+            padding: 100px 0 150px 0;
+        }
+        section[class^='list'] > ol{
+            overflow-x: auto; white-space: nowrap; padding: 0 3% 15px; margin-bottom: 20px; text-align: center;
+        }
+        section[class^='list'] > ol li{
+            display: inline-block;
+        }
+        section[class^='list'] > ol li:not(:first-of-type){
+            margin-left: 0.8%;
+        }
+        section[class^='list'] > ol li a{
+            display: block; font-size: 15px; letter-spacing: 0; font-weight: 400; color: #666;
+            line-height: 35px; padding: 0 10px; border-radius: 9px; margin-bottom: 10px;
+        }
+        section[class^='list'] > ol li a:not(.active){
+            border: 1px solid #ececec; box-shadow: 3px 2px 3px 0 #ccc;
+        }
+        section[class^='list'] > ol li a.active{
+            background-color: #666; color: #fff; border-radius: 9px;
+            box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4);
+        }
+        section[class^='list'] > ol li a:hover{
+            transform: scale(1.1);
+        }
+        section[class^='list'] > ul li{
+            display: block; position: relative; box-sizing: border-box;
+        }
+        section[class^='list'] > ul li:not(:last-of-type){
+            border-bottom: 1px solid #ececec;
+        }
+        section[class^='list'] > ul li > button{
+            position: absolute; left: 5%; top: 5%;
+            font-size: 20px; background-color: white; padding: 9px;
+            border-radius: 25px; border: none; color: #00309d;
+            z-index: 1;
+        }
+        section[class^='list'] > ul li > button:hover{
+            background-color: #00309d; color: #fff; font-weight: lighter;
+            cursor: pointer;
+        }
+        section[class^='list'] > ul li > a{
+            display: block; padding: 37.5% 50%;
+            text-indent: -9999px; background-repeat: no-repeat; background-position: center bottom;
+            background-size: 70%; transition-duration: 0.5s; transition-property: background-size;
+            border-radius: 45px;
+        }
+        section[class^='list'] > ul li > a:hover{
+            background-size: 100%; animation-name: list; animation-duration: 0.8s;
+        }    
+        @keyframes list{
+            from{
+                opacity: 20%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
+        section[class^='list'] > ul li > div{
+            padding: 40px 0; text-align: center;
+        }
+        section[class^='list'] > ul li > div > *{
+            letter-spacing: 0; line-height: 40px; font-weight: 400;
+        }
+        section[class^='list'] > ul li > div h3{
+            font-size: 16px; color: #444;
+        }
+        section[class^='list'] > ul li > div span{
+            font-size: 14px; color: #ff7676;
+        }
+    
+        section.list_newAllvals ol li button{
+            display: block; font-size: 15px; letter-spacing: 0; font-weight: 400; color: #666;
+            line-height: 35px; padding: 0 10px; border-radius: 9px;
+            background-color: #fff; border: 1px solid #ececec;
+            box-shadow: 3px 2px 3px 0 #ccc; cursor: pointer;
+        }
+        section.list_newAllvals ol li button:hover{
+            transform: scale(1.1);
+        }
+        section.list_newAllvals ol li button.active{
+            background-color: #666; color: #fff; border-radius: 9px;
+            box-shadow: 3px 2px 3px 0 rgba(0,0,0,0.4); border: none;
+        }
+        /* list Fin */
+        
+        section[class^=detail]{
+            padding: 80px 0;
+        }
+        section[class^='detail'] > div.topArea{
+            margin-bottom: 150px; padding: 0 3%;
+        }
+
+        section[class^='detail'] > div.topArea > div.firstDiv{
+            display: none;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2{
+            border-top: 2px solid #333; padding: 35px 5%; line-height: 36px;
+            font-size: 20px; color: #222; font-weight: 400; letter-spacing: 0px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2 mark{
+            float: right; font-size: 16px; font-weight: 400;
+            color: #ff7676; font-style: normal; background-color: transparent;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2 small{
+            display: block; font-size: 14px; font-weight: 300; color: #666;
+            line-height: 30px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset{
+            border-width: 1px 0 1px 0; border-style: solid; border-color: #dadada;
+            padding: 30px 0; margin: 0 5% 40px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='modelName'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='size'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+            font-size: 14px; color: #888; letter-spacing: 0.75px; font-weight: 400;
+            line-height: 40px; display: block;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+            display: block;
+        }
+        #modelName,
+        #size{
+            width: 100%; background-color: transparent; border: none;
+            font-size: 16px; font-weight: 600; color: #444; letter-spacing: 0.25px;
+        }
+        section[class^='detail'] div.secondDiv form fieldset > a{
+            background-repeat: no-repeat; background-size: 50px; background-position: center;
+            text-indent: -9999px; display: block; width: 55px; height: 55px; float: left;
+        }
+        section[class^='detail'] div.secondDiv form fieldset > a:not(:first-of-type){
+            margin-left: 2%;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset a.active{
+            box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+            line-height: 45px; display: inline-block; border-radius: 6px; cursor: pointer;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
+            width: 72%; background-color: #0058a3; border: none; color: #fff;
+            font-size: 16px; font-weight: 400; margin: 0 0 20px 5%;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+            width: 14%; font-size: 23px; background-color: transparent; text-align: center;
+            border: 1px solid #0058a3; color: #0058a3; vertical-align: top;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv > p{
+            padding: 0 5%; color: #444; font-size: 14px; font-weight: 300;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv > p span{
+            vertical-align: -6px; padding-right: 2%;
+        }
+    
+        section[class^='detail'] > div.bottomArea{
+            padding-top: 80px; border-top: 1px solid #dadada;
+            text-align: center;
+        }
+        section[class^='detail'] > div.bottomArea img{
+            border-radius: 10px;
+        }
+        section[class^='detail'] > div.bottomArea > h3{
+            font-size: 30px; font-weight: 100; letter-spacing: -1px; line-height: 60px;
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > h3 small{
+            display: block; font-size: 20px; letter-spacing: 0.25px; color: #999;
+            font-weight: 400; line-height: 50px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type img,
+        section[class^='detail'] > div.bottomArea > figure:last-of-type img{
+            width: 70%; margin-bottom: 40px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption,
+        section[class^='detail'] > div.bottomArea > p,
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+            max-width: 480px; width: 70%; margin: 0 auto; font-size: 16px;
+            line-height: 36px; letter-spacing: 0; color: #666; font-weight: 300;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption{
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type{
+            margin-bottom: 70px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li:not(:last-of-type){
+            margin-bottom: 40px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li img{
+            display: block; width: 70%; margin: 0 auto;
+        }
+        section[class^='detail'] > div.bottomArea > p{
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > p span{
+            display: block; margin-top: 55px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+            margin-bottom: 150px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption dt{
+            margin-bottom: 45px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type{
+            border-top: 1px; border-style: solid; border-color: #dadada;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li{
+            display: block; text-align: left; padding: 50px 5%;
+            box-sizing: border-box;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li:nth-of-type(2) img{
+            display: block; width: 80%; margin-top: 20px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li h4{
+            font-size: 16px; font-weight: 500; letter-spacing: 0.75px; color: #444;
+            margin-bottom: 30px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li p{
+            font-size: 14px; letter-spacing: 0.75px; font-weight: 300; color: #777;
+            line-height: 24px; display: block;
+        }
+        /* detail Fin */
+        
+        div.Terms{
+            padding-bottom: 100px;
+        }
+        div.Terms section{
+            margin-bottom: 80px; padding: 0 3%;
+        }
+        div.Terms section h3{
+            font-size: 20px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+            border-bottom: 1px solid #0058a3; line-height: 30px; padding-bottom: 15px;
+            margin-bottom: 60px;
+        }
+        div.Terms section > article{
+            margin-bottom: 40px;
+        }
+        div.Terms section > article h4{
+            font-size: 16px; letter-spacing: 0.5px; color: #444;
+            margin-bottom: 20px; font-weight: 500;
+        }
+        div.Terms section > article > ul li{
+            font-size: 14px; margin-bottom: 10px; line-height: 25px;
+            font-weight: 400; color: #666; 
+            letter-spacing: 0.1px; list-style-position: inside;
+        }
+        div.Terms section > article > ul li > ol{
+            padding-left: 1.5%;
+        }
+        div.Terms section > article > ul li > ol li{
+            line-height: 25px; color: #777; margin-bottom: 0;
+        }
+    
+        section.privacyTerms{
+            padding-bottom: 100px;
+        }
+        section.privacyTerms article{
+            padding: 0 3%;
+        }
+        section.privacyTerms article h3{
+            font-size: 20px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+            border-bottom: 1px solid #0058a3; line-height: 34px;
+            margin-bottom: 40px; padding-bottom: 15px;
+        }
+        section.privacyTerms article:not(:first-of-type) h3{
+            padding-top: 40px;
+        }
+        section.privacyTerms article p{
+            font-size: 14px; line-height: 25px;
+            font-weight: 400; color: #666; margin-bottom: 20px;
+        }
+        section.privacyTerms article > ul li{
+            list-style: none;
+        }
+        section.privacyTerms article h4{
+            font-size: 18px; letter-spacing: 0.5px; color: #444;
+            margin-bottom: 20px; font-weight: 500; padding-top: 20px;
+        }
+        section.privacyTerms article ol li{
+            list-style: disc; list-style-position: inside;
+            font-size: 14px; line-height: 26px;
+            font-weight: 400; color: #666;
+        }
+        section.privacyTerms article ol li:last-of-type{
+            margin-bottom: 20px;
+        }
+        section.privacyTerms article ol li > p{
+            padding-left: 1.3%;
+        }
+    
+        section.customerContents{
+            padding-bottom: 100px;
+        }
+        section.customerContents a{
+            display: block; background-position: center center; background-repeat: no-repeat;
+            background-size: 80%; display: block; position: relative; max-height: 600px;
+        }
+        section.customerContents a:first-of-type{
+            background-image: url('../images/service_1.jpg');
+        }
+        section.customerContents a:nth-of-type(2){
+            background-image: url('../images/service_2.jpg');
+        }
+        section.customerContents a:last-of-type{
+            background-image: url('../images/service_3.jpg');
+        }
+        section.customerContents a span{
+            width: 80%; height: 0; padding: 40% 0; transition-duration: 0.8s; transition-property: background; margin: 0 auto;
+            display: flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.4);
+        }
+        section.customerContents a span:hover{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        section.customerContents a span strong{
+            width: 50%; text-align: center;  padding: 20px 15px;
+            border: 1px solid #fff; font-size: 18px; font-weight: 300;
+            color: #fff;
+            
+            /* position: absolute; left: calc((100% - (45% + 80px)) / 2); top: 25%; */
+        }
+        section.customerContents a span strong small{
+            display: none;
+        }
+    
+        section.loginContents{
+            padding-bottom: 100px; width: 70%;
+        }
+        section.loginContents form fieldset{
+            margin: 0 auto; border-top: 1px solid #666; margin-bottom: 80px;
+        }
+        section.loginContents form fieldset legend{
+            padding: 0 4%; margin-bottom: 30px; font-size: 14px; font-weight: 400;
+            color: #444;
+        }
+        section.loginContents form fieldset > input{
+            display: block; width: 100%; outline-style: none;
+        }
+        section.loginContents form fieldset > input[type=text],
+        section.loginContents form fieldset > input[type=password]{
+            border: 1px solid #ccc; padding: 16px 4.7%; border-radius: 4px;
+            box-sizing: border-box;
+        }
+        section.loginContents form fieldset > input[type=text]{
+            margin-bottom: 20px;
+        }
+        section.loginContents form fieldset > input[type=password]{
+            margin-bottom: 15px;
+        }
+        section.loginContents form fieldset > input[type=text]::placeholder,
+        section.loginContents form fieldset > input[type=password]::placeholder{
+            background-position: left center; background-size: 14px;
+            background-repeat: no-repeat; padding-left: 20px; font-size: 14px;
+            color: #ccc; font-weight: 400;
+        }
+        section.loginContents form fieldset > input[type=text]::placeholder{
+            background-image: url('../images/ico_id.png');
+        }
+        section.loginContents form fieldset > input[type=password]::placeholder{
+            background-image: url('../images/ico_rock.png');
+        }
+        section.loginContents form fieldset > div{
+            padding: 0 5.3%; margin-bottom: 40px;
+        }
+        section.loginContents form fieldset > div input[id='saveID']{
+            display: none;
+        }
+        section.loginContents form fieldset > div input[id='saveID'] + label{
+            background: url('../images/ico_check_offf.png') left center / 15% no-repeat;
+        }
+        section.loginContents form fieldset > div input[id='saveID']:checked + label{
+            background: url('../images/ico_check_on.png') left center / 15% no-repeat;
+        }
+        section.loginContents form fieldset > div label[for='saveID']{
+            padding-left: 17px; line-height: 25px;
+        }
+        section.loginContents form fieldset > div label[for='saveID'],
+        section.loginContents form fieldset > div span a{
+            font-size: 14px; font-weight: 400; color: #666; letter-spacing: 0.25px; line-height: 34px;
+        }
+        section.loginContents form fieldset > div span{
+            display: block;
+        }
+        section.loginContents form fieldset > div span a:last-of-type::before{
+            content: '/'; 
+        }
+        section.loginContents > div{
+            margin: 0 auto; border: 1px solid #dadada;
+            padding: 60px 8%; box-sizing: border-box; text-align: center;
+        }
+        section.loginContents > div > p{
+            margin-bottom: 40px; font-size: 15px; letter-spacing: 0.25px; font-weight: 300;
+            color: #aaa; line-height: 24px;
+        }
+    
+        section.signupContents{
+            padding-bottom: 100px;
+        }
+        section.signupContents > form fieldset ul{
+            margin-bottom: 60px;
+        }
+        section.signupContents > form fieldset ul li,
+        section.signupContents > form fieldset ul li:not(:last-of-type) > *{
+            display: block; width: 100%;
+        }
+        section.signupContents > form fieldset ul li:not(:last-of-type){
+            margin-bottom: 40px;
+        }
+        section.signupContents > form fieldset ul li:nth-of-type(2) input:first-of-type{
+            margin-bottom: 10px;
+        }
+        section.signupContents > form fieldset ul li:last-of-type > *{
+            display: block;
+        }
+        section.signupContents > form fieldset ul li:last-of-type select{
+            width: 38%; float: left; background: none; border: none; border-width: 0 0 1px;
+            border-color: #ccc; border-style: solid; padding: 7px 2%;
+            color: #aaa; outline-style: none;
+        }
+        section.signupContents > form fieldset ul li:last-of-type input{
+            float: left; width: 62%;
+        }
+        
+        section.findContents{
+            padding-bottom: 100px;
+        }
+        section.findContents > form fieldset > label,
+        section.findContents > form fieldset > input:not(:last-of-type){
+            display: block; width: 100%;
+        }
+        section.findContents > form fieldset > input[id='userName'],
+        section.findContents > form fieldset > input[id='ID']{
+            margin-bottom: 40px;
+        }
+        section.findContents > form fieldset select{
+            width: 38%; float: left; background: none; border: none; border-width: 0 0 1px;
+            border-color: #ccc; border-style: solid; padding: 7px 2%;
+            color: #aaa; outline-style: none; margin-bottom: 130px;
+        }
+        section.findContents > form fieldset select,
+        section.findContents > form fieldset input[type='tel']{
+            float: left;
+        }
+        section.findContents > form fieldset input[type='tel']{
+            width: 62%;
+        }
+    
+        section.signuptermContents{
+            padding-bottom: 100px;
+        }
+        section.signuptermContents form fieldset > ul{
+            margin-bottom: 80px;  list-style: none;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type label{
+            display: block;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type{
+            margin-bottom: 50px;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox']{
+            display: none;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox'] + label{
+            background: url('../images/ico_checkOff.png') left 17% / 18px no-repeat;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox']:checked + label{
+            background: url('../images/ico_checkOn.png') left 17% / 18px no-repeat;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type label{
+            font-size: 20px; font-weight: 400; color: #222; margin-bottom: 15px;
+        }
+        section.signuptermContents form fieldset > ul li label,
+        section.signuptermContents form fieldset > ul li p{
+            padding-left: 30px; letter-spacing: 0.25px; line-height: 24px;
+            font-size: 14px;
+        }
+        section.signuptermContents form fieldset > ul li p{
+            color: #aaa; font-weight: 300;
+        }
+        section.signuptermContents form fieldset > ul li label{
+            color: #222; font-weight: 400;
+        }
+        section.signuptermContents form fieldset > ul li:not(:first-of-type,:last-of-type){
+            margin-bottom: 10px;
+        }
+        section.signuptermContents form fieldset > ul li:not(:first-of-type) label{
+            display: inline-block; width: 70%;
+        }
+        section.signuptermContents form fieldset > ul li a{
+            font-size: 15px; color: #444; float: right; font-weight: 400;
+            line-height: 24px; width: 10%; padding-top: 2px;
+        }
+    
+        section.deliveryContents{
+            padding-bottom: 150px;
+        }
+        section.deliveryContents form fieldset > *:not(input:last-of-type){
+            display: block; width: 100%;
+        }
+        section.deliveryContents form fieldset label{
+            margin-bottom: 10px;
+        }
+        section.deliveryContents form fieldset input[id='userName'],
+        section.deliveryContents form fieldset input[id='number']{
+            margin-bottom: 40px;
+        }
+        section.deliveryContents form fieldset input[id='password']{
+            margin-bottom: 80px;
+        }
+        
+        section.exchangeContents,
+        section.errorContents{
+            padding-left: 3%; padding-right: 3%; margin-bottom: 50px;
+        }
+        section.exchangeContents table caption,
+        section.errorContents table caption{
+            display: none;
+        }
+        section.errorContents h2{
+            letter-spacing: -2px;
+        }
+        section.exchangeContents table colgroup col,
+        section.errorContents table colgroup col{
+            text-align: center; width: 50%; border: 1px solid #dadada;
+        }
+        section.exchangeContents table thead tr th,
+        section.errorContents table thead tr th{
+            background-color: #0058a3; font-size: 18px; font-weight: 300; color: #fff;
+            line-height: 65px;
+        }
+        section.exchangeContents table tbody tr td,
+        section.errorContents table tbody tr td{
+            padding: 60px 5%; font-size: 14px; color: #444; letter-spacing: 0.25px;
+            line-height: 26px; font-weight: 300;
+        }
+        section.errorContents table tbody tr td a{
+            display: inline-block; color: #0058a3; border-bottom: 1px solid #0058a3; padding: 10px 0 5px;
+        }
+    
+        section.refundContents,
+        section.questionContents{
+            padding-left: 3%; padding-right: 3%;
+        }
+        section.refundContents{
+            margin-bottom: 50px;
+        }
+        section.questionContents{
+            margin-bottom: 150px;
+        }
+        section.refundContents ul li,
+        section.questionContents ul li{
+            display: block;
+        }
+        section.refundContents ul li h3,
+        section.questionContents ul li h3{
+            font-size: 20px; font-weight: 500; letter-spacing: -0.5px; color: #444;
+            border-bottom: 1px solid #dadada; line-height: 55px; margin-bottom: 25px;
+        }
+        section.refundContents ul li p,
+        section.questionContents ul li p{
+            font-size: 14px; color: #666; font-weight: 300; letter-spacing: 0.1px;
+            line-height: 26px;
+        }
+        section.refundContents ul li p:not(:last-of-type){
+            margin-bottom: 20px;
+        }
+        section.refundContents ul li p:last-of-type,
+        section.questionContents ul li:not(:last-of-type) p{
+            margin-bottom: 50px;
+        }
+        section.questionContents ul li p a{
+            display: inline-block; line-height: 30px; border-bottom: 1px solid #0058a3; color: #0058a3;
+        }
+    
+        
+        section.companyContents{
+            padding-left: 3%; padding-right: 3%; margin-bottom: 60px;
+        }
+        section.companyContents figure:first-of-type{
+            margin-bottom: 50px;
+        }
+        section.companyContents figure img{
+            max-width: 760px; width: 100%; margin-bottom: 30px;
+        }
+        section.companyContents figure figcaption{
+            display: block; margin-left: 2%;
+        }
+        section.companyContents figure figcaption hr{
+            margin-top: 0; width: 14%; border-top: 2px solid #222;  
+        }
+        section.companyContents figure figcaption h3{
+            font-size: 20px; color: #222; font-weight: 300;
+            letter-spacing: 0.5px; margin-bottom: 40px;
+        }
+        section.companyContents figure:first-of-type figcaption p:not(:last-of-type),
+        section.companyContents figure:last-of-type figcaption p{
+            font-size: 14px; letter-spacing: 0.5px; font-weight: 400;
+            color: #666; line-height: 24px;
+        }
+        section.companyContents figure:first-of-type figcaption p:first-of-type{
+            margin-bottom: 60px;
+        }
+        section.companyContents figure:first-of-type figcaption p:last-of-type{
+            display: none;
+        }
+        section.companyContents figure:first-of-type figcaption p:last-of-type mark{
+            display: block; font-size: 30px; padding: 60px 0 40px; font-weight: 100; color: #ccc;
+            background-color: transparent;
+        }
+        section.companyContents figure:last-of-type figcaption p:first-of-type{
+            margin-bottom: 40px;
+        }
+    
+        section.history{
+            padding: 0 3% 150px;
+        }
+        section.history hr{
+            border-top: 2px solid #222; width: 14%;
+        }
+        section.history h2{
+            font-size: 20px; letter-spacing: -0.5px; color: #222; font-weight: 400;
+            margin-bottom: 40px;
+        }
+        section.history .wrap{
+            padding: 0 3%; margin-bottom: 30px;
+        }
+        section.history .wrap h3{
+            font-size: 36px; font-weight: 100; color: #0058a3;
+            letter-spacing: 0.5px;
+        }
+        section.history .wrap div{
+            padding-top: 27px;
+        }
+        section.history .wrap div p{
+            font-size: 16px; letter-spacing: -0.5px; color: #444; font-weight: 300;
+            position: relative; padding-left: 20px; line-height: 28px;
+        }
+        section.history .wrap div p:not(:last-of-type){
+            margin-bottom: 15px;
+        }
+        section.history .wrap div p::after{
+            content: ''; position: absolute; left: 5px; top: 10px; width: 7px; height: 7px;
+            background-color: #0058a3; border-radius: 3.5px; 
+        }
+        
+        section.fullBasketContents{
+            padding-bottom: 120px;
+        }
+        section.fullBasketContents.active{
+            display: none;
+        }
+        section.fullBasketContents form fieldset{
+            padding: 0 3%; box-sizing: border-box; margin-bottom: 100px;
+        }
+        section.fullBasketContents form fieldset > span{
+            font-size: 14px; font-weight: 400; letter-spacing: 0;
+            color: #444; line-height: 40px;
+        }
+        section.fullBasketContents form fieldset > span:nth-of-type(2){
+            float: right;
+        }
+        section.fullBasketContents form fieldset ul{
+            border-width: 1px 0; border-style: solid; border-color: #ccc;
+            margin-bottom: 20px; list-style: none; padding-bottom: 40px;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type{
+            border-bottom: 1px solid #ccc;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type span:not(:first-of-type){
+            display: none;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type > *{
+            font-size: 14px; color: #666; display: inline-block; line-height: 47px;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type span:first-of-type{
+            width: 88%; text-align: center; 
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"]{
+            display: none;
+        }
+        section.fullBasketContents form fieldset ul li label[for^='check']{
+            width: 24px; text-indent: -9999px;
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"] + label{
+            background: url('../images/ico_check_off.png') center center / 18px no-repeat;
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"]:checked + label{
+            background: url('../images/ico_check_on.png') center center / 18px no-repeat;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > *:not(input[type="checkbox"],label){
+            display: block; text-align: center; margin: 0 auto; margin-bottom: 15px;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type label{
+            padding-top: 20px; display: block;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type div img{
+            width: 50%; display: block; margin: 0 auto; max-width: 200px;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type div a strong,
+        section.fullBasketContents form fieldset ul li:last-of-type > small{
+            display: block; font-size: 18px; letter-spacing: 0; font-weight: 400; 
+            color: #444; line-height: 25px; margin-bottom: 20px;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type a strong mark{
+            background: none; font-size: 16px; color: #aaa; font-style: normal;
+            font-weight: 300; display: block;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span:first-of-type{
+            width: 45%; float: right;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span button,
+        section.fullBasketContents form fieldset ul li:last-of-type > span:not(:last-of-type) input{
+            background: transparent; line-height: 24px; width: 30px;
+            text-align: center; display: block; float: left;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span input{
+            border-width: 1px 0 1px; border-style: solid; border-color: #ccc;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span button{
+            font-size: 21px; border: 1px solid #ccc; cursor: pointer;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > input[type='text']{
+            display: block; float: right; width: 45%; font-size: 16px; font-weight: 400; color: #444; border: none;
+            outline-style: none; margin-bottom: 20px;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span input[type=button]{
+            background: none; border: 1px solid #ccc; border-radius: 3px; width: 70%; padding: 6px 0;
+            color: #888; cursor: pointer;
+        }
+
+        section.fullBasketContents form fieldset > div{
+            text-align: center;
+        }
+        section.fullBasketContents form fieldset > div span{
+            font-size: 18px; font-weight: 400; color: #666;
+        }
+        section.fullBasketContents form fieldset > div span:first-of-type{
+            display: inline-block;
+        }
+        section.fullBasketContents form fieldset > div input[type='text']{
+            font-size: 24px; font-weight: 300; color: #ff7676; outline-style: none;
+            border: none; width: 39%; max-width: 106px; vertical-align: -1.5px;
+        }
+        section.fullBasketContents > div input{
+            display: block; width: 80%; margin: 0 auto;
+        }
+        section.fullBasketContents > div input:first-of-type{
+            margin-bottom: 15px;
+        }
+    
+        section.emptyBasketContents{
+            padding-left: 3%; padding-right: 3%; padding-bottom: 150px;
+            display: none;
+        }
+        section.emptyBasketContents.active{
+            display: block;
+        }
+        section.emptyBasketContents div{
+            border-width: 1px 0; border-style: solid; border-color: #ccc;
+            padding: 150px 0; text-align: center;
+        }
+        section.emptyBasketContents div p{
+            font-size: 18px; color: #aaa; font-weight: 400;
+            margin-bottom: 95px;
+        }
+        section.emptyBasketContents div a{
+            font-size: 18px; color: #fff; font-weight: 300; display: block; border-radius: 5px;
+            background-color: #0058a3; width: 50%; line-height: 51px; margin: 0 auto;
+        }
+    
+    
+        div.popup{
+            display: none; width: 75%; border: 1px solid #dadada; padding-bottom: 50px;
+            position: absolute; z-index: 1000; background-color: white; left: 12.5%;
+        }
+        div.popup.active{
+            display: block;
+        }
+        div.popup h2,
+        div.popup a{
+            font-size: 16px; color: #fff; font-weight: 300; background-color: #0058a3; 
+        }
+        div.popup h2{
+            padding: 0 5%; line-height: 55px;
+        }
+        div.popup h2 button{
+            background-color: transparent; border: none; color: #fff; font-size: 18px;
+            float: right; line-height: 50px; font-weight: 500; cursor: pointer;
+        }
+        div.popup p{
+            padding: 60px 20px; text-align: center; font-size: 14px; color: #888;
+            font-weight: 400;
+        }
+        div.popup a{
+            display: block; line-height: 40px; width: 50%; text-align: center;
+            margin: 0 auto; border-radius: 3px;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+        .bx-wrapper{
+            margin: 0; padding: 0; box-shadow: none; border: none;
+            background: none; position: relative;
+        }
+        .bx-wrapper .bx-controls-direction a{
+            background-size: 80%;
+        }
+        .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+            bottom: 30px;
+        }
+        ul.slider li{
+            display: block; padding: 80px 0;
+        }
+        ul.slider li:first-of-type{
+            background-color: #8aa195;
+        }
+        ul.slider li:nth-of-type(2){
+            background-color: #393a3e;
+        }
+        ul.slider li:nth-of-type(3){
+            background-color: #d5baa8;
+        }
+        ul.slider li:last-of-type{
+            background-color: #6c6e62;
+        }
+        ul.slider li a{
+            display: block; position: relative;
+        }
+        ul.slider li a img{
+            max-width: 800px; display: block; margin: 0 auto;
+        }
+        ul.slider li a strong{
+            position: absolute; text-align: center;
+            font-size: 40px; font-weight: 300;
+        }
+        ul.slider li:first-of-type a strong{
+            color: #ececec; left: 40%; top: 40px;
+        }
+        ul.slider li:nth-of-type(2) a strong{
+            color: #393a3e; left: 39%; top: 40px;
+        }
+        ul.slider li:nth-of-type(3) a strong{
+            color: #fff; left: 52.5%; top: 55px;
+        }
+        ul.slider li:last-of-type a strong{
+            color: #6c6e62; left: 15%; top: 80px; letter-spacing: -2px;
+        }
+        ul.slider li a strong small{
+            display: block; font-size: 18px; letter-spacing: 1px; line-height: 36px;
+        }
+        /* slider fin */
+    
+        
+        section.newArea ul li{
+            float: left; display: block; width: 33.33%;
+        }
+        section.newArea ul li:first-of-type{
+            background: url('../images/gronlid_lg_sub_hover.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li:nth-of-type(2){
+            background: url('../images/malm_wh_sub.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li:last-of-type{
+            background: url('../images/micke_Br_sub.jpg') left top / 100% no-repeat;
+        }
+        section.newArea ul li > a{
+            display: block; position: relative; width: 100%; height: 0;
+            padding-bottom: 100%;
+        }
+        section.newArea ul li > a:hover{
+            background-color: rgba(0, 0, 0, 0.5); animation-name: new; animation-duration: 0.8s;
+        }
+        @keyframes new{
+            from{
+                opacity: 20%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
+        section.newArea ul li > a span{
+            display: none; border: 1px solid #ececec; padding: 12px 11%;
+            color: #ececec; font-size: 14px; position: absolute; left: 28%; top: 45%;
+            font-weight: 400;
+        }
+        section.newArea ul li > a:hover span{
+            display: block;
+        }
+        section.newArea > ul li > h3{
+            font-size: 18px; font-weight: 400; color: #444; text-align: center;
+            line-height: 40px; background-color: white; padding: 10px 0;
+        }
+        section.newArea > ul li > h3 small{
+            display: block; font-size: 15px; font-weight: 300; color: #888; 
+            line-height: 22px;
+        }
+        /* newArea fin */
+        section.summerArea ul{
+            background: url('../images/fjallmott_left_2.jpg') left center / 60% no-repeat;
+            display: block;
+        }
+        section.summerArea ul li{
+            display: block; width: 50%; margin-left: 50%;
+            transition-duration: 0.6s; transition-property: background;
+        }
+        section.summerArea ul li:first-of-type{
+            background: url('../images/fjallmott_main_p.png') 10.41% center / 26% no-repeat;
+        }
+        section.summerArea ul li:first-of-type:hover{
+            background: url('../images/fjallmott_h_p.png') 11% center / 26% no-repeat;
+        }
+        section.summerArea ul li:nth-of-type(2){
+            background: url('../images/faltmal_main.jpg') right 10.41% center / 23% no-repeat;
+        }
+        section.summerArea ul li:nth-of-type(2):hover{
+            background: url('../images/faltmal_2.jpg') right 11.5% center / 23% no-repeat;
+        }
+        section.summerArea ul li:last-of-type{
+            background: url('../images/rackla_main_p.png') 10.41% center / 25% no-repeat;
+        }
+        section.summerArea ul li:last-of-type:hover{
+            background: url('../images/rackla_hover_p.png') 11% center / 25% no-repeat;
+        }
+        section.summerArea ul li:nth-of-type(2){
+            background-color: #fff;
+        }
+        section.summerArea ul li:nth-of-type(2):hover{
+            background-color: #fff;
+        }
+        section.summerArea ul li:not(:nth-of-type(2)){
+            background-color: #e6eae3;
+        }
+        section.summerArea ul li:not(:nth-of-type(2)):hover{
+            background-color: #e6eae3;
+        }
+        section.summerArea ul li a{
+            display: block;
+        }
+        section.summerArea ul li:first-of-type a,
+        section.summerArea ul li:last-of-type a{
+            padding: 8% 17% 8% 38%;
+        }
+        section.summerArea ul li:nth-of-type(2) a{
+            padding: 8% 42% 8% 9%;
+        }
+        section.summerArea ul li a > *{
+            display: block;
+        }
+        section.summerArea ul li a > small{
+            font-size: 14px; font-weight: 600; color: #839672;
+            line-height: 28px; letter-spacing: 0.75px;
+        }
+        section.summerArea ul li a > strong,
+        section.summerArea ul li a > span{
+            font-size: 20px; font-weight: 300;
+            letter-spacing: 0; line-height: 35px;
+        }
+        section.summerArea ul li a > strong{
+            color: #333;
+        }
+        section.summerArea ul li a > span{
+            color: #839672; text-align: right;
+        }
+        /* summerArea fin */
+        
+        section.bestArea ul li{
+            float: left; display: block; position: relative; width: 33.33%;
+            box-sizing: border-box; border-top: 1px solid #ececec; transition-duration: 0.3s; transition-property: background-size;
+            background-repeat: no-repeat; background-position: center 20%; background-size: 70%;
+        }
+        section.bestArea ul li:nth-of-type(-n+3){
+            border-top: none;
+        }
+        section.bestArea ul li:not(:nth-of-type(3n)){
+            border-right: 1px solid #ececec;
+        }
+        section.bestArea ul li:hover{
+            background-size: 76%;
+        }
+        section.bestArea ul li > a{
+            display: block; position: relative; width: 100%; height: 0;
+            padding-bottom: 100%; transition-duration: 1s; transition-property: background-color;
+        }
+        section.bestArea ul li > a:hover{
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        section.bestArea ul li > a span{
+            display: none; border: 1px solid #ececec; padding: 12px 11%;
+            color: #ececec; font-size: 14px; position: absolute; left: 28%; top: 45%;
+            font-weight: 400;
+        }
+        section.bestArea ul li > a:hover span{
+            display: block;
+        }
+        section.bestArea ul li > mark{
+            position: absolute; left: 3.57%; top: 3.57%; padding: 20px 10px;
+            background-color: #aaa; border-radius: 30px; color: #fff; line-height: 20px;
+            font-style: normal; font-size: 15px; font-weight: 400; letter-spacing: 1px;
+        }
+        section.bestArea ul li > div{
+            padding: 40px 0; text-align: center;
+        }
+        section.bestArea ul li > div h3{
+            font-size: 16px; font-weight: 400; line-height: 40px; color: #222;
+        }
+        section.bestArea ul li > div small{
+            font-size: 14px; font-weight: 400; line-height: 36px; color: #ff7676;
+        }
+        /* bestArea fin */
+    
+    
+        section.snsArea{
+            padding-bottom: 150px;
+        }
+        section.snsArea ul li{
+            display: block; max-width: 1024px; width: 72.91%; 
+            margin: 0 auto; background-position: left top;
+            background-size: cover; background-repeat: no-repeat;
+        }
+        section.snsArea ul li:first-of-type{
+            background-image: url('../images/mainpage_facebook.jpg');
+        }
+        section.snsArea ul li:nth-of-type(2){
+            background-image: url('../images/mainpage_instagram.jpg');
+        }
+        section.snsArea ul li:last-of-type{
+            background-image: url('../images/mainpage_youtube.jpg');
+        }
+        section.snsArea ul li a{
+            display: block; text-align: center; font-size: 40px;
+            font-weight: 600; line-height: 199px; color: #888;
+            background-color: rgba(0, 0, 0, 0.7); transition:0.6s ease-in-out; transition-property: color, background, padding;
+        }
+        section.snsArea ul li a:hover{
+            color: #fff; background-color: rgba(0, 0, 0, 0.35);
+            padding-right: 1%;
+        }
+        section.snsArea ul li a span.material-icons{
+            display: none; font-size: 70px; font-weight: lighter; 
+            vertical-align: -15px; padding-left: 2%;
+        }
+        section.snsArea ul li a:hover span.material-icons{
+            display: inline-block; 
+            animation-name: sns; animation-duration: 1s;
+        }
+        @keyframes sns{
+            from{
+                padding-left: 0;
+                opacity: 20%;
+            }
+            to{
+                padding-left: 2%;
+                opacity: 100%;
+            }
+        }
+        /* mainPage fin */
+    
+        section[class^='list']{
+            padding: 100px 0 150px 0;
+        }
+        section[class^='list'] > ol{
+            display: block; text-align: center; margin-bottom: 70px;
+        }
+        section[class^='list'] > ol li{
+            display: inline-block;
+        }
+        section[class^='list'] > ol li:not(:first-of-type){
+            margin-left: 0.8%;
+        }
+        section[class^='list'] > ol li a{
+            display: block; font-size: 17px; letter-spacing: 0; font-weight: 400; color: #666;
+            line-height: 40px; padding: 0 18px; border-radius: 9px;
+        }
+        section[class^='list'] > ol li a:not(.active){
+            border: 1px solid #ececec; box-shadow: 3px 3px 3px 0 #ccc;
+        }
+        section[class^='list'] > ol li a.active{
+            background-color: #666; color: #fff; border-radius: 9px;
+            box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4);
+        }
+        section[class^='list'] > ol li a:hover{
+            transform: scale(1.1);
+        }
+        section[class^='list'] > ul li{
+            display: block; float: left; width: 33.33%; position: relative;
+            border-bottom: 1px solid #ececec; box-sizing: border-box;
+        }
+        section[class^='list'] > ul li > button{
+            position: absolute; left: 5%; top: 5%;
+            font-size: 23px; background-color: white; padding: 10px;
+            border-radius: 25px; border: none; color: #00309d;
+            z-index: 1;
+        }
+        section[class^='list'] > ul li > button:hover{
+            background-color: #00309d; color: #fff; font-weight: lighter;
+            cursor: pointer;
+        }
+        section[class^='list'] > ul li > a{
+            display: block; padding: 37.5% 50%;
+            text-indent: -9999px; background-repeat: no-repeat; background-position: center center;
+            background-size: 70%; transition: background-size 0.5s;
+            border-radius: 45px;
+        }
+        section[class^='list'] > ul li > a:hover{
+            background-size: 100%; animation-name: list; animation-duration: 0.8s;
+        }    
+        @keyframes list{
+            from{
+                opacity: 20%;
+            }
+            to{
+                opacity: 100%;
+            }
+        }
+        section[class^='list'] > ul li > div{
+            padding: 40px 0; text-align: center;
+        }
+        section[class^='list'] > ul li > div > *{
+            letter-spacing: 0; line-height: 40px; font-weight: 400;
+        }
+        section[class^='list'] > ul li > div h3{
+            font-size: 16px; color: #444;
+        }
+        section[class^='list'] > ul li > div span{
+            font-size: 14px; color: #ff7676;
+        }
+    
+        section.list_newAllvals ol li button{
+            display: block; font-size: 17px; letter-spacing: 0; font-weight: 400; color: #666;
+            line-height: 40px; padding: 0 18px; border-radius: 9px;
+            background-color: #fff; border: 1px solid #ececec;
+            box-shadow: 3px 3px 3px 0 #ccc; cursor: pointer;
+        }
+        section.list_newAllvals ol li button:hover{
+            transform: scale(1.1);
+        }
+        section.list_newAllvals ol li button.active{
+            background-color: #666; color: #fff; border-radius: 9px;
+            box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4); border: none;
+        }
+        /* list Fin */
+        
+        section[class^=detail]{
+            padding: 80px 0 150px 0;
+        }
+        section[class^='detail'] > div.topArea{
+            margin-bottom: 150px;
+        }
+    
+        section[class^='detail'] > div.topArea > div.firstDiv,
+        section[class^='detail'] > div.topArea > div.secondDiv{
+            float: left;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv{
+            width: 45%; position: relative;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv ul{
+            width: 100%; position: absolute; top: 390px; text-align: center;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv ul li{
+            display: inline-block; border-radius: 8px; cursor: pointer;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv ul li:not(:first-of-type){
+            margin-left: 2%;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv ul li img{
+            max-width: 70px; border-radius: 8px;
+        }
+        section[class^='detail'] > div.topArea > div.firstDiv > img{
+            display: block; width: 70%; border-radius: 15px; margin: 0 auto;
+            min-width: 350px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv{
+            margin-left: 4.76%; width: 50%; right: 3%; 
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2{
+            border-top: 2px solid #333; padding: 40px 5%; line-height: 40px;
+            font-size: 22px; color: #222; font-weight: 400; letter-spacing: 0px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2 mark{
+            float: right; font-size: 18px; font-weight: 400;
+            color: #ff7676; font-style: normal; background-color: transparent;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv h2 small{
+            display: block; font-size: 15px; font-weight: 300; color: #666;
+            line-height: 35px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset{
+            border-width: 1px 0 1px 0; border-style: solid; border-color: #dadada;
+            padding: 30px 0; margin: 0 5% 40px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='modelName'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='size'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+            font-size: 15px; color: #888; letter-spacing: 0.75px; font-weight: 400;
+            line-height: 40px; width: 20%; display: inline-block;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+            float: left;
+        }
+        #modelName,
+        #size{
+            display: inline-block; width: 70%; background-color: transparent; border: none;
+            font-size: 17px; font-weight: 600; color: #444; letter-spacing: 0.25px;
+        }
+        section[class^='detail'] div.secondDiv form fieldset > a{
+            background-repeat: no-repeat; background-size: 50px; background-position: center center;
+            text-indent: -9999px; display: block; width: 55px; height: 55px; float: left;
+        }
+        section[class^='detail'] div.secondDiv form fieldset > a:not(:first-of-type){
+            margin-left: 2%;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > fieldset a.active{
+            box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
+        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+            line-height: 50px; display: inline-block; border-radius: 6px; cursor: pointer;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
+            width: 74%; background-color: #0058a3; border: none; color: #fff;
+            font-size: 16px; font-weight: 400; margin: 0 0 20px 5%;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+            width: 14%; font-size: 23px; background-color: transparent; text-align: center;
+            border: 1px solid #0058a3; color: #0058a3; vertical-align: top;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv > p{
+            padding: 0 5%; color: #444; font-size: 14px; font-weight: 300;
+        }
+        section[class^='detail'] > div.topArea > div.secondDiv > p span{
+            vertical-align: -6px; padding-right: 2%;
+        }
+    
+        section[class^='detail'] > div.bottomArea{
+            padding-top: 150px; border-top: 1px solid #dadada;
+            text-align: center;
+        }
+        section[class^='detail'] > div.bottomArea img{
+            border-radius: 30px;
+        }
+        section[class^='detail'] > div.bottomArea > h3{
+            font-size: 48px; font-weight: 100; letter-spacing: -1px; line-height: 120px;
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > h3 small{
+            display: block; font-size: 30px; letter-spacing: 0.25px; color: #999;
+            font-weight: 400; line-height: 50px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type img,
+        section[class^='detail'] > div.bottomArea > figure:last-of-type img{
+            max-width: 1000px; width: 59.52%; margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption,
+        section[class^='detail'] > div.bottomArea > p,
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+            width: 60%; margin: 0 auto; font-size: 18px;
+            line-height: 40px; letter-spacing: 0; color: #666; font-weight: 300;
+        }
+        section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption{
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type{
+            width: 59.52%; margin: 0 auto; margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li{
+            float: left; display: block; width: 48%;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(2n){
+            margin-left: 3%;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(3),
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(4){
+            margin-top: 20px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:first-of-type li img{
+            max-width: 480px; width: 100%;
+        }
+        section[class^='detail'] > div.bottomArea > p{
+            margin-bottom: 100px;
+        }
+        section[class^='detail'] > div.bottomArea > p span{
+            display: block; margin-top: 55px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+            margin-bottom: 150px;
+        }
+        section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption dt{
+            margin-bottom: 55px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type{
+            border-width: 1px 0 1px; border-style: solid; border-color: #dadada;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li{
+            display: block; text-align: left; float: left; width: 50%; padding: 50px 5%;
+            box-sizing: border-box;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li:nth-of-type(2) img{
+            width: 90%; margin-top: 20px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li h4{
+            font-size: 16px; font-weight: 500; letter-spacing: 0.75px; color: #444;
+            margin-bottom: 30px;
+        }
+        section[class^='detail'] > div.bottomArea > ul:last-of-type li p{
+            font-size: 14px; letter-spacing: 0.75px; font-weight: 300; color: #777;
+            line-height: 24px; display: block;
+        }
+        /* detail Fin */
+       
+        div.Terms{
+            padding-bottom: 100px;
+        }
+        div.Terms section{
+            margin-bottom: 80px; padding: 0 3%;
+        }
+        div.Terms section h3{
+            font-size: 30px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+            border-bottom: 1px solid #0058a3; line-height: 60px;
+            margin-bottom: 60px;
+        }
+        div.Terms section > article{
+            margin-bottom: 40px;
+        }
+        div.Terms section > article h4{
+            font-size: 20px; letter-spacing: 0.5px; color: #444;
+            margin-bottom: 20px; font-weight: 500;
+        }
+        div.Terms section > article > ul li{
+            font-size: 16px; margin-bottom: 10px; line-height: 25px;
+            font-weight: 400; color: #666; 
+            letter-spacing: 0.1px; list-style-position: inside;
+        }
+        div.Terms section > article > ul li > ol{
+            padding-left: 1.5%;
+        }
+        div.Terms section > article > ul li > ol li{
+            line-height: 25px; color: #777; margin-bottom: 0;
+        }
+    
+        section.privacyTerms{
+            padding-bottom: 100px;
+        }
+        section.privacyTerms article{
+            padding: 0 3%;
+        }
+        section.privacyTerms article h3{
+            font-size: 30px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+            border-bottom: 1px solid #0058a3; line-height: 60px;
+            margin-bottom: 40px;
+        }
+        section.privacyTerms article:not(:first-of-type) h3{
+            padding-top: 40px;
+        }
+        section.privacyTerms article p{
+            font-size: 16px; line-height: 25px;
+            font-weight: 400; color: #666; margin-bottom: 20px;
+        }
+        section.privacyTerms article > ul li{
+            list-style: none;
+        }
+        section.privacyTerms article h4{
+            font-size: 20px; letter-spacing: 0.5px; color: #444;
+            margin-bottom: 20px; font-weight: 500; padding-top: 20px;
+        }
+        section.privacyTerms article ol li{
+            list-style: disc; list-style-position: inside;
+            font-size: 16px; line-height: 26px;
+            font-weight: 400; color: #666;
+        }
+        section.privacyTerms article ol li:last-of-type{
+            margin-bottom: 20px;
+        }
+        section.privacyTerms article ol li > p{
+            padding-left: 1.3%;
+        }
+    
+        section.customerContents{
+            padding-bottom: 100px;
+        }
+        section.customerContents a{
+            width: 33.33%; background-position: left top; background-repeat: no-repeat;
+            background-size: 100%; display: block; float: left;
+            position: relative; 
+        }
+        section.customerContents a:first-of-type{
+            background-image: url('../images/service_1.jpg');
+        }
+        section.customerContents a:nth-of-type(2){
+            background-image: url('../images/service_2.jpg');
+        }
+        section.customerContents a:last-of-type{
+            background-image: url('../images/service_3.jpg');
+        }
+        section.customerContents a span{
+            width: 100%; height: 0; padding: 65% 0; transition: background-color 0.8s;
+            display: flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.3);
+        }
+        section.customerContents a span:hover{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        section.customerContents a span strong{
+            width: 45%; text-align: center;  padding: 20px 20px;
+            border: 1px solid #fff; font-size: 20px; font-weight: 300;
+            color: #fff;
+            
+            /* position: absolute; left: calc((100% - (45% + 80px)) / 2); top: 25%; */
+        }
+        section.customerContents a span strong small{
+            display: none;
+        }
+    
+        section.loginContents{
+            padding-bottom: 150px; width: 540px;
+        }
+        section.loginContents form fieldset{
+            margin: 0 auto; border-top: 1px solid #666; margin-bottom: 80px;
+        }
+        section.loginContents form fieldset legend{
+            padding: 0 4%; margin-bottom: 30px; font-size: 14px; font-weight: 400;
+            color: #444;
+        }
+        section.loginContents form fieldset > input{
+            display: block; width: 100%; outline-style: none;
+        }
+        section.loginContents form fieldset > input[type=text],
+        section.loginContents form fieldset > input[type=password]{
+            border: 1px solid #ccc; padding: 16px 4.7%; border-radius: 3px;
+            box-sizing: border-box;
+        }
+        section.loginContents form fieldset > input[type=text]{
+            margin-bottom: 20px;
+        }
+        section.loginContents form fieldset > input[type=password]{
+            margin-bottom: 15px;
+        }
+        section.loginContents form fieldset > input[type=text]::placeholder,
+        section.loginContents form fieldset > input[type=password]::placeholder{
+            background-position: left center; background-size: 3%;
+            background-repeat: no-repeat; padding-left: 5%; font-size: 14px;
+            color: #ccc; font-weight: 400;
+        }
+        section.loginContents form fieldset > input[type=text]::placeholder{
+            background-image: url('../images/ico_id.png');
+        }
+        section.loginContents form fieldset > input[type=password]::placeholder{
+            background-image: url('../images/ico_rock.png');
+        }
+        section.loginContents form fieldset > div{
+            padding: 0 5.3%; margin-bottom: 40px;
+        }
+        section.loginContents form fieldset > div input[id='saveID']{
+            display: none;
+        }
+        section.loginContents form fieldset > div input[id='saveID'] + label{
+            background: url('../images/ico_check_offf.png') left center / 15% no-repeat;
+        }
+        section.loginContents form fieldset > div input[id='saveID']:checked + label{
+            background: url('../images/ico_check_on.png') left center / 15% no-repeat;
+        }
+        section.loginContents form fieldset > div label[for='saveID']{
+            padding-left: 4%;
+        }
+        section.loginContents form fieldset > div label[for='saveID'],
+        section.loginContents form fieldset > div span a{
+            font-size: 14px; font-weight: 400; color: #666; letter-spacing: 0.25px;
+        }
+        section.loginContents form fieldset > div span{
+            float: right;
+        }
+        section.loginContents form fieldset > div span a:last-of-type::before{
+            content: '/'; 
+        }
+        section.loginContents > div{
+            margin: 0 auto; border: 1px solid #dadada;
+            padding: 60px 18%; box-sizing: border-box; text-align: center;
+        }
+        section.loginContents > div > p{
+            margin-bottom: 40px; font-size: 16px; letter-spacing: 0.25px; font-weight: 300;
+            color: #aaa; line-height: 24px;
+        }
+    
+        section.signupContents{
+            padding-bottom: 100px;
+        }
+        section.signupContents > form fieldset ul{
+            margin-bottom: 60px;
+        }
+        section.signupContents > form fieldset ul li,
+        section.signupContents > form fieldset ul li:not(:last-of-type) > *{
+            display: block; width: 100%;
+        }
+        section.signupContents > form fieldset ul li:not(:last-of-type){
+            margin-bottom: 40px;
+        }
+        section.signupContents > form fieldset ul li:nth-of-type(2) input:first-of-type{
+            margin-bottom: 10px;
+        }
+        section.signupContents > form fieldset ul li:last-of-type > *{
+            display: block;
+        }
+        section.signupContents > form fieldset ul li:last-of-type select{
+            width: 19%; float: left; background: none; border: none; border-width: 0 0 1px;
+            border-color: #ccc; border-style: solid; padding: 7px 3%;
+            color: #aaa; outline-style: none;
+        }
+        section.signupContents > form fieldset ul li:last-of-type input{
+            float: left; width: 81%;
+        }
+        
+        section.findContents{
+            padding-bottom: 100px;
+        }
+        section.findContents > form fieldset > label,
+        section.findContents > form fieldset > input:not(:last-of-type){
+            display: block; width: 100%;
+        }
+        section.findContents > form fieldset > input[id='userName'],
+        section.findContents > form fieldset > input[id='ID']{
+            margin-bottom: 40px;
+        }
+        section.findContents > form fieldset select{
+            width: 19%; float: left; background: none; border: none; border-width: 0 0 1px;
+            border-color: #ccc; border-style: solid; padding: 7px 3%;
+            color: #aaa; outline-style: none; margin-bottom: 130px;
+        }
+        section.findContents > form fieldset select,
+        section.findContents > form fieldset input[type='tel']{
+            float: left;
+        }
+        section.findContents > form fieldset input[type='tel']{
+            width: 81%;
+        }
+    
+        section.signuptermContents{
+            padding-bottom: 150px;
+        }
+        section.signuptermContents form fieldset > ul{
+            margin-bottom: 150px;  list-style: none;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type label{
+            display: block;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type{
+            margin-bottom: 60px;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox']{
+            display: none;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox'] + label{
+            background: url('../images/ico_checkOff.png') left 60% / 18px no-repeat;
+        }
+        section.signuptermContents form fieldset > ul li input[type='checkbox']:checked + label{
+            background: url('../images/ico_checkOn.png') left 60% / 18px no-repeat;
+        }
+        section.signuptermContents form fieldset > ul li:first-of-type label{
+            font-size: 20px; font-weight: 400; color: #222; margin-bottom: 15px;
+        }
+        section.signuptermContents form fieldset > ul li label,
+        section.signuptermContents form fieldset > ul li p{
+            padding-left: 8%; letter-spacing: 0.25px; line-height: 24px;
+            font-size: 16px;
+        }
+        section.signuptermContents form fieldset > ul li p{
+            color: #aaa; font-weight: 300;
+        }
+        section.signuptermContents form fieldset > ul li label{
+            color: #222; font-weight: 400;
+        }
+        section.signuptermContents form fieldset > ul li:not(:first-of-type,:last-of-type){
+            margin-bottom: 20px;
+        }
+        section.signuptermContents form fieldset > ul li:not(:first-of-type) label{
+            display: inline-block; width: 85%;
+        }
+        section.signuptermContents form fieldset > ul li a{
+            font-size: 15px; color: #444; float: right; font-weight: 400;
+            line-height: 24px;
+        }
+    
+        section.deliveryContents{
+            padding-bottom: 150px;
+        }
+        section.deliveryContents form fieldset > *:not(input:last-of-type){
+            display: block; width: 100%;
+        }
+        section.deliveryContents form fieldset label{
+            margin-bottom: 10px;
+        }
+        section.deliveryContents form fieldset input[id='userName'],
+        section.deliveryContents form fieldset input[id='number']{
+            margin-bottom: 40px;
+        }
+        section.deliveryContents form fieldset input[id='password']{
+            margin-bottom: 80px;
+        }
+        
+        section.exchangeContents,
+        section.errorContents{
+            padding-left: 3%; padding-right: 3%; margin-bottom: 50px;
+        }
+        section.exchangeContents table caption,
+        section.errorContents table caption{
+            display: none;
+        }
+        section.errorContents h2{
+            letter-spacing: -2px;
+        }
+        section.exchangeContents table colgroup col,
+        section.errorContents table colgroup col{
+            text-align: center; width: 50%; border: 1px solid #dadada;
+        }
+        section.exchangeContents table thead tr th,
+        section.errorContents table thead tr th{
+            background-color: #0058a3; font-size: 22px; font-weight: 300; color: #fff;
+            line-height: 65px;
+        }
+        section.exchangeContents table tbody tr td,
+        section.errorContents table tbody tr td{
+            padding: 60px 5%; font-size: 18px; color: #444; letter-spacing: 0.25px;
+            line-height: 26px; font-weight: 300;
+        }
+        section.errorContents table tbody tr td a{
+            display: inline-block; color: #0058a3; border-bottom: 1px solid #0058a3; padding: 10px 0 5px;
+        }
+    
+        section.refundContents,
+        section.questionContents{
+            padding-left: 3%; padding-right: 3%;
+        }
+        section.refundContents{
+            margin-bottom: 50px;
+        }
+        section.questionContents{
+            margin-bottom: 150px;
+        }
+        section.refundContents ul li,
+        section.questionContents ul li{
+            display: block;
+        }
+        section.refundContents ul li h3,
+        section.questionContents ul li h3{
+            font-size: 25px; font-weight: 500; letter-spacing: -0.5px; color: #444;
+            border-bottom: 1px solid #dadada; line-height: 55px; margin-bottom: 25px;
+        }
+        section.refundContents ul li p,
+        section.questionContents ul li p{
+            font-size: 18px; color: #666; font-weight: 300; letter-spacing: 0.1px;
+            line-height: 26px;
+        }
+        section.refundContents ul li p:not(:last-of-type){
+            margin-bottom: 20px;
+        }
+        section.refundContents ul li p:last-of-type,
+        section.questionContents ul li:not(:last-of-type) p{
+            margin-bottom: 50px;
+        }
+        section.questionContents ul li p a{
+            display: inline-block; line-height: 45px; border-bottom: 1px solid #0058a3; color: #0058a3;
+        }
+    
+        
+        section.companyContents{
+            padding-left: 3%; padding-right: 3%; margin-bottom: 60px;
+        }
+        section.companyContents figure{
+            margin-bottom: 100px;
+        }
+        section.companyContents figure img{
+            width: 100%; margin: 0 auto; margin-bottom: 10px;
+        }
+        section.companyContents figure figcaption{
+            display: block;
+        }
+        section.companyContents figure figcaption hr{
+            width: 11%; border-top: 2px solid #222;  
+        }
+        section.companyContents figure figcaption h3{
+            font-size: 25px; color: #222; font-weight: 300;
+            letter-spacing: 0.5px; margin-bottom: 40px;
+        }
+        section.companyContents figure:first-of-type figcaption p:not(:last-of-type),
+        section.companyContents figure:last-of-type figcaption p{
+            font-size: 16px; letter-spacing: 0.5px; font-weight: 400;
+            color: #666; line-height: 24px;
+        }
+        section.companyContents figure:first-of-type figcaption p:last-of-type{
+            display: none;
+        }
+        section.companyContents figure:first-of-type figcaption p:last-of-type mark{
+            display: block; font-size: 30px; padding: 60px 0 40px; font-weight: 100; color: #ccc;
+            background-color: transparent;
+        }
+        section.companyContents figure:last-of-type figcaption p:first-of-type{
+            margin-bottom: 30px;
+        }
+    
+        section.history{
+            padding: 0 3% 150px;
+        }
+        section.history hr{
+            border-top: 2px solid #222; width: 5%;
+        }
+        section.history h2{
+            font-size: 25px; letter-spacing: -0.5px; color: #222; font-weight: 400;
+            margin-bottom: 40px;
+        }
+        section.history .wrap{
+            display: flex; padding: 0 3%;
+        }
+        section.history .wrap h3{
+            margin-right: 3%; font-size: 50px; font-weight: 100; color: #0058a3;
+            letter-spacing: 0.5px;
+        }
+        section.history .wrap div{
+            padding-top: 27px;
+        }
+        section.history .wrap div p{
+            font-size: 18px; letter-spacing: -0.5px; color: #444; font-weight: 300;
+            position: relative; padding-left: 25px; padding-bottom: 30px;
+        }
+        section.history .wrap div p::after{
+            content: ''; position: absolute; left: -5px; top: 5px; width: 7px; height: 7px;
+            background-color: #0058a3; border-radius: 3.5px; 
+        }
+        section.history .wrap div p::before{
+            content: ''; position: absolute; left: -2px; top: 10px; width: 1px;
+            background-color: #0058a3; opacity: 0.6;
+        }
+        section.history .wrap div p:not(:last-of-type)::before{
+            height: 50px;
+        }
+        section.history .wrap:not(:last-of-type) div p:last-of-type:before{
+            height: 90px;
+        }
+        
+        section.fullBasketContents{
+            padding-bottom: 150px;
+        }
+        section.fullBasketContents.active{
+            display: none;
+        }
+        section.fullBasketContents form fieldset{
+            padding: 0 3%; box-sizing: border-box; margin-bottom: 140px;
+        }
+        section.fullBasketContents form fieldset > span{
+            font-size: 14px; font-weight: 400; letter-spacing: 0;
+            color: #444; line-height: 40px;
+        }
+        section.fullBasketContents form fieldset > span:nth-of-type(2){
+            float: right;
+        }
+        section.fullBasketContents form fieldset ul{
+            border-width: 1px 0; border-style: solid; border-color: #ccc;
+            margin-bottom: 20px;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type{
+            border-bottom: 1px solid #ccc;
+        }
+        section.fullBasketContents form fieldset ul li{
+            list-style: none;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type > *{
+            font-size: 14px; color: #666; letter-spacing: 0; font-weight: 400;
+            display: inline-block; text-align: center; line-height: 47px;
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"]{
+            display: none;
+        }
+        section.fullBasketContents form fieldset ul li label[for^='check']{
+            width: 3.86%; text-indent: -9999px;
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"] + label{
+            background: url('../images/ico_check_off.png') center center / 18px no-repeat;
+        }
+        section.fullBasketContents form fieldset ul li > input[type="checkbox"]:checked + label{
+            background: url('../images/ico_check_on.png') center center / 18px no-repeat;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type span:first-of-type,
+        section.fullBasketContents form fieldset ul li:last-of-type div{
+            width: 48%;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(2),
+        section.fullBasketContents form fieldset ul li:last-of-type > small,
+        section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(3),
+        section.fullBasketContents form fieldset ul li:last-of-type > span:not(:last-of-type){
+            width: 19%;
+        }
+        section.fullBasketContents form fieldset ul li span:last-of-type{
+            width: 7%;
+        }
+        section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(4),
+        section.fullBasketContents form fieldset ul li:last-of-type > input[type="text"]{
+            display: none;
+        }
+    
+        section.fullBasketContents form fieldset ul li:last-of-type > *{
+            display: inline-block; text-align: center; vertical-align: middle;
+            box-sizing: border-box;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > *:not(div){
+            line-height: 151px; 
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type div.float{
+            box-sizing: border-box;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type img{
+            width: 20%; float: left; margin-left: 10%;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type a{
+            display: block; float: left; margin-left: 8%; padding-top: 6.5%;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type a strong{
+            font-size: 20px; letter-spacing: 0; font-weight: 400; 
+            color: #444;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type a strong mark{
+            background: none; font-size: 16px; color: #aaa; font-style: normal;
+            font-weight: 300; display: block;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span button,
+        section.fullBasketContents form fieldset ul li:last-of-type > span:not(:last-of-type) input{
+            background: transparent; line-height: 24px; width: 16%;
+            text-align: center; display: block; float: left;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span input{
+            border-width: 1px 0 1px; border-style: solid; border-color: #ccc; 
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span button{
+            font-size: 21px; border: 1px solid #ccc; cursor: pointer;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span button:first-of-type{
+            margin-left: 26%;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > small{
+            font-size: 20px; color: #444;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > input[type='text']{
+            font-size: 16px; font-weight: 400; color: #444; border: none;
+            outline-style: none;
+        }
+        section.fullBasketContents form fieldset ul li:last-of-type > span input[type=button]{
+            background: none; border: 1px solid #ccc; border-radius: 3px; padding: 5px 8%;
+            color: #888; cursor: pointer;
+        }
+        section.fullBasketContents form fieldset > div{
+            float: right;
+        }
+        section.fullBasketContents form fieldset > div span{
+            font-size: 20px; font-weight: 400; color: #666; vertical-align: middle;
+            vertical-align: -8px;
+        }
+        section.fullBasketContents form fieldset > div input[type='text']{
+            font-size: 33px; font-weight: 300; color: #ff7676; outline-style: none;
+            border: none; text-align: right; width: 150px;
+        }
+        section.fullBasketContents > div{
+            text-align: center;
+        }
+        section.fullBasketContents > div input{
+            width: 30%; display: inline-block;
+        }
+        section.fullBasketContents > div input:last-of-type{
+            margin-left: 3%;
+        }
+    
+        section.emptyBasketContents{
+            padding-left: 3%; padding-right: 3%; padding-bottom: 150px;
+            display: none;
+        }
+        section.emptyBasketContents.active{
+            display: block;
+        }
+        section.emptyBasketContents div{
+            border-width: 1px 0; border-style: solid; border-color: #ccc;
+            padding: 150px 0; text-align: center;
+        }
+        section.emptyBasketContents div p{
+            font-size: 20px; color: #aaa; font-weight: 400;
+            margin-bottom: 95px;
+        }
+        section.emptyBasketContents div a{
+            font-size: 18px; color: #fff; font-weight: 300; display: block; border-radius: 5px;
+            background-color: #0058a3; width: 30%; line-height: 51px; margin: 0 auto;
+        }
+    
+    
+        div.popup{
+            display: none; width: 50%; border: 1px solid #dadada; padding-bottom: 70px;
+            position: absolute; left: 25%; z-index: 1000; background-color: white;
+        }
+        div.popup.active{
+            display: block;
+        }
+        div.popup h2,
+        div.popup a{
+            font-size: 18px; color: #fff; font-weight: 300; background-color: #0058a3; 
+        }
+        div.popup h2{
+            padding: 0 5%; line-height: 55px;
+        }
+        div.popup h2 button{
+            background-color: transparent; border: none; color: #fff; font-size: 18px;
+            float: right; line-height: 50px; font-weight: 500; cursor: pointer;
+        }
+        div.popup p{
+            padding: 100px 0; text-align: center; font-size: 16px; color: #888;
+            font-weight: 400;
+        }
+        div.popup a{
+            display: block; line-height: 45px; width: 50%; text-align: center;
+            margin: 0 auto; border-radius: 3px;
+        }
+}
+
+@media screen and (min-width: 1280px){
+    .bx-wrapper{
+        margin: 0; padding: 0; box-shadow: none; border: none;
+        background: none; position: relative;
+    }
+    .bx-wrapper .bx-controls-direction a{
+        height: 60px; width: 34px;
+    }
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+        bottom: 35px;
+    }
+    ul.slider li{
+        display: block; padding: 80px 0;
+    }
+    ul.slider li:first-of-type{
+        background-color: #8aa195;
+    }
+    ul.slider li:nth-of-type(2){
+        background-color: #393a3e;
+    }
+    ul.slider li:nth-of-type(3){
+        background-color: #d5baa8;
+    }
+    ul.slider li:last-of-type{
+        background-color: #6c6e62;
+    }
+    ul.slider li a{
+        display: block; position: relative;
+    }
+    ul.slider li a img{
+        max-width: 1400px; display: block; margin: 0 auto;
+    }
+    ul.slider li a strong{
+        position: absolute; text-align: center;
+        font-size: 70px; font-weight: 300;
+    }
+    ul.slider li:first-of-type a strong{
+        color: #ececec; left: 42%; top: 60px;
+    }
+    ul.slider li:nth-of-type(2) a strong{
+        color: #393a3e; left: 43%; top: 60px;
+    }
+    ul.slider li:nth-of-type(3) a strong{
+        color: #fff; left: 53.5%; top: 75px;
+    }
+    ul.slider li:last-of-type a strong{
+        color: #6c6e62; left: 13%; top: 120px; letter-spacing: -2px;
+    }
+    ul.slider li a strong small{
+        display: block; font-size: 24px; letter-spacing: 1px; line-height: 55px;
+    }
+    /* slider fin */
+
+    
+    section.newArea ul li{
+        float: left; display: block; width: 33.33%;
+    }
+    section.newArea ul li:first-of-type{
+        background: url('../images/gronlid_lg_sub_hover.jpg') left top / 100% no-repeat;
+    }
+    section.newArea ul li:nth-of-type(2){
+        background: url('../images/malm_wh_sub.jpg') left top / 100% no-repeat;
+    }
+    section.newArea ul li:last-of-type{
+        background: url('../images/micke_Br_sub.jpg') left top / 100% no-repeat;
+    }
+    section.newArea ul li > a{
+        display: block; position: relative; width: 100%; height: 0;
+        padding-bottom: 100%;
+    }
+    section.newArea ul li > a:hover{
+        background-color: rgba(0, 0, 0, 0.5); animation-name: new; animation-duration: 0.8s;
+    }
+    @keyframes new{
+        from{
+            opacity: 20%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+    section.newArea ul li > a span{
+        display: none; border: 1px solid #ececec; padding: 15px 12.5%;
+        color: #ececec; font-size: 18px; position: absolute; left: 28%; top: 45%;
+        font-weight: 400;
+    }
+    section.newArea ul li > a:hover span{
+        display: block;
+    }
+    section.newArea > ul li > h3{
+        font-size: 20px; font-weight: 400; color: #444; text-align: center;
+        line-height: 40px; background-color: white; padding: 20px 0;
+    }
+    section.newArea > ul li > h3 small{
+        display: block; font-size: 16px; font-weight: 400; color: #999; 
+        line-height: 26px;
+    }
+    /* newArea fin */
+    section.summerArea ul{
+        background: url('../images/fjallmott_left_2.jpg') left center / 50% no-repeat;
+        display: block;
+    }
+    section.summerArea ul li{
+        display: block; width: 50%; margin-left: 50%;
+        transition-duration: 0.5s; transition-property: background;
+    }
+    section.summerArea ul li:first-of-type{
+        background: url('../images/fjallmott_main_p.png') 10.41% center / 26% no-repeat;
+    }
+    section.summerArea ul li:first-of-type:hover{
+        background: url('../images/fjallmott_h_p.png') 11% center / 26% no-repeat;
+    }
+    section.summerArea ul li:nth-of-type(2){
+        background: url('../images/faltmal_main.jpg') right 10.41% center / 23% no-repeat;
+    }
+    section.summerArea ul li:nth-of-type(2):hover{
+        background: url('../images/faltmal_2.jpg') right 11.5% center / 23% no-repeat;
+    }
+    section.summerArea ul li:last-of-type{
+        background: url('../images/rackla_main_p.png') 10.41% center / 25% no-repeat;
+    }
+    section.summerArea ul li:last-of-type:hover{
+        background: url('../images/rackla_hover_p.png') 11% center / 25% no-repeat;
+    }
+    section.summerArea ul li:not(:nth-of-type(2)){
+        background-color: #e6eae3;
+    }
+    section.summerArea ul li:not(:nth-of-type(2)):hover{
+        background-color: #e6eae3;
+    }
+    section.summerArea ul li a{
+        display: block;
+    }
+    section.summerArea ul li:first-of-type a,
+    section.summerArea ul li:last-of-type a{
+        padding: 8% 19% 8% 42%;
+    }
+    section.summerArea ul li:nth-of-type(2) a{
+        padding: 8% 50% 8% 11%;
+    }
+    section.summerArea ul li a > *{
+        display: block;
+    }
+    section.summerArea ul li a > small{
+        font-size: 14px; font-weight: 600; color: #839672;
+        line-height: 28px; letter-spacing: 0.75px;
+    }
+    section.summerArea ul li a > strong,
+    section.summerArea ul li a > span{
+        font-size: 25px; font-weight: 300;
+        letter-spacing: -1px; line-height: 50px;
+    }
+    section.summerArea ul li a > strong{
+        color: #333;
+    }
+    section.summerArea ul li a > span{
+        color: #839672; text-align: right;
+    }
+    /* summerArea fin */
+    
+    section.bestArea ul li{
+        float: left; display: block; position: relative; width: 33.33%;
+        box-sizing: border-box; border-top: 1px solid #ececec; transition: background-size 0.4s;
+        background-repeat: no-repeat; background-position: center 30%; background-size: 70%;
+    }
+    section.bestArea ul li:nth-of-type(-n+3){
+        border-top: none;
+    }
+    section.bestArea ul li:not(:nth-of-type(3n)){
+        border-right: 1px solid #ececec;
+    }
+    section.bestArea ul li:hover{
+        background-size: 76%;
+    }
+    section.bestArea ul li > a{
+        display: block; position: relative; width: 100%; height: 0;
+        padding-bottom: 100%;
+    }
+    section.bestArea ul li > a:hover{
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1; transition-duration: 1s;
+    }
+    section.bestArea ul li > a span{
+        display: none; border: 1px solid #ececec; padding: 15px 12.5%;
+        color: #ececec; font-size: 18px; position: absolute; left: 28%; top: 48%;
+        font-weight: 400;
+    }
+    section.bestArea ul li > a:hover span{
+        display: block;
+    }
+    section.bestArea ul li > mark{
+        position: absolute; left: 3.57%; top: 3.57%; padding: 25px 15px;
+        background-color: #aaa; border-radius: 35px; color: #fff; line-height: 20px;
+        font-style: normal; font-size: 18px; font-weight: 400;
+    }
+    section.bestArea ul li > div{
+        padding: 40px 0; text-align: center;
+    }
+    section.bestArea ul li > div h3{
+        font-size: 20px; font-weight: 400; line-height: 40px; color: #222;
+    }
+    section.bestArea ul li > div small{
+        font-size: 18px; font-weight: 400; line-height: 36px; color: #ff7676;
+    }
+    /* bestArea fin */
+
+
+    section.snsArea{
+        padding-bottom: 150px;
+    }
+    section.snsArea ul li{
+        display: block; max-width: 1400px; width: 72.91%; 
+        margin: 0 auto; background-position: left top;
+        background-size: cover; background-repeat: no-repeat;
+    }
+    section.snsArea ul li:first-of-type{
+        background-image: url('../images/mainpage_facebook.jpg');
+    }
+    section.snsArea ul li:nth-of-type(2){
+        background-image: url('../images/mainpage_instagram.jpg');
+    }
+    section.snsArea ul li:last-of-type{
+        background-image: url('../images/mainpage_youtube.jpg');
+    }
+    section.snsArea ul li a{
+        display: block; text-align: center; font-size: 60px;
+        font-weight: 600; line-height: 199px; color: #888;
+        background-color: rgba(0, 0, 0, 0.7); transition-duration: 0.6s; transition-property: color, background-color, padding;
+    }
+    section.snsArea ul li a:hover{
+        color: #fff; background-color: rgba(0, 0, 0, 0.35);
+        padding-right: 1%;
+    }
+    section.snsArea ul li a span.material-icons{
+        display: none; font-size: 70px; font-weight: lighter; 
+        vertical-align: -15px; padding-left: 2%;
+    }
+    section.snsArea ul li a:hover span.material-icons{
+        display: inline-block; 
+        animation-name: sns; animation-duration: 1s;
+    }
+    @keyframes sns{
+        from{
+            padding-left: 0;
+            opacity: 20%;
+        }
+        to{
+            padding-left: 2%;
+            opacity: 100%;
+        }
+    }
+    /* mainPage fin */
+
+    section[class^='list']{
+        padding: 100px 0 150px 0;
+    }
+    section[class^='list'] > ol{
+        display: block; text-align: center; margin-bottom: 70px;
+    }
+    section[class^='list'] > ol li{
+        display: inline-block;
+    }
+    section[class^='list'] > ol li:not(:first-of-type){
+        margin-left: 0.8%;
+    }
+    section[class^='list'] > ol li a{
+        display: block; font-size: 17px; letter-spacing: 0; font-weight: 400; color: #666;
+        line-height: 40px; padding: 0 20px; border-radius: 9px;
+    }
+    section[class^='list'] > ol li a:not(.active){
+        border: 1px solid #ececec; box-shadow: 3px 5px 5px 0 #ccc;
+    }
+    section[class^='list'] > ol li a.active{
+        background-color: #666; color: #fff; border-radius: 9px;
+        box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.4);
+    }
+    section[class^='list'] > ol li a:hover{
+        transform: scale(1.1);
+    }
+    section[class^='list'] > ul li{
+        display: block; float: left; width: 33.33%; position: relative;
+        border-bottom: 1px solid #ececec; box-sizing: border-box;
+    }
+    section[class^='list'] > ul li > button{
+        display: none; position: absolute; left: 5%; top: 5%;
+        font-size: 25px; background-color: white; padding: 10px;
+        border-radius: 25px; border: none; color: #00309d;
+        z-index: 1;
+    }
+    section[class^='list'] > ul li:hover > button{
+        display: block; transition-duration: 0.5s;
+    }
+    section[class^='list'] > ul li > button:hover{
+        background-color: #00309d; color: #fff; font-weight: lighter;
+        cursor: pointer;
+    }
+    section[class^='list'] > ul li > a{
+        display: block; padding: 37.5% 50%;
+        text-indent: -9999px; background-repeat: no-repeat; background-position: center center;
+        background-size: 70%; transition: background-size 0.5s;
+        border-radius: 45px;
+    }
+    section[class^='list'] > ul li > a:hover{
+        background-size: 100%; animation-name: list; animation-duration: 0.8s;
+    }    
+    @keyframes list{
+        from{
+            opacity: 20%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+    section[class^='list'] > ul li > div{
+        padding: 40px 0; text-align: center;
+    }
+    section[class^='list'] > ul li > div > *{
+        letter-spacing: 0; line-height: 40px; font-weight: 400;
+    }
+    section[class^='list'] > ul li > div h3{
+        font-size: 20px; color: #444;
+    }
+    section[class^='list'] > ul li > div span{
+        font-size: 18px; color: #ff7676;
+    }
+
+    section.list_newAllvals ol li button{
+        display: block; font-size: 17px; letter-spacing: 0; font-weight: 400; color: #666;
+        line-height: 40px; padding: 0 20px; border-radius: 9px;
+        background-color: #fff; border: 1px solid #ececec;
+        box-shadow: 3px 5px 5px 0 #ccc; cursor: pointer;
+    }
+    section.list_newAllvals ol li button:hover{
+        transform: scale(1.1);
+    }
+    section.list_newAllvals ol li button.active{
+        background-color: #666; color: #fff; border-radius: 9px;
+        box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.4); border: none;
+    }
+    /* list Fin */
+    
+    section[class^=detail]{
+        padding: 80px 0 150px 0;
+    }
+    section[class^='detail'] > div.topArea{
+        margin-bottom: 150px;
+    }
+
+    section[class^='detail'] > div.topArea > div.firstDiv,
+    section[class^='detail'] > div.topArea > div.secondDiv{
+        float: left;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv{
+        width: 60%;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv ul{
+        width: 11%; padding: 7.9% 9%; float: left;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv ul li{
+        display: block; border-radius: 8px; cursor: pointer;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv ul li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv ul li img{
+        width: 100%; margin: 0 auto; border-radius: 8px;
+    }
+    section[class^='detail'] > div.topArea > div.firstDiv > img{
+        display: block; width: 66.62%; float: left; border-radius: 15px;
+        max-width: 670px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv{
+        margin-left: 4.76%; width: 35%; right: 3%; 
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv h2{
+        border-top: 2px solid #333; padding: 40px 5%; line-height: 40px;
+        font-size: 25px; color: #222; font-weight: 400; letter-spacing: 0px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv h2 mark{
+        float: right; font-size: 26px; font-weight: 400;
+        color: #ff7676; font-style: normal; background-color: transparent;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv h2 small{
+        display: block; font-size: 16px; font-weight: 300; color: #666;
+        line-height: 35px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset{
+        border-width: 1px 0 1px 0; border-style: solid; border-color: #dadada;
+        padding: 30px 0; margin: 0 5% 40px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='modelName'],
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset label[for='size'],
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+        font-size: 16px; color: #888; letter-spacing: 0.75px; font-weight: 400;
+        line-height: 40px; width: 20%; display: inline-block;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset span{
+        float: left;
+    }
+    #modelName,
+    #size{
+        display: inline-block; width: 70%; background-color: transparent; border: none;
+        font-size: 18px; font-weight: 600; color: #444; letter-spacing: 0.25px;
+    }
+    section[class^='detail'] div.secondDiv form fieldset > a{
+        background-repeat: no-repeat; background-size: 50px; background-position: center center;
+        text-indent: -9999px; display: block; width: 55px; height: 55px; float: left;
+    }
+    section[class^='detail'] div.secondDiv form fieldset > a:not(:first-of-type){
+        margin-left: 2%;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > fieldset a.active{
+        box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
+    section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        line-height: 50px; display: inline-block; border-radius: 6px; cursor: pointer;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
+        width: 75%; background-color: #0058a3; border: none; color: #fff;
+        font-size: 18px; font-weight: 400; margin: 0 0 5% 30px;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        width: 12%; font-size: 23px; background-color: transparent; vertical-align: top;
+        border: 1px solid #0058a3; color: #0058a3; text-align: center;
+        margin-right: 5%;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv > p{
+        padding: 0 5%; color: #444; font-size: 15px; font-weight: 300;
+    }
+    section[class^='detail'] > div.topArea > div.secondDiv > p span{
+        vertical-align: -6px; padding-right: 2%;
+    }
+
+    section[class^='detail'] > div.bottomArea{
+        padding-top: 150px; border-top: 1px solid #dadada;
+        text-align: center;
+    }
+    section[class^='detail'] > div.bottomArea img{
+        border-radius: 30px;
+    }
+    section[class^='detail'] > div.bottomArea > h3{
+        font-size: 60px; font-weight: 100; letter-spacing: -1px; line-height: 120px;
+        margin-bottom: 100px;
+    }
+    section[class^='detail'] > div.bottomArea > h3 small{
+        display: block; font-size: 30px; letter-spacing: 0.25px; color: #999;
+        font-weight: 400; line-height: 50px;
+    }
+    section[class^='detail'] > div.bottomArea > figure:first-of-type img,
+    section[class^='detail'] > div.bottomArea > figure:last-of-type img{
+        max-width: 1000px; width: 59.52%; margin-bottom: 100px;
+    }
+    section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption,
+    section[class^='detail'] > div.bottomArea > p,
+    section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+        width: 40%; margin: 0 auto; font-size: 26px;
+        line-height: 50px; letter-spacing: 0; color: #666; font-weight: 300;
+    }
+    section[class^='detail'] > div.bottomArea > figure:first-of-type figcaption{
+        margin-bottom: 100px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:first-of-type{
+        width: 59.52%; margin: 0 auto; margin-bottom: 100px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:first-of-type li{
+        float: left; display: block; width: 48%;
+    }
+    section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(2n){
+        margin-left: 3%;
+    }
+    section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(3),
+    section[class^='detail'] > div.bottomArea > ul:first-of-type li:nth-of-type(4){
+        margin-top: 20px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:first-of-type li img{
+        max-width: 480px; width: 100%;
+    }
+    section[class^='detail'] > div.bottomArea > p{
+        margin-bottom: 100px;
+    }
+    section[class^='detail'] > div.bottomArea > p span{
+        display: block; margin-top: 55px;
+    }
+    section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption{
+        margin-bottom: 150px;
+    }
+    section[class^='detail'] > div.bottomArea > figure:last-of-type figcaption dt{
+        margin-bottom: 55px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:last-of-type{
+        border-width: 1px 0 1px; border-style: solid; border-color: #dadada;
+    }
+    section[class^='detail'] > div.bottomArea > ul:last-of-type li{
+        display: block; text-align: left; float: left; width: 25%; padding: 50px 3%;
+        box-sizing: border-box;
+    }
+    section[class^='detail'] > div.bottomArea > ul:last-of-type li:nth-of-type(2) img{
+        width: 90%; margin-top: 20px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:last-of-type li h4{
+        font-size: 18px; font-weight: 500; letter-spacing: 0.75px; color: #444;
+        margin-bottom: 30px;
+    }
+    section[class^='detail'] > div.bottomArea > ul:last-of-type li p{
+        font-size: 16px; letter-spacing: 0.75px; font-weight: 400; color: #888;
+        line-height: 24px; display: block;
+    }
+    /* detail Fin */
+  
+    div.Terms{
+        padding-bottom: 100px;
+    }
+    div.Terms section{
+        margin-bottom: 80px; padding: 0 3%;
+    }
+    div.Terms section h3{
+        font-size: 30px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+        border-bottom: 1px solid #0058a3; line-height: 60px;
+        margin-bottom: 60px;
+    }
+    div.Terms section > article{
+        margin-bottom: 40px;
+    }
+    div.Terms section > article h4{
+        font-size: 20px; letter-spacing: 0.5px; color: #444;
+        margin-bottom: 20px; font-weight: 500;
+    }
+    div.Terms section > article > ul li{
+        font-size: 16px; margin-bottom: 10px; line-height: 25px;
+        font-weight: 400; color: #666; 
+        letter-spacing: 0.1px; list-style-position: inside;
+    }
+    div.Terms section > article > ul li > ol{
+        padding-left: 1.5%;
+    }
+    div.Terms section > article > ul li > ol li{
+        line-height: 25px; color: #777; margin-bottom: 0;
+    }
+
+    section.privacyTerms{
+        padding-bottom: 100px;
+    }
+    section.privacyTerms article{
+        padding: 0 3%;
+    }
+    section.privacyTerms article h3{
+        font-size: 30px; font-weight: 500; color: #0058a3; letter-spacing: 0.5px;
+        border-bottom: 1px solid #0058a3; line-height: 60px;
+        margin-bottom: 40px;
+    }
+    section.privacyTerms article:not(:first-of-type) h3{
+        padding-top: 40px;
+    }
+    section.privacyTerms article p{
+        font-size: 16px; line-height: 25px;
+        font-weight: 400; color: #666; margin-bottom: 20px;
+    }
+    section.privacyTerms article > ul li{
+        list-style: none;
+    }
+    section.privacyTerms article h4{
+        font-size: 20px; letter-spacing: 0.5px; color: #444;
+        margin-bottom: 20px; font-weight: 500; padding-top: 20px;
+    }
+    section.privacyTerms article ol li{
+        list-style: disc; list-style-position: inside;
+        font-size: 16px; line-height: 26px;
+        font-weight: 400; color: #666;
+    }
+    section.privacyTerms article ol li:last-of-type{
+        margin-bottom: 20px;
+    }
+    section.privacyTerms article ol li > p{
+        padding-left: 1.3%;
+    }
+
+    section.customerContents{
+        padding-bottom: 100px;
+    }
+    section.customerContents a{
+        width: 33.33%; background-position: left top; background-repeat: no-repeat;
+        background-size: 100%; display: block; float: left;
+        position: relative; 
+    }
+    section.customerContents a:first-of-type{
+        background-image: url('../images/service_1.jpg');
+    }
+    section.customerContents a:nth-of-type(2){
+        background-image: url('../images/service_2.jpg');
+    }
+    section.customerContents a:last-of-type{
+        background-image: url('../images/service_3.jpg');
+    }
+    section.customerContents a span{
+        width: 100%; height: 0; padding: 65% 0; transition: background-color 0.8s;
+        display: flex; justify-content: center; align-items: center;
+    }
+    section.customerContents a span:hover{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    section.customerContents a span strong{
+        display: none; width: 45%; text-align: center;  padding: 60px 40px;
+        border: 1px solid #fff; font-size: 30px; font-weight: 300;
+        color: #fff;
+        
+        /* position: absolute; left: calc((100% - (45% + 80px)) / 2); top: 25%; */
+    }
+    section.customerContents a span:hover strong{
+        display: block;
+    }
+    section.customerContents a span strong small{
+        display: block; font-size: 17px; font-weight: 300; line-height: 26px;
+    }
+    section.customerContents a span strong small:first-of-type{
+        margin: 40px 0 20px;
+    }
+
+    section.loginContents{
+        padding-bottom: 150px; width: 540px;
+    }
+    section.loginContents form fieldset{
+        margin: 0 auto; border-top: 1px solid #666; margin-bottom: 80px;
+    }
+    section.loginContents form fieldset legend{
+        padding: 0 4%; margin-bottom: 30px; font-size: 14px; font-weight: 400;
+        color: #444;
+    }
+    section.loginContents form fieldset > input{
+        display: block; width: 100%; outline-style: none;
+    }
+    section.loginContents form fieldset > input[type=text],
+    section.loginContents form fieldset > input[type=password]{
+        border: 1px solid #ccc; padding: 16px 4.7%; border-radius: 3px;
+        box-sizing: border-box;
+    }
+    section.loginContents form fieldset > input[type=text]{
+        margin-bottom: 20px;
+    }
+    section.loginContents form fieldset > input[type=password]{
+        margin-bottom: 15px;
+    }
+    section.loginContents form fieldset > input[type=text]::placeholder,
+    section.loginContents form fieldset > input[type=password]::placeholder{
+        background-position: left center; background-size: 3%;
+        background-repeat: no-repeat; padding-left: 5%; font-size: 14px;
+        color: #ccc; font-weight: 400;
+    }
+    section.loginContents form fieldset > input[type=text]::placeholder{
+        background-image: url('../images/ico_id.png');
+    }
+    section.loginContents form fieldset > input[type=password]::placeholder{
+        background-image: url('../images/ico_rock.png');
+    }
+    section.loginContents form fieldset > div{
+        padding: 0 5.3%; margin-bottom: 40px;
+    }
+    section.loginContents form fieldset > div input[id='saveID']{
+        display: none;
+    }
+    section.loginContents form fieldset > div input[id='saveID'] + label{
+        background: url('../images/ico_check_offf.png') left center / 15% no-repeat;
+    }
+    section.loginContents form fieldset > div input[id='saveID']:checked + label{
+        background: url('../images/ico_check_on.png') left center / 15% no-repeat;
+    }
+    section.loginContents form fieldset > div label[for='saveID']{
+        padding-left: 4%;
+    }
+    section.loginContents form fieldset > div label[for='saveID'],
+    section.loginContents form fieldset > div span a{
+        font-size: 14px; font-weight: 400; color: #666; letter-spacing: 0.25px;
+    }
+    section.loginContents form fieldset > div span{
+        float: right;
+    }
+    section.loginContents form fieldset > div span a:last-of-type::before{
+        content: '/'; 
+    }
+    section.loginContents > div{
+        margin: 0 auto; border: 1px solid #dadada;
+        padding: 60px 18%; box-sizing: border-box; text-align: center;
+    }
+    section.loginContents > div > p{
+        margin-bottom: 40px; font-size: 16px; letter-spacing: 0.25px; font-weight: 300;
+        color: #aaa; line-height: 24px;
+    }
+
+    section.signupContents{
+        padding-bottom: 100px;
+    }
+    section.signupContents > form fieldset ul{
+        margin-bottom: 60px;
+    }
+    section.signupContents > form fieldset ul li,
+    section.signupContents > form fieldset ul li:not(:last-of-type) > *{
+        display: block; width: 100%;
+    }
+    section.signupContents > form fieldset ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    section.signupContents > form fieldset ul li:nth-of-type(2) input:first-of-type{
+        margin-bottom: 10px;
+    }
+    section.signupContents > form fieldset ul li:last-of-type > *{
+        display: block;
+    }
+    section.signupContents > form fieldset ul li:last-of-type select{
+        width: 19%; float: left; background: none; border: none; border-width: 0 0 1px;
+        border-color: #ccc; border-style: solid; padding: 7px 3%;
+        color: #aaa; outline-style: none;
+    }
+    section.signupContents > form fieldset ul li:last-of-type input{
+        float: left; width: 81%;
+    }
+    
+    section.findContents{
+        padding-bottom: 100px;
+    }
+    section.findContents > form fieldset > label,
+    section.findContents > form fieldset > input:not(:last-of-type){
+        display: block; width: 100%;
+    }
+    section.findContents > form fieldset > input[id='userName'],
+    section.findContents > form fieldset > input[id='ID']{
+        margin-bottom: 40px;
+    }
+    section.findContents > form fieldset select{
+        width: 19%; float: left; background: none; border: none; border-width: 0 0 1px;
+        border-color: #ccc; border-style: solid; padding: 7px 3%;
+        color: #aaa; outline-style: none; margin-bottom: 130px;
+    }
+    section.findContents > form fieldset select,
+    section.findContents > form fieldset input[type='tel']{
+        float: left;
+    }
+    section.findContents > form fieldset input[type='tel']{
+        width: 81%;
+    }
+
+    section.signuptermContents{
+        padding-bottom: 150px;
+    }
+    section.signuptermContents form fieldset > ul{
+        margin-bottom: 150px;  list-style: none;
+    }
+    section.signuptermContents form fieldset > ul li:first-of-type label{
+        display: block;
+    }
+    section.signuptermContents form fieldset > ul li:first-of-type{
+        margin-bottom: 60px;
+    }
+    section.signuptermContents form fieldset > ul li input[type='checkbox']{
+        display: none;
+    }
+    section.signuptermContents form fieldset > ul li input[type='checkbox'] + label{
+        background: url('../images/ico_checkOff.png') left 60% / 18px no-repeat;
+    }
+    section.signuptermContents form fieldset > ul li input[type='checkbox']:checked + label{
+        background: url('../images/ico_checkOn.png') left 60% / 18px no-repeat;
+    }
+    section.signuptermContents form fieldset > ul li:first-of-type label{
+        font-size: 20px; font-weight: 400; color: #222; margin-bottom: 15px;
+    }
+    section.signuptermContents form fieldset > ul li label,
+    section.signuptermContents form fieldset > ul li p{
+        padding-left: 8%; letter-spacing: 0.25px; line-height: 24px;
+        font-size: 16px;
+    }
+    section.signuptermContents form fieldset > ul li p{
+        color: #aaa; font-weight: 300;
+    }
+    section.signuptermContents form fieldset > ul li label{
+        color: #222; font-weight: 400;
+    }
+    section.signuptermContents form fieldset > ul li:not(:first-of-type,:last-of-type){
+        margin-bottom: 20px;
+    }
+    section.signuptermContents form fieldset > ul li:not(:first-of-type) label{
+        display: inline-block; width: 85%;
+    }
+    section.signuptermContents form fieldset > ul li a{
+        font-size: 15px; color: #444; float: right; font-weight: 400;
+        line-height: 24px;
+    }
+
+    section.deliveryContents{
+        padding-bottom: 150px;
+    }
+    section.deliveryContents form fieldset > *:not(input:last-of-type){
+        display: block; width: 100%;
+    }
+    section.deliveryContents form fieldset label{
+        margin-bottom: 10px;
+    }
+    section.deliveryContents form fieldset input[id='userName'],
+    section.deliveryContents form fieldset input[id='number']{
+        margin-bottom: 40px;
+    }
+    section.deliveryContents form fieldset input[id='password']{
+        margin-bottom: 80px;
+    }
+    
+    section.exchangeContents,
+    section.errorContents{
+        padding-left: 3%; padding-right: 3%; margin-bottom: 50px;
+    }
+    section.exchangeContents table caption,
+    section.errorContents table caption{
+        display: none;
+    }
+    section.errorContents h2{
+        letter-spacing: -2px;
+    }
+    section.exchangeContents table colgroup col,
+    section.errorContents table colgroup col{
+        text-align: center; width: 50%; border: 1px solid #dadada;
+    }
+    section.exchangeContents table thead tr th,
+    section.errorContents table thead tr th{
+        background-color: #0058a3; font-size: 25px; font-weight: 300; color: #fff;
+        line-height: 65px;
+    }
+    section.exchangeContents table tbody tr td,
+    section.errorContents table tbody tr td{
+        padding: 60px 5%; font-size: 18px; color: #444; letter-spacing: 0.25px;
+        line-height: 26px; font-weight: 300;
+    }
+    section.errorContents table tbody tr td a{
+        display: inline-block; color: #0058a3; border-bottom: 1px solid #0058a3; padding: 10px 0 5px;
+    }
+
+    section.refundContents,
+    section.questionContents{
+        padding-left: 3%; padding-right: 3%;
+    }
+    section.refundContents{
+        margin-bottom: 50px;
+    }
+    section.questionContents{
+        margin-bottom: 150px;
+    }
+    section.refundContents ul li,
+    section.questionContents ul li{
+        display: block;
+    }
+    section.refundContents ul li h3,
+    section.questionContents ul li h3{
+        font-size: 25px; font-weight: 500; letter-spacing: -0.5px; color: #444;
+        border-bottom: 1px solid #dadada; line-height: 55px; margin-bottom: 25px;
+    }
+    section.refundContents ul li p,
+    section.questionContents ul li p{
+        font-size: 18px; color: #666; font-weight: 300; letter-spacing: 0.1px;
+        line-height: 26px;
+    }
+    section.refundContents ul li p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    section.refundContents ul li p:last-of-type,
+    section.questionContents ul li:not(:last-of-type) p{
+        margin-bottom: 50px;
+    }
+    section.questionContents ul li p a{
+        display: inline-block; line-height: 45px; border-bottom: 1px solid #0058a3; color: #0058a3;
+    }
+
+    
+    section.companyContents{
+        padding-left: 3%; padding-right: 3%; margin-bottom: 60px;
+    }
+    section.companyContents figure:first-of-type{
+        margin-bottom: 50px;
+    }
+    section.companyContents figure img{
+        max-width: 840px; width: 50%; float: left;
+    }
+    section.companyContents figure figcaption{
+        width: 48%; float: left; display: block; margin-left: 2%;
+    }
+    section.companyContents figure figcaption hr{
+        margin-top: 0; width: 11%; border-top: 2px solid #222;  
+    }
+    section.companyContents figure figcaption h3{
+        font-size: 25px; color: #222; font-weight: 300;
+        letter-spacing: 0.5px; margin-bottom: 40px;
+    }
+    section.companyContents figure:first-of-type figcaption p:not(:last-of-type),
+    section.companyContents figure:last-of-type figcaption p{
+        font-size: 16px; letter-spacing: 0.5px; font-weight: 400;
+        color: #666; line-height: 24px;
+    }
+    section.companyContents figure:first-of-type figcaption p:first-of-type{
+        margin-bottom: 30px;
+    }
+    section.companyContents figure:first-of-type figcaption p:last-of-type{
+        background: url('../images/company_2.png') left bottom / 30% no-repeat;
+        font-size: 20px; font-weight: 300; line-height: 28px; color: #888;
+        vertical-align: 0.5px; text-align: right; padding-top: 100px;
+        padding-left: 30%;
+    }
+    section.companyContents figure:first-of-type figcaption p:last-of-type mark{
+        display: block; font-size: 30px; padding: 60px 0 70px; font-weight: 100; color: #ccc;
+        background-color: transparent;
+    }
+    section.companyContents figure:last-of-type figcaption{
+        background: url('../images/company_4.jpg') left bottom / contain no-repeat;
+        padding-bottom: 150px;
+    }
+    section.companyContents figure:last-of-type figcaption p:first-of-type{
+        margin-bottom: 90px;
+    }
+
+    section.history{
+        padding: 0 3% 150px;
+    }
+    section.history hr{
+        border-top: 2px solid #222; width: 4%;
+    }
+    section.history h2{
+        font-size: 25px; letter-spacing: -0.5px; color: #222; font-weight: 400;
+        margin-bottom: 40px;
+    }
+    section.history .wrap{
+        display: flex; padding: 0 3%;
+    }
+    section.history .wrap h3{
+        margin-right: 3%; font-size: 60px; font-weight: 100; color: #0058a3;
+        letter-spacing: 0.5px;
+    }
+    section.history .wrap div{
+        padding-top: 27px;
+    }
+    section.history .wrap div p{
+        font-size: 20px; letter-spacing: -0.5px; color: #444; font-weight: 300;
+        position: relative; padding-left: 25px; padding-bottom: 30px;
+    }
+    section.history .wrap div p::after{
+        content: ''; position: absolute; left: -5px; top: 5px; width: 7px; height: 7px;
+        background-color: #0058a3; border-radius: 3.5px; 
+    }
+    section.history .wrap div p::before{
+        content: ''; position: absolute; left: -2px; top: 10px; width: 1px;
+        background-color: #0058a3; opacity: 0.6;
+    }
+    section.history .wrap div p:not(:last-of-type)::before{
+        height: 45px;
+    }
+    section.history .wrap:not(:last-of-type) div p:last-of-type:before{
+        height: 75px;
+    }
+    
+    section.fullBasketContents{
+        padding-bottom: 150px;
+    }
+    section.fullBasketContents.active{
+        display: none;
+    }
+    section.fullBasketContents form fieldset{
+        padding: 0 3%; box-sizing: border-box; margin-bottom: 140px;
+    }
+    section.fullBasketContents form fieldset > span{
+        font-size: 14px; font-weight: 400; letter-spacing: 0;
+        color: #444; line-height: 40px;
+    }
+    section.fullBasketContents form fieldset > span:nth-of-type(2){
+        float: right;
+    }
+    section.fullBasketContents form fieldset ul{
+        border-width: 1px 0; border-style: solid; border-color: #ccc;
+        margin-bottom: 20px;
+    }
+    section.fullBasketContents form fieldset ul li:first-of-type{
+        border-bottom: 1px solid #ccc;
+    }
+    section.fullBasketContents form fieldset ul li{
+        list-style: none;
+    }
+    section.fullBasketContents form fieldset ul li:first-of-type > *{
+        font-size: 14px; color: #666; letter-spacing: 0; font-weight: 400;
+        display: inline-block; text-align: center; line-height: 47px;
+    }
+    section.fullBasketContents form fieldset ul li > input[type="checkbox"]{
+        display: none;
+    }
+    section.fullBasketContents form fieldset ul li label[for^='check']{
+        width: 3.86%; text-indent: -9999px;
+    }
+    section.fullBasketContents form fieldset ul li > input[type="checkbox"] + label{
+        background: url('../images/ico_check_off.png') center center / 18px no-repeat;
+    }
+    section.fullBasketContents form fieldset ul li > input[type="checkbox"]:checked + label{
+        background: url('../images/ico_check_on.png') center center / 18px no-repeat;
+    }
+    section.fullBasketContents form fieldset ul li:first-of-type span:first-of-type,
+    section.fullBasketContents form fieldset ul li:last-of-type div{
+        width: 48%;
+    }
+    section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(2),
+    section.fullBasketContents form fieldset ul li:last-of-type > small{
+        width: 15.47%;
+    }
+    section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(3),
+    section.fullBasketContents form fieldset ul li:first-of-type span:nth-of-type(4),
+    section.fullBasketContents form fieldset ul li:last-of-type > span:not(:last-of-type),
+    section.fullBasketContents form fieldset ul li:last-of-type > input[type="text"]{
+        width: 11.60%;
+    }
+    section.fullBasketContents form fieldset ul li span:last-of-type{
+        width: 7.73%;
+    }
+
+    section.fullBasketContents form fieldset ul li:last-of-type > *{
+        display: inline-block; text-align: center; vertical-align: middle;
+        box-sizing: border-box;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > *:not(div){
+        line-height: 151px; 
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type div.float{
+        box-sizing: border-box;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type img{
+        width: 20%; float: left; margin-left: 10%;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type a{
+        display: block; float: left; margin-left: 8%; padding-top: 7.5%;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type a strong{
+        font-size: 20px; letter-spacing: 0; font-weight: 400; 
+        color: #444;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type a strong mark{
+        background: none; font-size: 16px; color: #aaa; font-style: normal;
+        font-weight: 300; display: block;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > span button,
+    section.fullBasketContents form fieldset ul li:last-of-type > span:not(:last-of-type) input{
+        background: transparent; line-height: 24px; width: 16%;
+        text-align: center; display: block; float: left;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > span input{
+        border-width: 1px 0 1px; border-style: solid; border-color: #ccc; 
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > span button{
+        font-size: 21px; border: 1px solid #ccc; cursor: pointer;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > span button:first-of-type{
+        margin-left: 26%;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > small{
+        font-size: 20px; color: #444;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > input[type='text']{
+        font-size: 16px; font-weight: 400; color: #444; border: none;
+        outline-style: none;
+    }
+    section.fullBasketContents form fieldset ul li:last-of-type > span input[type=button]{
+        background: none; border: 1px solid #ccc; border-radius: 3px; padding: 5px 8%;
+        color: #888; cursor: pointer;
+    }
+    section.fullBasketContents form fieldset > div{
+        float: right;
+    }
+    section.fullBasketContents form fieldset > div span{
+        font-size: 20px; font-weight: 400; color: #666; vertical-align: middle;
+        vertical-align: -8px;
+    }
+    section.fullBasketContents form fieldset > div input[type='text']{
+        font-size: 33px; font-weight: 300; color: #ff7676; outline-style: none;
+        border: none; text-align: right; width: 150px;
+    }
+    section.fullBasketContents > div{
+        text-align: center;
+    }
+    section.fullBasketContents > div input{
+        width: 30%; display: inline-block;
+    }
+    section.fullBasketContents > div input:last-of-type{
+        margin-left: 3%;
+    }
+
+    section.emptyBasketContents{
+        padding-left: 3%; padding-right: 3%; padding-bottom: 150px;
+        display: none;
+    }
+    section.emptyBasketContents.active{
+        display: block;
+    }
+    section.emptyBasketContents div{
+        border-width: 1px 0; border-style: solid; border-color: #ccc;
+        padding: 150px 0; text-align: center;
+    }
+    section.emptyBasketContents div p{
+        font-size: 25px; color: #aaa; font-weight: 400;
+        margin-bottom: 95px;
+    }
+    section.emptyBasketContents div a{
+        font-size: 18px; color: #fff; font-weight: 300; display: block; border-radius: 5px;
+        background-color: #0058a3; width: 30%; line-height: 51px; margin: 0 auto;
+    }
+
+
+    div.popup{
+        display: none; width: 32%; border: 1px solid #dadada; padding-bottom: 70px;
+        position: absolute; left: 34%; z-index: 1000; background-color: white;
+    }
+    div.popup.active{
+        display: block;
+    }
+    div.popup h2,
+    div.popup a{
+        font-size: 18px; color: #fff; font-weight: 300; background-color: #0058a3; 
+    }
+    div.popup h2{
+        padding: 0 5%; line-height: 55px;
+    }
+    div.popup h2 button{
+        background-color: transparent; border: none; color: #fff; font-size: 18px;
+        float: right; line-height: 50px; font-weight: 500; cursor: pointer;
+    }
+    div.popup p{
+        padding: 100px 0; text-align: center; font-size: 18px; color: #888;
+        font-weight: 400;
+    }
+    div.popup a{
+        display: block; line-height: 45px; width: 50%; text-align: center;
+        margin: 0 auto; border-radius: 3px;
+    }
+}

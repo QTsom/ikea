@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/pop.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="basket">
+        <h2>
+            장바구니 담기
+            <button class="pop_close">X</button>
+        </h2>
+        <p>
+            장바구니에 상품이 정상적으로 담겼습니다.
+        </p>
+        <a href="etc_shoppingBasket.html">장바구니 가기</a>
+    </div>
+    
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detail_simrishamn">
+        <div class="topArea float">
+            <div class="firstDiv float">
+                <ul>
+                    <li class="activated">
+                        <img src="images/simrishamn_Wh_1_m.jpg" alt="main">
+                    </li>
+                    <li>
+                        <img src="images/simrishamn_Wh_2.jpg" alt="detail 1">
+                    </li>
+                    <li>
+                        <img src="images/simrishamn_Wh_3.jpg" alt="detail 2">
+                    </li>
+                    <li>
+                        <img src="images/simrishamn_Wh_sub_h.jpg" alt="detail 3">
+                    </li>
+                </ul>
+                <img src="images/simrishamn_Wh_1_m.jpg" alt="main">
+            </div>
+            <div class="secondDiv">
+                <h2>
+                    SIMRISHAMN 심리스함
+                    <mark>￦ 99,900</mark>
+                    <small>플로어스탠드</small>
+                </h2>
+                <form>
+                    <fieldset>
+                        <label for="modelName">모델명</label>
+                        <input type="text" id="modelName" value="SIMRISHAMN LAMP (WHITE)" disabled>
+                        <label for="size">규격</label>
+                        <input type="text" id="size" value="158x30" disabled>
+                        <span>색상</span>
+                        <a href="dl_simrishamn_wh.html" class="active">WHITE</a>
+                    </fieldset>
+                        <input type="submit" value="구매하기">
+                        <button data-popName="basket" class="material-icons callPopup">
+                            add_shopping_cart
+                        </button>
+                </form>
+                <p>
+                    <span class="material-icons">
+                        local_shipping
+                    </span>
+                    배송 여부는 결제 단계에서 확인하실 수 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="bottomArea">
+            <h3>
+                SIMRISHAMN LAMP
+                <small>WHITE</small>
+            </h3>
+            <figure>
+                <img src="images/simrishamn_Wh_1_m.jpg" alt="main img">
+                <figcaption>
+                    SIMRISHAMN 심리스함 시리즈의 멋진 유리와 크롬 조명이에요. 집안 분위기를 멋지게 만들어 주는 모던한 느낌의 조명이죠. 단독으로 사용해 포인트를 주거나 시리즈의 다른 조명과 함께 사용해보세요.
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li><img src="images/simrishamn_Wh_2.jpg" alt="detail img 1"></li>
+                <li><img src="images/simrishamn_Wh_3.jpg" alt="detail img 2"></li>
+            </ul>
+            <p>                
+                유리 전등갓은 빛이 분산되어 멋스러운 조명을 선사합니다. 전구는 별도 판매입니다. LED 전구 E14 구형 오팔화이트(3개)를 권장합니다. 
+                <span>
+                    디자이너<br>
+                    I Bermudez/H Dalrot/A Probyn
+                </span>
+            </p>
+            <figure>
+                <img src="images/simrishamn_Wh_sub_2.jpg" alt="sub img 1">
+                <img src="images/simrishamn_Wh_sub_h.jpg" alt="sub img 2">
+                <figcaption>
+                    <dl>
+                        <dt>지속가능성 & 환경</dt>
+                        <dd>
+                            별도의 분리수거가 필요할 수 있습니다. 자세한 내용은 해당 지역의 관련시설에 문의하세요. IKEA는 세상에 바람직한 변화를 불러일으키고자 해요. 그래서 2030년까지 모든 제품에 재활용 또는 재생 가능한 소재를 사용하고 책임감 있는 방식의 출처에서 재료를 공급받으려고 합니다. 이 제품에 재활용 플라스틱을 사용해서 IKEA는 원재료 소비량과 환경에 미치는 영향을 줄이면서 기존 소재에 새로운 생명을 불어넣고 있어요.
+                        </dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li>
+                    <h4>소재&관리</h4>
+                    <p>
+                        베이스/ 튜브/ 전구 소켓 컵: 스틸, 크롬도금<br>
+                        중량: 강화 EVA 플라스틱<br>
+                        갓: 유리, 페인트<br>
+                        깨끗한 천으로 물기를 닦아주세요.<br>
+                        물로 적신 천으로 깨끗하게 닦으세요.
+                    </p>
+                </li>
+                <li>
+                    <h4>제품크기</h4>
+                    <p>
+                        높이: 158 cm<br>
+                        받침 지름: 30 cm<br>
+                        코드 길이: 200 cm<br>
+                        최대: 7 W
+                    </p>
+                </li>
+                <li>
+                    <h4>포장</h4>
+                    <p>
+                        폭: 41 cm<br>
+                        높이: 19 cm<br>
+                        길이: 65 cm<br>
+                        무게: 6.78 kg<br>
+                        패키지: 1
+                    </p>
+                </li>
+                <li>
+                    <h4>고시정보</h4>
+                    <p>
+                        인증필 유무: XU110123-19031<br>
+                        색상: 제품명 또는 이미지 참조<br>
+                        구성품: 제품정보 또는 구성품 탭 참조<br>
+                        크기: 제품정보 탭 참조<br>
+                        중량: 제품정보 탭 참조<br>
+                        재질: 재질 및 환경 탭 참조<br>
+                        제조사: IKEA of Sweden AB<br>
+                        제조국: 중국<br>
+                        수입자: 이케아 코리아 유한회사<br>
+                        배송&설치비용: 이케아 서비스 페이지 참조<br>
+                        품질보증: IKEA 품질 보증 기준을 따릅니다. 홈페이지에서 IKEA 품질 보증을 확인 하세요.<br>
+                        교환 환불 책임자와 전화 번호: 이케아코리아 유한회사/ 1670-4532<br>
+                        동일모델의 출시년월: 8/1/2020<br>
+                        취급시 주의 사항(세탁방법 및 사용 연령): 제품정보 탭 참조<br>
+                        정격전압, 소비전력: AC220V<br>
+                        제조년월 제조일자:번째 주 생산제품)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</body>
+</html>

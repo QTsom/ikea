@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/pop.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="basket">
+        <h2>
+            장바구니 담기
+            <button class="pop_close">X</button>
+        </h2>
+        <p>
+            장바구니에 상품이 정상적으로 담겼습니다.
+        </p>
+        <a href="etc_shoppingBasket.html">장바구니 가기</a>
+    </div>
+    
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detail_malm">
+        <div class="topArea float">
+            <div class="firstDiv float">
+                <ul>
+                    <li class="activated">
+                        <img src="images/malm_Br_1_m.jpg" alt="main">
+                    </li>
+                    <li>
+                        <img src="images/malm_Br_2_h.jpg" alt="detail 1">
+                    </li>
+                    <li>
+                        <img src="images/malm_Br_3.jpg" alt="detail 2">
+                    </li>
+                    <li>
+                        <img src="images/malm_Br_4.jpg" alt="detail 3">
+                    </li>
+                </ul>
+                <img src="images/malm_Br_1_m.jpg" alt="main">
+            </div>
+            <div class="secondDiv">
+                <h2>
+                    MALM 말름 - 브라운 
+                    <mark>￦ 469,000</mark>
+                    <small>더블/퀸/킹 침대</small>
+                </h2>
+                <form>
+                    <fieldset>
+                        <label for="modelName">모델명</label>
+                        <input type="text" id="modelName" value="MALM BED (BROWN)" disabled>
+                        <label for="size">규격</label>
+                        <input type="text" id="size" value="200x150" disabled>
+                        <span>색상</span>
+                        <a href="db_malm_wh.html">WHITE</a>
+                        <a href="db_malm_br.html" class="active">BROWN</a>
+                        <a href="db_malm_bk.html">BLACK</a>
+                    </fieldset>
+                        <input type="submit" value="구매하기">
+                        <button data-popName="basket" class="material-icons callPopup">
+                            add_shopping_cart
+                        </button>
+                </form>
+                <p>
+                    <span class="material-icons">
+                        local_shipping
+                    </span>
+                    배송 여부는 결제 단계에서 확인하실 수 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="bottomArea">
+            <h3>
+                MALM BED
+                <small>BROWN</small>
+            </h3>
+            <figure>
+                <img src="images/malm_Br_1_m.jpg" alt="main img">
+                <figcaption>
+                    원목 무늬목으로 깔끔한 디자인이 돋보입니다. 독립형으로 또는 침대헤드와 함께 사용할 수 있습니다. 바퀴가 있어 쉽게 넣고 뺄 수 있는 넉넉한 수납공간도 있어 더욱 편리합니다.
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li><img src="images/malm_Br_2_h.jpg" alt="detail img 1"></li>
+                <li><img src="images/malm_Br_3.jpg" alt="detail img 2"></li>
+                <li><img src="images/malm_Br_4.jpg" alt="detail img 3"></li>
+                <li><img src="images/malm_Br_5.jpg" alt="detail img 4"></li>
+            </ul>
+            <p>
+                침대 아래에 커다란 서랍 2개가 있어 충분한 수납 공간이 깔끔하게 숨겨져 있습니다. 이불, 베개, 침구 보관에 적합합니다. 수납상자는 바닥에 달린 바퀴 덕분에 쉽게 당겨서 꺼낼 수 있습니다. MALM/말름 침대수납상자는 MALM/말름 침대프레임과 완벽한 조화를 이룹니다. 침대 밑의 공간에 딱 맞고 측면과는 수평을 이루며 맞닿습니다. 나무 무늬목은 독특하고 다양한 나뭇결, 색상 및 텍스처의 원목 소재와 같은 외관, 느낌 및 아름다움을 선사합니다. 침대헤드가 높아서 편안히 앉아있을 수 있습니다. 등 뒤에 베개만 하나 대면 독서도 TV 시청도 문제 없죠. 다양하게 활용할 수 있는 이 침대 프레임은 어떤 텍스타일 및 침실 가구와도 잘 어울립니다. 침대 옆판은 매트리스의 두께에 따라 위치를 조절할 수 있습니다. 접착목 갈빗살 28개로 구성된 침대 프레임이 체중에 따라 몸을 받쳐주고 매트리스의 탄성을 살려줍니다. 또한 컴포트존이 몸을 더욱 편안하게 받쳐줍니다. SKORVA 미드빔은 제품 가격에 포함되어 있으나 개별 포장되어 있습니다. 미드빔은 침대 프레임의 내구성을 높이고 매트리스를 단단하게 잡아주는 역할을 하므로 사용하는 것이 좋습니다. 갈빗살은 제품 가격에 포함되어 있으나 개별 포장되어 있습니다. 
+                <span>
+                    디자이너<br>
+                    Eva Lilja Löwenhielm/IKEA of Sweden
+                </span>
+            </p>
+            <figure>
+                <img src="images/malm_Br_sub_2.jpg" alt="sub img 1">
+                <figcaption>
+                    <dl>
+                        <dt>지속가능성 & 환경</dt>
+                        <dd>
+                            본 제품의 최소 80%(무게)는 재생가능한 소재인 목재로 제작되었습니다. 제품 전체 중량의 50% 이상이 재생가능 원료로 만들어져 있습니다.
+                        </dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li>
+                    <h4>소재&관리</h4>
+                    <p>
+                        높은침대프레임)<br>
+                        침대헤드/발판: 파티클보드, 섬유판, 참나무 무늬목, 투명 아크릴 래커, 인쇄 및 엠보싱 처리 아크릴 페인트, 플라스틱 테두리, 벌집구조 종이 충전재(최소 70% 재활용)<br>
+                        침대 옆판: 파티클보드, 섬유판, 참나무 무늬목, 투명 아크릴 래커, 인쇄 및 엠보싱 처리 아크릴 페인트, 종이, 플라스틱 테두리<br>
+                        높은침대프레임용 수납상자)<br>
+                        서랍 밑면: 파티클보드, 라미네이트 (멜라민포일), ABS 플라스틱<br>
+                        서랍앞판: 파티클보드, 섬유판, 참나무 무늬목, 스테인, 투명 아크릴 래커, 인쇄 및 엠보싱 처리 아크릴 페인트, ABS 플라스틱, 종이<br>
+                        침대갈빗살)<br>
+                        침대 베이스 슬랫: 적층 무늬목, 페이퍼 포일, 코팅용접착수지<br>
+                        침대 베이스 : 너도밤나무 합판, 자작나무 합판<br>
+                        높은침대프레임/미드빔/높은침대프레임용 수납상자<br>
+                        순한 세제에 적신 천으로 닦으세요.<br>
+                        깨끗한 천으로 물기를 닦아주세요.
+                    </p>
+                </li>
+                <li>
+                    <h4>제품크기</h4>
+                    <p>
+                        길이: 209 cm<br>
+                        폭: 166 cm<br>
+                        서랍폭(내부): 97 cm<br>
+                        서랍깊이(내부): 59 cm<br>
+                        침대 발판 높이: 38 cm<br>
+                        침대 머리판 높이: 100 cm<br>
+                        매트리스 길이: 200 cm<br>
+                        매트리스 폭: 150 cm<br>
+                        서랍높이(내부): 15 cm<br>
+                        높이: 100 cm
+                        <img src="images/size.jpg" alt="사이즈">
+                    </p>
+                </li>
+                <li>
+                    <h4>포장</h4>
+                    <p>
+                        이 제품은 여러 개의 패키지로 포장되어 있습니다.<Br>
+                        1)<Br>
+                        폭 : 78 cm<Br>
+                        높이 : 9 cm<Br>
+                        길이 : 169 cm<Br>
+                        무게 : 23.70 kg<Br>
+                        패키지 : 1<Br>
+                        2)<Br>
+                        폭 : 25 cm<Br>
+                        높이 : 8 cm<Br>
+                        길이 : 205 cm<Br>
+                        무게 : 17.70 kg<Br>
+                        패키지 : 1<Br>
+                        3)<Br>
+                        폭 : 7 cm<Br>
+                        높이 : 6 cm<Br>
+                        길이 : 139 cm<Br>
+                        무게 : 3.54 kg<Br>
+                        패키지 : 1<Br>
+                        4)<Br>
+                        폭 : 62 cm<Br>
+                        높이 : 8 cm<Br>
+                        길이 : 104 cm<Br>
+                        무게 : 22.25 kg<Br>
+                        패키지 : 1<Br>
+                        5)<Br>
+                        폭 : 15 cm<Br>
+                        높이 : 9 cm<Br>
+                        길이 : 202 cm<Br>
+                        무게 : 10.00 kg<Br>
+                        패키지 : 1<Br>
+                        6)<Br>
+                        폭 : 15 cm<Br>
+                        높이 : 9 cm<Br>
+                        길이 : 202 cm<Br>
+                        무게 : 10.00 kg<Br>
+                        패키지 : 1
+                    </p>
+                </li>
+                <li>
+                    <h4>고시정보</h4>
+                    <p>
+                        색상: 제품명 또는 이미지 참조<br>
+                        구성품: 제품정보 또는 구성품 탭 참조<br>
+                        크기: 제품정보 탭 참조<br>
+                        중량: 제품정보 탭 참조<br>
+                        재질: 재질 및 환경 탭 참조<br>
+                        제조사: IKEA of Sweden AB<br>
+                        제조국: 폴란드 스웨덴<br>
+                        수입자: 이케아코리아 유한회사<br>
+                        배송&설치비용: 이케아 서비스 페이지 참조<br>
+                        품질보증: IKEA 품질 보증 기준을 따릅니다. 홈페이지에서 IKEA 품질 보증을 확인 하세요.<br>
+                        교환 환불 책임자와 전화 번호: 이케아코리아 유한회사 / 1670-4532<br>
+                        동일모델의 출시년월: 2/1/2017<br>
+                        취급시 주의 사항(세탁방법 및 사용 연령): 제품정보 탭 참조<br>
+                        제조년월 Manufactured Date :  surface e.g) 1246=12(YY)46(WW)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

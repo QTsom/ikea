@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <!-- js core 탑재 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글 침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹 침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형 침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이 침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층 침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반 침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽 소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭 소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a  href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페 테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔 테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용 의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁 의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페 의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장 조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+    
+    <ul class="slider">
+        <li>
+            <a href="ds_gronlid_bk.html">
+                <strong>
+                    <small>NEW ALLIVALS 2021</small>
+                    GRONLID
+                </strong>
+                <img src="images/slide_1.jpg" alt="그린뢰드">
+            </a>
+        </li>
+        <li>
+            <a href="db_malm_wh.html">
+                <strong>
+                    <small>NEW ALLIVALS 2021</small>
+                    MALM
+                </strong>
+                <img src="images/slide_2.jpg" alt="말름">
+            </a>
+        </li>
+        <li>
+            <a href="dt_micke_wh.html">
+                <strong>
+                    <small>NEW ALLIVALS 2021</small>
+                    MICKE
+                </strong>
+                <img src="images/slide_3.jpg" alt="미케">
+            </a>
+        </li>
+        <li>
+            <a href="list_newAllvals.html">
+                <strong>
+                    <small>IKEA SUMMER 2021</small>
+                    CAMPPING COLLECTION
+                </strong>
+                <img src="images/slide_4.jpg" alt="여름 컬렉션">
+            </a>
+        </li>
+    </ul>
+    <!-- slide fin -->
+
+    <section class="newArea">
+        <h2>NEW ALLIVALS</h2> 
+        <ul class="float">
+            <li>
+                <a href="ds_gronlid_bk.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <h3>
+                    깔끔한 디자인과 부드러운 감성
+                    <small>#NEW SOFA #GRONLID</small>
+                </h3>
+            </li>
+            <li>
+                <a href="db_malm_wh.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <h3>
+                    클래식한 인테리어 속 디테일
+                    <small>#NEW BED #MALM</small>
+                </h3>
+            </li>
+            <li>
+                <a href="dt_micke_wh.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <h3>
+                    적절한 공간 배분으로 효율적 사용
+                    <small>#NEW TABLE #MICKE</small>
+                </h3>
+            </li>
+        </ul>
+    </section>
+    <!-- newArea fin -->
+
+    <section class="summerArea">
+        <h2>SUMMER COLLECTION</h2>
+        <ul>
+            <li>
+                <a href="dn_fjallmott.html">
+                    <small>COLLECTION 1</small>
+                    <strong>FJALLMOTT 피엘모트 - 돗자리</strong>
+                    <span>￦ 29,900</span>
+                </a>
+            </li>
+            <li>
+                <a href="dn_faltmal.html">
+                    <small>COLLECTION 2</small>
+                    <strong>FALTMAL 펠트말 - 쿠션, 이불</strong>
+                    <span>￦ 29,900</span>
+                </a>
+            </li>
+            <li>
+                <a href="dn_rackla.html">
+                    <small>COLLECTION 3</small>
+                    <strong>RACKLA 레클라 - 접이식 가방</strong>
+                    <span>￦ 7,900</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- summerArea fin -->
+
+    <section class="bestArea">
+        <h2>BEST ITEMS</h2>
+        <ul class="float">
+            <li>
+                <a href="ds_gronlid_bk.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>LIDHULT 리드훌트 - 가죽소파</h3>
+                    <small>￦ 1,899,000</small>
+                </div>
+            </li>
+            <li>
+                <a href="ds_friheten_be.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>FRIHETEN 프리헤텐 - 소파배드</h3>
+                    <small>￦ 699,000</small>
+                </div>
+            </li>
+            <li>
+                <a href="db_vadheim_gr.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>VADHEIM 바드헤임 - 쿠션형침대</h3>
+                    <small>￦ 649,000</small>
+                </div>
+            </li>
+            <li>
+                <a href="dt_vangsta_br.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>VANGSTA 방스타 - 식탁</h3>
+                    <small>￦ 129,000</small>
+                </div>
+            </li>
+            <li>
+                <a href="dc_bergmund_gr.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>BERGMUND 베리문드 - 식탁의자</h3>
+                    <small>￦ 99,900</small>
+                </div>
+            </li>
+            <li>
+                <a href="dl_arstid_wh.html">
+                    <span>DETAIL VIEW</span>
+                </a>
+                <mark>BEST</mark>
+                <div>
+                    <h3>ARSTID 오르스티드 - 플로어스탠드</h3>
+                    <small>￦ 36,400</small>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- bestArea fin -->
+
+    <section class="snsArea">
+        <h2>IKEA IN SNS</h2>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">
+                    FACEBOOK
+                    <span class="material-icons">
+                        keyboard_double_arrow_right
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">
+                    INSTAGRAM
+                    <span class="material-icons">
+                        keyboard_double_arrow_right
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank"> 
+                    YOUTUBE
+                    <span class="material-icons">
+                        keyboard_double_arrow_right
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- snsArea fin -->
+
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

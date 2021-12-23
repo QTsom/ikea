@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/pop.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="basket">
+        <h2>
+            장바구니 담기
+            <button class="pop_close">X</button>
+        </h2>
+        <p>
+            장바구니에 상품이 정상적으로 담겼습니다.
+        </p>
+        <a href="etc_shoppingBasket.html">장바구니 가기</a>
+    </div>
+    
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="ikea">
+                </a>
+            </h1>
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="list_newAllvals.html">NEW ARRIVALS</a>
+                    </li>
+                    <li>
+                        <a href="list_bed_single.html">BED</a>
+                        <ol>
+                            <li>
+                                침대
+                            </li>
+                            <li>
+                                <a href="list_bed_single.html">싱글침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_king.html">더블/퀸/킹침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_cushion.html">쿠션형침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_simple.html">간이침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_secondFloor.html">2층침대</a>
+                            </li>
+                            <li>
+                                <a href="list_bed_divan.html">디반침대</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_sofa_leather.html">SOFA</a>
+                        <ol>
+                            <li>소파</li>
+                            <li>
+                                <a href="list_sofa_leather.html">가죽소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_bed.html">소파배드</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_fabric.html">패브릭소파</a>
+                            </li>
+                            <li>
+                                <a href="list_sofa_footStool.html">풋스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_table.html">TABLE</a>
+                        <ol>
+                            <li>테이블</li>
+                            <li>
+                                <a href="list_table.html">식탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_desk.html">책상</a>
+                            </li>
+                            <li>
+                                <a href="list_table_cafe.html">카페테이블</a>
+                            </li>
+                            <li>
+                                <a href="list_table_side.html">협탁</a>
+                            </li>
+                            <li>
+                                <a href="list_table_console.html">콘솔테이블</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_chair_office.html">CHAIR</a>
+                        <ol>
+                            <li>
+                                의자
+                            </li>
+                            <li>
+                                <a href="list_chair_office.html">사무용의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_table.html">식탁의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_arm.html">암체어</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_cafe.html">카페의자</a>
+                            </li>
+                            <li>
+                                <a href="list_chair_stool.html">스툴</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_rug_decoration.html">RUG</a>
+                        <ol>
+                            <li>러그</li>
+                            <li>
+                                <a href="list_rug_decoration.html">장식보</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_big.html">대형러그</a>
+                            </li>
+                            <li>
+                                <a href="list_rug_handmade.html">수제러그</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_light_deskLamp.html">LIGHT</a>
+                        <ol>
+                            <li>조명</li>
+                            <li>
+                                <a href="list_light_deskLamp.html">탁상스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_floorLamp.html">플로어스탠드</a>
+                            </li>
+                            <li>
+                                <a href="list_light_workLamp.html">작업등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_ceiling.html">천장조명</a>
+                            </li>
+                            <li>
+                                <a href="list_light_wall.html">벽부착등</a>
+                            </li>
+                            <li>
+                                <a href="list_light_led.html">LED 조명</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="etc_login.html" class="material-icons">
+                    person_outline
+                </a>
+                <a href="etc_shoppingBasket.html" class="material-icons">
+                    add_shopping_cart
+                </a>
+                <button class="material-icons btnOpen">
+                    search
+                </button>
+                <span class="material-icons menuOpen">
+                    menu
+                </span>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="search" placeholder="검색어를 입력하세요.">
+                        <button class="material-icons">
+                            search
+                        </button>
+                        <button class="btnClose">
+                            X
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="detail_ekolsund">
+        <div class="topArea float">
+            <div class="firstDiv float">
+                <ul>
+                    <li class="activated">
+                        <img src="images/ekolsund_DG_1_m.jpg" alt="main">
+                    </li>
+                    <li>
+                        <img src="images/ekolsund_DG_2.jpg" alt="detail 1">
+                    </li>
+                    <li>
+                        <img src="images/ekolsund_DG_3.jpg" alt="detail 2">
+                    </li>
+                    <li>
+                        <img src="images/ekolsund_DG_sub.jpg" alt="detail 3">
+                    </li>
+                </ul>
+                <img src="images/ekolsund_DG_1_m.jpg" alt="main">
+            </div>
+            <div class="secondDiv">
+                <h2>
+                    EKOLSUND 에콜순드 - 다크그레이
+                    <mark>￦ 349,000</mark>
+                    <small>암체어</small>
+                </h2>
+                <form>
+                    <fieldset>
+                        <label for="modelName">모델명</label>
+                        <input type="text" id="modelName" value="EKOLSUND CHAIR (DARK GRAY)" disabled>
+                        <label for="size">규격</label>
+                        <input type="text" id="size" value="90x100" disabled>
+                        <span>색상</span>
+                        <a href="dc_ekolsund_pk.html">PINK</a>
+                        <a href="dc_ekolsund_dg.html" class="active">DARK GRAY</a>
+                    </fieldset>
+                        <input type="submit" value="구매하기">
+                        <button data-popName="basket" class="material-icons callPopup">
+                            add_shopping_cart
+                        </button>
+                </form>
+                <p>
+                    <span class="material-icons">
+                        local_shipping
+                    </span>
+                    배송 여부는 결제 단계에서 확인하실 수 있습니다.
+                </p>
+            </div>
+        </div>
+        <div class="bottomArea">
+            <h3>
+                EKOLSUND CHAIR
+                <small>DARK GRAY</small>
+            </h3>
+            <figure>
+                <img src="images/ekolsund_DG_1_m.jpg" alt="main img">
+                <figcaption>
+                    EKOLSUND/에콜순드 리클라이너는 작은 공간에도 배치할 수 있도록 부드러운 곡선형으로 되어 있습니다. 3가지 자세(똑바로 앉기, 등받이 제치기, 잠을 자도록 완전히 기대기) 중 원하는 자세를 선택하여 조절할 수 있습니다.
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li><img src="images/ekolsund_DG_2.jpg" alt="detail img 1"></li>
+                <li><img src="images/ekolsund_DG_3.jpg" alt="detail img 2"></li>
+            </ul>
+            <p>
+                이 리클라이너는 3가지 자세(똑바로 앉기, 등받이 제치기, 완전히 기대기)로 설정할 수 있어 집안의 다양한 활동에 쉽게 적응할 수 있습니다. 커버는 분리 가능하고 기계로 세척할 수 있기 때문에 깨끗한 상태로 유지하기 쉬우며, 완벽하게 들어맞아 고정된 커버처럼 깔끔해 보입니다. 발받침이 틈을 남기지 않고 시트에서 접히므로 어린이의 손가락이 의자에 낄 위험 없이 안전하게 휴식을 취할 수 있습니다. 등받이 쿠션은 구분된 구조로 되어 있으며 몸의 형태에 맞춰 조정되고 허리와 목에 최대 수준의 지지력을 제공하도록 고안되었습니다. 시트 쿠션은 편안함과 아늑한 느낌을 주는 폴리우레탄폼으로 채워져 있습니다. 쿠션은 폴리에스테르충전재로 싸여 있어 사용할 때 편안함과 깔끔한 형태를 유지합니다. 3개의 패키지로 구분되어 집에 쉽게 가져갈 수 있으며 몇 가지 간단한 단계를 통해 조립 및 분해됩니다. 10년 품질보증. 자세한 내용은 품질보증 브로슈어를 참조하세요. 본 커버는 50,000회의 마모를 견뎌낼 수 있도록 시험을 거쳤습니다. 15,000회 이상을 견디는 제품은 집에서 매일 사용하는 가구에 적합하며, 30,000회 이상을 견디는 제품은 쉽게 마모되지 않습니다. 내변색성 레벨 1~8 중 레벨 5~6 판정을 받은 커버입니다. 업계 표준에 따르면 가정용으로는 레벨 4 이상이 적합합니다. 
+                <span>
+                    디자이너<br>
+                    Anna Palleschitz
+                </span>
+            </p>
+            <figure>
+                <img src="images/ekolsund_DG_sub_h.jpg" alt="sub img 1">
+                <img src="images/ekolsund_DG_sub.jpg" alt="sub img 2">
+                <figcaption>
+                    <dl>
+                        <dt>지속가능성 & 환경</dt>
+                        <dd>
+                            편안한 독서 공간을 만들고 싶나요? 혹은 TV를 보거나 음악을 들을 수 있는 공간을 만들고 싶나요? 어떤 공간을 원하든, 클래식한 안락의자가 그 역할을 해줄 수 있을 거에요. 쌓을 수 있는 가벼운 라탄 스타일의 의자, 혹은 높은 등받이에 부드럽고 넉넉한 팔걸이와 푹신한 쿠션이 달려서 프라이버시를 지켜주는 의자를 고려해보세요.
+                        </dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            <ul class="float">
+                <li>
+                    <h4>소재&관리</h4>
+                    <p>
+                        프레임: 파티클보드, 합판, 너도밤나무 원목, 폴리우레탄 폼 20kg/cu.m, 폴리에스테르충전재, 폴리에스테르충전재, 펠트 라이너<br>
+                        시트 쿠션: 폴리프로필렌 부직포, 고탄력 폴리우레탄 폼 35 kg/cu.m., 폴리에스테르충전재<br>
+                        등받이 쿠션: 폴리에스테르섬유볼, 폴리프로필렌 부직포<br>
+                        안감: 폴리프로필렌 부직포<br>
+                        장치: 스틸, 스틸, 폴리프로필렌 플라스틱, 페인트<br>
+                        브래킷/ 다리: 스틸, 에폭시/폴리에스테르 파우더코팅<br>
+                        지그재그 스프링: 스틸<br>
+                        리클라이너 커버)<br>
+                        실/ 지퍼: 폴리에스테르 100%<br>
+                        패브릭/ 패브릭: 폴리에스테르 100 %<br>
+                        탈부착커버)<br>
+                        리클라이너 커버)<br>
+                        세탁기, 최대 40°C, 표준 코스.<br>
+                        표백하지 마세요.<br>
+                        건조기에 넣지 마세요.<br>
+                        드라이클리닝, 표준 코스.<br>
+                        탈부착커버)<br>
+                        리클라이너)<br>
+                        다림질, 최대 200°C.<br>
+                        프레임, 고정커버<br>
+                        리클라이너)<br>
+                        세탁하지 마세요.<br>
+                        패브릭 전용세제를 사용하세요.<br>
+                        표백하지 마세요.<br>
+                        건조기에 넣지 마세요.<br>
+                        다림질하지 마세요.<br>
+                        드라이클리닝하지 마세요.
+                    </p>
+                </li>
+                <li>
+                    <h4>제품크기</h4>
+                    <p>
+                        폭: 89 cm<br>
+                        깊이: 97 cm<br>
+                        높이: 103 cm<br>
+                        시트 폭: 61 cm<br>
+                        시트 깊이: 59 cm<br>
+                        시트 높이: 45 cm
+                        <img src="images/ekolsund_size.jpg" alt="size">
+                    </p>
+                </li>
+                <li>
+                    <h4>포장</h4>
+                    <p>
+                        이 제품은 여러 개의 패키지로 포장되어 있습니다.<br>
+                        1)<br>
+                        폭 : 70 cm<br>
+                        높이 : 42 cm<br>
+                        길이 : 80 cm<br>
+                        무게 : 22.58 kg<br>
+                        패키지 : 1<br>
+                        2)<br>
+                        폭 : 62 cm<br>
+                        높이 : 33 cm<br>
+                        길이 : 80 cm<br>
+                        무게 : 14.40 kg<br>
+                        패키지 : 1<br>
+                        3)<br>
+                        폭 : 37 cm<br>
+                        높이 : 4 cm<br>
+                        길이 : 57 cm<br>
+                        무게 : 2.25 kg<br>
+                        패키지 : 1
+                    </p>
+                </li>
+                <li>
+                    <h4>고시정보</h4>
+                    <p>
+                        색상: 제품명 또는 이미지 참조<br>
+                        구성품: 제품정보 또는 구성품 탭 참조 <br>
+                        크기: 제품정보 탭 참<br>
+                        중량: 제품정보 탭 참<br>
+                        재질: 재질 및 환경 탭 참<br>
+                        제조사: IKEA of Sweden AB<br>
+                        제조국: 중국 <br>
+                        수입자: 이케아코리아 유한회사<br>
+                        배송&설치비용: 제품정보 탭 <br>
+                        품질보증: IKEA 품질 보증 기준을 따릅니다. 홈페이지에서 IKEA 품질 보증을 확인 하세요. <br>
+                        교환 환불 책임자와 전화 번호: 이케아코리아 유한회사/ 1670-453<br>
+                        동일모델의 출시년월: 8/1/2019<br>
+                        취급시 주의 사항(세탁방법 및 사용 연령): 제품정보 탭 참조<br>
+                        제조년월 제조일자:번째 주 생산제품)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="etc_customerService.html">고객지원</a>
+                </li>
+                <li>
+                    <a href="etc_company.html">기업소개</a>
+                </li>
+                <li>
+                    <a href="etc_privacy.html">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="etc_terms.html">웹사이트이용약관</a>
+                </li>
+            </ul>
+            <address>
+                상호: IKEA 코리아  대표자 : 프레드릭 요한손  사업
+                자 등록번호 : 106-86-82871  TEL : <a href="tel:1670-4532">1670-4532</a><br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점  통신판매업 신고 : 2018-경기광명-0209T<br>
+                © Inter IKEA Systems B.V 1999-2021
+            </address>
+            <span>
+                <a href="https://www.facebook.com/IKEA.kr/" target="_blank">FACEBOOK</a>
+                <a href="https://www.instagram.com/ikeakr/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A" target="_blank">YOUTUBE</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

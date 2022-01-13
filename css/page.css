@@ -1805,14 +1805,14 @@ section.detail_vittsjo div.secondDiv form fieldset > a{
             box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
         }
         section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
-        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
             line-height: 45px; display: inline-block; border-radius: 6px; cursor: pointer;
         }
         section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
             width: 72%; background-color: #0058a3; border: none; color: #fff;
             font-size: 16px; font-weight: 400; margin: 0 0 20px 5%;
         }
-        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
             width: 14%; font-size: 23px; background-color: transparent; text-align: center;
             border: 1px solid #0058a3; color: #0058a3; vertical-align: top;
         }
@@ -2885,14 +2885,14 @@ section.detail_vittsjo div.secondDiv form fieldset > a{
             box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
         }
         section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
-        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
             line-height: 50px; display: inline-block; border-radius: 6px; cursor: pointer;
         }
         section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
             width: 74%; background-color: #0058a3; border: none; color: #fff;
             font-size: 16px; font-weight: 400; margin: 0 0 20px 5%;
         }
-        section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+        section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
             width: 14%; font-size: 23px; background-color: transparent; text-align: center;
             border: 1px solid #0058a3; color: #0058a3; vertical-align: top;
         }
@@ -3999,14 +3999,14 @@ section.detail_vittsjo div.secondDiv form fieldset > a{
         box-sizing: border-box; border: 1px solid #999; border-radius: 3px;
     }
     section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit'],
-    section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+    section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
         line-height: 50px; display: inline-block; border-radius: 6px; cursor: pointer;
     }
     section[class^='detail'] > div.topArea > div.secondDiv form > input[type='submit']{
         width: 75%; background-color: #0058a3; border: none; color: #fff;
         font-size: 18px; font-weight: 400; margin: 0 0 5% 30px;
     }
-    section[class^='detail'] > div.topArea > div.secondDiv form > a.callPopup{
+    section[class^='detail'] > div.topArea > div.secondDiv form > span.callPopup{
         width: 12%; font-size: 23px; background-color: transparent; vertical-align: top;
         border: 1px solid #0058a3; color: #0058a3; text-align: center;
         margin-right: 5%;
